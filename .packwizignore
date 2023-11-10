@@ -1,0 +1,9 @@
+/README.md
+/.git
+/.github
+/.gitignore
+/flake.nix
+/flake.lock
+/nix
+/result
+/justfile

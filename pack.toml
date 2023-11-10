@@ -1,0 +1,12 @@
+name = "Fabric_Modpack"
+version = "2023.11.1"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "7ffa3084bef1e231f0f8b7222ad68726674e347eca065799ec556145def82e27"
+
+[versions]
+fabric = "0.14.24"
+minecraft = "1.20.1"

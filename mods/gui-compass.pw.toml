@@ -1,0 +1,13 @@
+name = "GUI Compass"
+filename = "guicompass-1.20.1-4.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ZORMkttv/versions/FOYdFytU/guicompass-1.20.1-4.3.jar"
+hash-format = "sha1"
+hash = "574e32ab99c3d9b87c7d3aa674d2e997af2a51b0"
+
+[update]
+[update.modrinth]
+mod-id = "ZORMkttv"
+version = "FOYdFytU"
