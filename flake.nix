@@ -41,6 +41,7 @@
         default = pkgs.mkShell {
           packages = with pkgs; [
             packwiz
+            poetry
           ];
         };
       };
