@@ -1,5 +1,5 @@
 build-modrinth:
-    nix build .#pack-modrinth --print-out-paths
+    packwiz modrinth export
 
 build-packwiz-server:
     nix build .#packwiz-server

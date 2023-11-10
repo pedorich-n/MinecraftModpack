@@ -1,8 +1,0 @@
-name = "UnifiedMetrics"
-filename = "unifiedmetrics-platform-fabric-0.3.9-SNAPSHOT.jar"
-side = "server"
-
-[download]
-url = "https://github.com/Cubxity/UnifiedMetrics/releases/download/v0.3.x-SNAPSHOT/unifiedmetrics-platform-fabric-0.3.9-SNAPSHOT.jar"
-hash-format = "sha256"
-hash = "07bb91b01b063f55d78ff2d6ed4bdeba51d67d6a341c9fccdfa6a778d9914fb5"

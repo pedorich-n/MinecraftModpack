@@ -126,6 +126,11 @@ hash = "c20c449b77e7e40bf6b5308d63223b634eb6a857bf3b22d31e9c41f6e03d399b"
 metafile = true
 
 [[files]]
+file = "mods/fabricexporter.pw.toml"
+hash = "4637aea36cfa56c6456981c710535cdde86f1006fb4c1ba239fbc759b782cd88"
+metafile = true
+
+[[files]]
 file = "mods/fallingtree.pw.toml"
 hash = "9e2a974e3b686e1e0370722b2e59497c99baeff1a844ff30131a22818d17f3b7"
 metafile = true
@@ -251,6 +256,11 @@ hash = "9a927c3e0830ba32e1b8a2e543597781724462595b8cce58f676962b442bb52b"
 metafile = true
 
 [[files]]
+file = "mods/spark.pw.toml"
+hash = "96e3771cd09bb4a808d1c1fcb5a050efdc2ffb4efe7b584407ed54c46c0388d9"
+metafile = true
+
+[[files]]
 file = "mods/squaremap.pw.toml"
 hash = "76e4ea239bb4f733b8e92ef2086f5b303e7c15ea909d73152873189dc6da003f"
 metafile = true
@@ -273,11 +283,6 @@ metafile = true
 [[files]]
 file = "mods/travelers-titles.pw.toml"
 hash = "df6c42195656610837ff05462ac37bb40da04a18de198333769030c562cbfe2d"
-metafile = true
-
-[[files]]
-file = "mods/unifiedmetrics.pw.toml"
-hash = "9445595c618259168db67584d702505f94a6fcc7426dc2b9936ba7c5a7478660"
 metafile = true
 
 [[files]]
