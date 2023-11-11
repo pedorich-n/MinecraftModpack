@@ -145,6 +145,23 @@ files = [
 ]
 
 [[package]]
+name = "modrinth"
+version = "0.1.5"
+description = "Interact with Modrinth's Labrinth API through Python."
+optional = false
+python-versions = ">=3.9"
+files = [
+    {file = "modrinth-0.1.5-py3-none-any.whl", hash = "sha256:a7741815448a82e0c376656be0811ba73691e3d8e17d12eba159caf1151fd3ec"},
+    {file = "modrinth-0.1.5.tar.gz", hash = "sha256:42f21585311be1422ca89a4aee2acf024fbea6edbfd9f2a10f74861029844cdd"},
+]
+
+[package.dependencies]
+requests = "*"
+
+[package.extras]
+dev = ["black", "bumpver", "isort", "pip-tools", "pytest"]
+
+[[package]]
 name = "requests"
 version = "2.31.0"
 description = "Python HTTP for Humans."
@@ -185,4 +202,4 @@ zstd = ["zstandard (>=0.18.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "20bf3dda7b644c5c1f35a2153b30dfeb4fe7cc60d60817e7917e8671bbe560d6"
+content-hash = "cbb606b819bddd4f5d1f9b3fad6b7358df3c4269ef2eecb1314582d1fb9db118"

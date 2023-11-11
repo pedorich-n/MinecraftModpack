@@ -7,8 +7,8 @@ from pathlib import Path
 from typing import List, Optional
 
 import dacite
-import requests
-from mdutils.mdutils import MarkDownFile, MdUtils
+import modrinth
+from mdutils.mdutils import MarkDownFile, MdUtils, TextUtils
 
 logging.addLevelName(logging.WARNING, "WARN")
 logging.basicConfig(
@@ -53,6 +53,7 @@ class IndexInfo:
 @dataclass
 class ModModrinthUpdateInfo:
     mod_id: str
+    version: str
 
 
 @dataclass
@@ -71,7 +72,9 @@ class ModInfo:
 class ModInfoResult:
     name: str
     side: str
-    description: Optional[str]
+    version: Optional[str] = None
+    description: Optional[str] = None
+    url: Optional[str] = None
 
 
 @dataclass
@@ -118,9 +121,8 @@ def resolve_path(root: Path, input: str) -> Path:
 
 # endregion
 
+
 # region: TOML
-
-
 def read_pack(path: Path, dacite_config: dacite.Config) -> PackInfo:
     with open(path, "rb") as pack_file:
         logger.info("Reading pack file...")
@@ -155,23 +157,23 @@ def read_mod(path: Path) -> ModInfo:
 # endregion
 
 
-def fetch_modrinth_description(mod_id: str) -> Optional[str]:
-    api_url = f"https://api.modrinth.com/v2/project/{mod_id}"
-    response = requests.get(api_url)
-    if response.status_code == 200:
-        project_info = response.json()
-        return project_info.get("description", None)
-    else:
-        return None
+def get_modrinth_mod_info(result: ModInfoResult, update_info: ModModrinthUpdateInfo) -> ModInfoResult:
+    mod = modrinth.Projects.ModrinthProject(update_info.mod_id)
+    version = modrinth.Versions.ModrinthVersion(mod, update_info.version)
+
+    result.description = mod.desc
+    result.version = version.versionNumber
+    result.url = f"https://modrinth.com/mod/{mod.slug}"
+
+    return result
 
 
 def get_mod_info_result(mod_info: ModInfo) -> ModInfoResult:
-    result = ModInfoResult(name=mod_info.name, side=mod_info.side, description=None)
+    result = ModInfoResult(name=mod_info.name, side=mod_info.side)
 
     if mod_info.update.modrinth:
         logger.info(f"Fetching info from Modrinth for {mod_info.name}...")
-        description = fetch_modrinth_description(mod_info.update.modrinth.mod_id)
-        result.description = description
+        result = get_modrinth_mod_info(result, mod_info.update.modrinth)
 
     return result
 
@@ -188,17 +190,34 @@ def get_pack_info_result(pack_info: PackInfo, mods: List[ModInfo]) -> PackInfoRe
     return result
 
 
-def generate_modlist(info: PackInfoResult):
-    md_file = MdUtils(file_name="README.md", title="Modpack Info")
+def generate_readme(info: PackInfoResult):
+    def format_mod(mod: ModInfoResult, text_utils: TextUtils) -> str:
+        buffer = []
+        if mod.url:
+            buffer.append(text_utils.text_external_link(text=text_utils.bold(mod.name), link=mod.url))
+        else:
+            buffer.append(text_utils.bold(mod.name))
+        buffer.append(f" ({mod.side}")
+        if mod.version:
+            buffer.append(f", {mod.version}")
+        buffer.append(")")
+        if mod.description:
+            buffer.append(f" - {mod.description}")
 
-    md_file.new_line(f"**Name**: {info.name}")
-    md_file.new_line(f"**Version**: {info.version}")
-    md_file.new_line(f"**Minecraft Version**: {info.versions.minecraft}")
-    md_file.new_line(f"**Fabric Version**: {info.versions.fabric}")
+        return "".join(buffer)
+
+    md_file = MdUtils(file_name="README.md", title="Modpack Info")
+    text_utils = TextUtils()
+
+    md_file.new_line("")
+    md_file.new_line(text_utils.bold("Name") + f": {info.name}")
+    md_file.new_line(text_utils.bold("Version") + f": {info.version}")
+    md_file.new_line(text_utils.bold("Minecraft Version") + f": {info.versions.minecraft}")
+    md_file.new_line(text_utils.bold("Fabric Version") + f": {info.versions.fabric}")
     md_file.new_line("")
 
     md_file.new_header(level=1, title="Mods")
-    md_list = [f" **{mod.name}** ({mod.side}) - {mod.description}" for mod in info.mods]
+    md_list = [format_mod(mod, text_utils) for mod in info.mods]
     md_file.new_list(md_list, marked_with="-")
 
     md_file.create_md_file()
@@ -220,4 +239,4 @@ def main():
 
     result = get_pack_info_result(pack_info, mods_info)
 
-    generate_modlist(result)
+    generate_readme(result)

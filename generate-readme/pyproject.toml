@@ -8,8 +8,8 @@ packages = [{ include = "src" }]
 [tool.poetry.dependencies]
 python = "^3.11"
 dacite = "^1.8.1"
-requests = "^2.31.0"
 mdutils = "^1.6.0"
+modrinth = "^0.1.5"
 
 [tool.poetry.scripts]
 generate-readme = "src.main:main"
