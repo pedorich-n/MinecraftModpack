@@ -36,6 +36,16 @@ hash = "7721e78d990cc15c02f1a03cd6d7652ea995b271a3d19a6ae44829b4c69acbf0"
 metafile = true
 
 [[files]]
+file = "mods/cc-tweaked.pw.toml"
+hash = "4f2fc718ba43146d6c909d2d25da09e7d3d7fccbcc6225b488ff5f533d5149c2"
+metafile = true
+
+[[files]]
+file = "mods/cccbridge.pw.toml"
+hash = "d94da74c5f4dce9b7b6586f04b3bfe99ff2b2b5298258b8ab9b111c1c126bb67"
+metafile = true
+
+[[files]]
 file = "mods/chunky.pw.toml"
 hash = "c176a0f84b0c3c03423e68b988cd43f51a6b1cf13a844574b19e003324533da0"
 metafile = true
@@ -88,6 +98,11 @@ metafile = true
 [[files]]
 file = "mods/dcintegration.pw.toml"
 hash = "0b63f889c3c94734111131268bbd1c27632139c6b5ef4ec2b2f9d50e777d9f6a"
+metafile = true
+
+[[files]]
+file = "mods/deep-mob-learning-refabricated.pw.toml"
+hash = "07da40150972aa2481c3fab52d171b7c48a9e6752e66121b1c1dfe5df83412a1"
 metafile = true
 
 [[files]]
@@ -178,6 +193,11 @@ metafile = true
 [[files]]
 file = "mods/indium.pw.toml"
 hash = "0c5e71addef34c8dcd1c81dfc2ad851a3e274b9d8d3a7d388e1113d4139bf8d8"
+metafile = true
+
+[[files]]
+file = "mods/iris.pw.toml"
+hash = "87ea5bf588ed195eaee3bcbd2432b5671692a203b25b688ffcbfeea6d2cea775"
 metafile = true
 
 [[files]]

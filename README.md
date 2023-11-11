@@ -4,7 +4,7 @@ Modpack Info
   
   
 **Name**: Fabric_Modpack  
-**Version**: 2023.11.2  
+**Version**: 2023.11.3  
 **Minecraft Version**: 1.20.1  
 **Fabric Version**: 0.14.24  
 
@@ -17,6 +17,8 @@ Modpack Info
 - [**Better Archeology**](https://modrinth.com/mod/better-archeology) (both, 1.0.2) - Discover artifacts & fossils by encountering new structures that'll enhance your adventure and exploration!
 - [**Botarium**](https://modrinth.com/mod/botarium) (both, 2.2.1) - A crossplatform API for devs that makes transfer and storage of items, fluids and energy easier, as well as some other helpful things
 - [**Concurrent Chunk Management Engine (Fabric)**](https://modrinth.com/mod/c2me-fabric) (both, 0.2.0+alpha.11.0+1.20.1) - A Fabric mod designed to improve the chunk performance of Minecraft.
+- [**CC: Tweaked**](https://modrinth.com/mod/cc-tweaked) (both, 1.108.4) - ComputerCraft fork adding programmable computers, turtles and more to Minecraft.
+- [**CC:C Bridge**](https://modrinth.com/mod/cccbridge) (both, 1.6.2b-fabric) - Adds compatibility between the ComputerCraft and Create mod with peripherals!
 - [**Chunky**](https://modrinth.com/mod/chunky) (both, 1.3.92) - Pre-generates chunks, quickly and efficiently
 - [**Cloth Config API**](https://modrinth.com/mod/cloth-config) (both, 11.1.106+fabric) - Configuration Library for Minecraft Mods
 - [**Collective**](https://modrinth.com/mod/collective) (both, 1.20.1-7.3-forge+fabric) - 🎓 Collective is a shared library with common code for all of Serilum's mods.
@@ -28,6 +30,7 @@ Modpack Info
 - [**Create Track Map**](https://modrinth.com/mod/create-track-map) (server, 1.4) - A web-based track map of your world's Create train system, complete with signals, stations, and trains moving in real time.
 - [**Create Utilities**](https://modrinth.com/mod/create-utilities) (both, 0.1.3b+1.20.1) - A Create Addon that primarily adds ender-like blocks. Experience the power of the void motor, void chest, and void tank as you effortlessly transport rotation, items and fluids.
 - [**Discord Integration**](https://modrinth.com/mod/dcintegration) (server, 3.0.3-1.20.1) - This mod links your server chat with a channel on your discord server
+- [**Deep Mob Learning: Refabricated**](https://modrinth.com/mod/deep-mob-learning-refabricated) (both, 0.5.15-BETA+1.20.1) - Alternative, server friendly mob loot acquisition
 - [**Double Doors**](https://modrinth.com/mod/double-doors) (both, 1.20.1-5.1-forge+fabric) - 🚪 Multiple identical double doors, trapdoors and fence gates can be opened simultaneously.
 - [**Dynamic FPS**](https://modrinth.com/mod/dynamic-fps) (client, 3.2.1) - Improve performance when Minecraft is in the background.
 - [**EMI**](https://modrinth.com/mod/emi) (both, 1.0.24+1.20.1+fabric) - A featureful and accessible item and recipe viewer
@@ -46,6 +49,7 @@ Modpack Info
 - [**ImmediatelyFast**](https://modrinth.com/mod/immediatelyfast) (client, 1.2.6+1.20.2) - Speed up immediate mode rendering in Minecraft
 - [**Incendium**](https://modrinth.com/mod/incendium) (both, 5.3.3) - Incendium is a datapack that completely revamps the nether, way more than what Minecraft did in the 1.16 Nether Update.
 - [**Indium**](https://modrinth.com/mod/indium) (client, 1.0.27+mc1.20.1) - Sodium addon providing support for the Fabric Rendering API, based on Indigo
+- [**Iris Shaders**](https://modrinth.com/mod/iris) (client, 1.6.10+1.20.1) - A modern shaders mod for Minecraft intended to be compatible with existing OptiFine shader packs
 - [**Jade Addons (Fabric)**](https://modrinth.com/mod/jade-addons-fabric) (both, 5.2.3) - Jade 🔍's additional mod supports for Fabric
 - [**Jade 🔍**](https://modrinth.com/mod/jade) (both, 11.6.1) - Shows information about what you are looking at. (Hwyla/Waila fork for Minecraft 1.16+)
 - [**Krypton**](https://modrinth.com/mod/krypton) (both, 0.2.3) - A mod to optimize the Minecraft networking stack
