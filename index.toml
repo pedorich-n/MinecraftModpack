@@ -211,6 +211,11 @@ hash = "559a46acee6bd5368fac543cb90902a7eb692426329d1041af790d8a22167154"
 metafile = true
 
 [[files]]
+file = "mods/jline4mcdsrv.pw.toml"
+hash = "37eb8a447d46f38a7781f498f5dfcc162da72fc15d3ed2cb398cea1609b9bf61"
+metafile = true
+
+[[files]]
 file = "mods/krypton.pw.toml"
 hash = "71ef7cc16632c0039fe194183b5885968c6d740aaa67a58000653ae0cb40b882"
 metafile = true

@@ -4,7 +4,7 @@ Modpack Info
   
   
 **Name**: Fabric_Modpack  
-**Version**: 2023.11.3  
+**Version**: 2023.11.4  
 **Minecraft Version**: 1.20.1  
 **Fabric Version**: 0.14.24  
 
@@ -52,6 +52,7 @@ Modpack Info
 - [**Iris Shaders**](https://modrinth.com/mod/iris) (client, 1.6.10+1.20.1) - A modern shaders mod for Minecraft intended to be compatible with existing OptiFine shader packs
 - [**Jade Addons (Fabric)**](https://modrinth.com/mod/jade-addons-fabric) (both, 5.2.3) - Jade 🔍's additional mod supports for Fabric
 - [**Jade 🔍**](https://modrinth.com/mod/jade) (both, 11.6.1) - Shows information about what you are looking at. (Hwyla/Waila fork for Minecraft 1.16+)
+- [**JLine for Dedicated Server**](https://modrinth.com/mod/jline4mcdsrv) (server, 0.4.3) - A server side mod to enable command history, auto completion and syntax highlighting on the server console
 - [**Krypton**](https://modrinth.com/mod/krypton) (both, 0.2.3) - A mod to optimize the Minecraft networking stack
 - [**LazyDFU**](https://modrinth.com/mod/lazydfu) (both, 0.1.3) - Makes the game boot faster by deferring non-essential initialization
 - [**Leaves Be Gone**](https://modrinth.com/mod/leaves-be-gone) (both, v8.0.0-1.20.1-Fabric) - Quick leaf decay from cutting down trees. Built for fast performance and mod compat!
