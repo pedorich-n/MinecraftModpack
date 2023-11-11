@@ -4,7 +4,7 @@ Modpack Info
   
   
 **Name**: Fabric_Modpack  
-**Version**: 2023.11.1  
+**Version**: 2023.11.2  
 **Minecraft Version**: 1.20.1  
 **Fabric Version**: 0.14.24  
 
@@ -27,6 +27,7 @@ Modpack Info
 - [**Create: Structures**](https://modrinth.com/mod/create-structures) (both, 0.1.1+mod) - Add-on for Create that implements naturally generating structures containing early-game Create contraptions and items.
 - [**Create Track Map**](https://modrinth.com/mod/create-track-map) (server, 1.4) - A web-based track map of your world's Create train system, complete with signals, stations, and trains moving in real time.
 - [**Create Utilities**](https://modrinth.com/mod/create-utilities) (both, 0.1.3b+1.20.1) - A Create Addon that primarily adds ender-like blocks. Experience the power of the void motor, void chest, and void tank as you effortlessly transport rotation, items and fluids.
+- [**Discord Integration**](https://modrinth.com/mod/dcintegration) (server, 3.0.3-1.20.1) - This mod links your server chat with a channel on your discord server
 - [**Double Doors**](https://modrinth.com/mod/double-doors) (both, 1.20.1-5.1-forge+fabric) - 🚪 Multiple identical double doors, trapdoors and fence gates can be opened simultaneously.
 - [**Dynamic FPS**](https://modrinth.com/mod/dynamic-fps) (client, 3.2.1) - Improve performance when Minecraft is in the background.
 - [**EMI**](https://modrinth.com/mod/emi) (both, 1.0.24+1.20.1+fabric) - A featureful and accessible item and recipe viewer
@@ -67,6 +68,7 @@ Modpack Info
 - [**Tectonic**](https://modrinth.com/mod/tectonic) (both, 2.1.1) - Using the powerful worldgen tools from Caves and Cliffs, Tectonic completely rocks world generation with mountain ranges, underground rivers and more!
 - [**Terralith**](https://modrinth.com/mod/terralith) (both, 2.4.8) - Terralith takes Minecraft's 1.18 massive world generation overhaul, and turns it up to eleven.
 - [**Traveler's Titles**](https://modrinth.com/mod/travelers-titles) (client, 1.20-Fabric-4.0.1) - Epic, RPG-like titles when entering biomes & dimensions!
+- [**Xaero's Minimap**](https://modrinth.com/mod/xaeros-minimap) (both, 23.8.4_Fabric_1.20) - Displays a map of the nearby world terrain, players, mobs, entities in the corner of your screen. Lets you create waypoints which help you find the locations you've marked.
 - [**Your Items Are Safe**](https://modrinth.com/mod/your-items-are-safe) (both, 1.20.1-3.5-forge+fabric) - 💀 Spawns a chest and armor stand with player items on death, a gravestone alternative.
 - [**YUNG's API**](https://modrinth.com/mod/yungs-api) (both, 1.20-Fabric-4.0.2) - Library mod for YUNG's mods.
 - [**YUNG's Better Desert Temples**](https://modrinth.com/mod/yungs-better-desert-temples) (both, 1.20-Fabric-3.0.3) - A complete redesign of Minecraft's desert temples!

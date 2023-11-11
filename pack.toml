@@ -1,11 +1,11 @@
 name = "Fabric_Modpack"
-version = "2023.11.1"
+version = "2023.11.2"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "7ebadecd97018c81ae89a088678b9a09bd7d1c4da75b98ce44abf0014c0becb2"
+hash = "321104f6903210ffe3f3b11ea290665b3c785dfe0508bcd56067ef70e918a8f6"
 
 [versions]
 fabric = "0.14.24"

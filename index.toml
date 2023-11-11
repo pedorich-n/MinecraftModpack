@@ -86,6 +86,11 @@ hash = "ee71f054700c411558f83d0651c54ce872e30395bf3fed28f769ea125a80415b"
 metafile = true
 
 [[files]]
+file = "mods/dcintegration.pw.toml"
+hash = "0b63f889c3c94734111131268bbd1c27632139c6b5ef4ec2b2f9d50e777d9f6a"
+metafile = true
+
+[[files]]
 file = "mods/double-doors.pw.toml"
 hash = "c56ae338249990a510c4479047c812cf320e5b3cf92833876fb43d846dc602ad"
 metafile = true
@@ -283,6 +288,11 @@ metafile = true
 [[files]]
 file = "mods/travelers-titles.pw.toml"
 hash = "df6c42195656610837ff05462ac37bb40da04a18de198333769030c562cbfe2d"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-minimap.pw.toml"
+hash = "97da858e6f958a87d076852f8e68a94095c1169f38f4089718ad56ea3eb11a2d"
 metafile = true
 
 [[files]]
