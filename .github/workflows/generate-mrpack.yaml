@@ -1,0 +1,26 @@
+name: nix-flake-check
+
+on:
+  push:
+    tags:
+      - "v\\d{4}.\\d{2}.\\d+"
+
+jobs:
+  nix-flake-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Install Nix
+        uses: cachix/install-nix-action@v23
+      - name: Export modpack name
+        run: echo "PACK_NAME=$(nix develop .#builder --command yq '.name' pack.toml)" >> $GITHUB_ENV
+      - name: Add version to modpack name
+        run: echo "PACK_NAME_VERSION=${PACK_NAME}_${{ github.ref_name }}" >> $GITHUB_ENV
+      - name: Create mrpack
+        run:  nix develop .#builder --command packwiz modrinth export --output $PACK_NAME_VERSION
+      - name: Upload mrpack
+        uses: softprops/action-gh-release@v1
+        with:
+          files: $PACK_NAME_VERSION
