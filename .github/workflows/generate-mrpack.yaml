@@ -1,9 +1,9 @@
-name: nix-flake-check
+name: Generate mrpack
 
 on:
   push:
     tags:
-      - "v\\d{4}.\\d{2}.\\d+"
+      - "v*.*.*"
 
 jobs:
   nix-flake-check:
