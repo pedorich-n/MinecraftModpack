@@ -16,6 +16,11 @@ hash = "ea42747450c6c385925895e98de7c1347c6e24b034bbaee198d5dfda4bb8eb1d"
 metafile = true
 
 [[files]]
+file = "mods/architectury-api.pw.toml"
+hash = "a243675bc757485925b293932ee289b9fbcfb3b75bd3ba74eca7603f191cedad"
+metafile = true
+
+[[files]]
 file = "mods/beautified-chat-client.pw.toml"
 hash = "781f3a99d5e8a69b05698ecb8540caa250e332affde988d138bec7257a900882"
 metafile = true
@@ -23,6 +28,11 @@ metafile = true
 [[files]]
 file = "mods/better-archeology.pw.toml"
 hash = "4ce8cd02fd6db139f101a9643068702bcc77dab491454e73a3bcf0638710a62a"
+metafile = true
+
+[[files]]
+file = "mods/better-combat.pw.toml"
+hash = "002a43d78a1164f15354b58a21566c8e6063fbd65390524a889bcee5895f203a"
 metafile = true
 
 [[files]]
@@ -131,6 +141,11 @@ hash = "2b9b5a34a6f3cb5796b4e9996fe1da41d7b063b2727743aeed6c8d350d7cdbb6"
 metafile = true
 
 [[files]]
+file = "mods/explorify.pw.toml"
+hash = "9ec8d9ecfedbd3cc30dc19b91f37a540ff9340debf035cbb81a7103f65e086f1"
+metafile = true
+
+[[files]]
 file = "mods/extended-cogwheels.pw.toml"
 hash = "e5a66f936624909d847060c6aee2cded1300934c5ad1396db173275293dfbf86"
 metafile = true
@@ -168,16 +183,6 @@ metafile = true
 [[files]]
 file = "mods/galosphere.pw.toml"
 hash = "d621a0fd3532a74353d363eff7c8919bf3c3033d759f810c27677eda3bfc0109"
-metafile = true
-
-[[files]]
-file = "mods/gui-clock.pw.toml"
-hash = "e588c87cac0431accdf0a94870173b41bf2ad8f6cf8af05ed57bbd160a64f49d"
-metafile = true
-
-[[files]]
-file = "mods/gui-compass.pw.toml"
-hash = "8254a82f567e6695d4a4960faea27221d2daf284533d283ced5516be71b07dab"
 metafile = true
 
 [[files]]
@@ -271,6 +276,16 @@ hash = "5b96aa24048b1cea2e05b91954a25579f41c83c7008afd5c48426b579664288a"
 metafile = true
 
 [[files]]
+file = "mods/patchouli.pw.toml"
+hash = "cd1f0cf0ae2b6e1c14e3caa4685ae721cb590835110e076400cd986be1db9903"
+metafile = true
+
+[[files]]
+file = "mods/playeranimator.pw.toml"
+hash = "a3d67082a95f70155d68aec25d7ffba8a7c7bc48b342529e52005ddfc76f11ae"
+metafile = true
+
+[[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "8ecb202cbaf851233c9b3ff1541f8c70af8334779d59e8046450d6bcd62edc67"
 metafile = true
@@ -278,6 +293,11 @@ metafile = true
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "44b0a2294e1693230308e53b529d671a0303e94b623ba2c2650cdf5760a5a335"
+metafile = true
+
+[[files]]
+file = "mods/simply-swords.pw.toml"
+hash = "481554a4e059cda1be174d3942f0c0f0d7158fc8fc985ee332ccc4e2c74894b7"
 metafile = true
 
 [[files]]
