@@ -41,6 +41,13 @@
             poetry
           ];
         };
+
+        builder = pkgs.mkShell {
+          packages = with pkgs; [
+            yq-go
+            packwiz
+          ];
+        };
       };
     };
   });

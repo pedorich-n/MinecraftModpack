@@ -4,5 +4,8 @@ build-packwiz-server:
 # build-packwiz-client:
 #     nix build .#packwiz-client
 
+build-mrpack:
+    nix develop .#builder --command packwiz modrinth export
+
 genereate-readme:
     cd generate-readme && poetry run generate-readme -- --root ../ && mv README.md ../
