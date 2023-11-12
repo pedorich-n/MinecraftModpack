@@ -15,9 +15,9 @@ jobs:
       - name: Install Nix
         uses: cachix/install-nix-action@v23
       - name: Export modpack name
-        run: echo "PACK_NAME=$(nix develop .#builder --command yq '.name' pack.toml)" >> $GITHUB_ENV
-      - name: Add version to modpack name
-        run: echo "PACK_NAME_VERSION=${PACK_NAME}-${{ github.ref_name }}.mrpack" >> $GITHUB_ENV
+        run: |
+          PACK_NAME=$(nix develop .#builder --command yq '.name' pack.toml)
+          echo "PACK_NAME_VERSION=${PACK_NAME}-${{ github.ref_name }}.mrpack" >> $GITHUB_ENV
       - name: Create mrpack
         run: nix develop .#builder --command packwiz modrinth export --output $PACK_NAME_VERSION
       - name: Upload mrpack

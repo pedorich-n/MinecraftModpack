@@ -4,7 +4,7 @@ Modpack Info
   
   
 **Name**: Fabric_Modpack  
-**Version**: 2023.11.4  
+**Version**: 2023.11.5  
 **Minecraft Version**: 1.20.1  
 **Fabric Version**: 0.14.24  
 
@@ -13,8 +13,10 @@ Modpack Info
 - [**Applied Energistics 2**](https://modrinth.com/mod/ae2) (both, 15.0.14) - AE2: A popular automation and storage mod
 - [**Alternate Current**](https://modrinth.com/mod/alternate-current) (server, mc1.20-1.7.0) - An efficient and non-locational redstone dust implementation
 - [**Aquamirae**](https://modrinth.com/mod/aquamirae) (both, 6) - Ship graveyard with terrible deep sea creatures!
+- [**Architectury API**](https://modrinth.com/mod/architectury-api) (both, 9.1.12+fabric) - An intermediary api aimed to ease developing multiplatform mods.
 - [**Beautified Chat [Client]**](https://modrinth.com/mod/beautified-chat-client) (both, 1.20.1-2.3-forge+fabric) - 💬 A highly configurable mod to change the chat style and colour on the client.
 - [**Better Archeology**](https://modrinth.com/mod/better-archeology) (both, 1.0.2) - Discover artifacts & fossils by encountering new structures that'll enhance your adventure and exploration!
+- [**Better Combat**](https://modrinth.com/mod/better-combat) (both, 1.8.2+1.20.1-fabric) - ⚔️ Easy, spectacular and fun melee combat system from Minecraft Dungeons.
 - [**Botarium**](https://modrinth.com/mod/botarium) (both, 2.2.1) - A crossplatform API for devs that makes transfer and storage of items, fluids and energy easier, as well as some other helpful things
 - [**Concurrent Chunk Management Engine (Fabric)**](https://modrinth.com/mod/c2me-fabric) (both, 0.2.0+alpha.11.0+1.20.1) - A Fabric mod designed to improve the chunk performance of Minecraft.
 - [**CC: Tweaked**](https://modrinth.com/mod/cc-tweaked) (both, 1.108.4) - ComputerCraft fork adding programmable computers, turtles and more to Minecraft.
@@ -36,6 +38,7 @@ Modpack Info
 - [**EMI**](https://modrinth.com/mod/emi) (both, 1.0.24+1.20.1+fabric) - A featureful and accessible item and recipe viewer
 - [**Entity Culling**](https://modrinth.com/mod/entityculling) (client, 1.6.2-1.20.2) - Using async path-tracing to hide Block-/Entities that are not visible
 - [**Exordium**](https://modrinth.com/mod/exordium) (client, 1.2.1-1.20.1) - Render the GUI and screens at a lower framerate to speed up what's really important: the worldrendering.
+- [**Explorify**](https://modrinth.com/mod/explorify) (both, 1.3.0) - An integrated vanilla-friendly collection of new dungeons and structures
 - [**Create: Extended Cogwheels**](https://modrinth.com/mod/extended-cogwheels) (both, 2.1.0-1.20.1-0.5.1.c-fabric) - A small mod to add more cog types to create
 - [**Fabric API**](https://modrinth.com/mod/fabric-api) (both, 0.90.7+1.20.1) - Lightweight and modular API providing common hooks and intercompatibility measures utilized by mods using the Fabric toolchain.
 - [**Fabric Language Kotlin**](https://modrinth.com/mod/fabric-language-kotlin) (both, 1.10.13+kotlin.1.9.20) - This is a mod that enables usage of the Kotlin programming language for Fabric mods.
@@ -45,7 +48,6 @@ Modpack Info
 - [**Forge Config API Port**](https://modrinth.com/mod/forge-config-api-port) (both, v8.0.0-1.20.1-Fabric) - Forge's whole config system provided to the Fabric ecosystem. Designed for a multiloader architecture.
 - [**Galosphere**](https://modrinth.com/mod/galosphere) (both, 1.3.1) - An expansion for caves, including new biomes, mobs, and more.
 - [**GUI Clock**](https://modrinth.com/mod/gui-clock) (both, 1.20.1-4.3-forge+fabric) - ⏰ Shows the time/days played in the GUI/HUD with a clock in the inventory.
-- [**GUI Compass**](https://modrinth.com/mod/gui-compass) (both, 1.20.1-4.3-forge+fabric) - 🧭 Shows direction and coordinates in the GUI/HUD with a compass in the inventory.
 - [**ImmediatelyFast**](https://modrinth.com/mod/immediatelyfast) (client, 1.2.6+1.20.2) - Speed up immediate mode rendering in Minecraft
 - [**Incendium**](https://modrinth.com/mod/incendium) (both, 5.3.3) - Incendium is a datapack that completely revamps the nether, way more than what Minecraft did in the 1.16 Nether Update.
 - [**Indium**](https://modrinth.com/mod/indium) (client, 1.0.27+mc1.20.1) - Sodium addon providing support for the Fabric Rendering API, based on Indigo
@@ -64,8 +66,11 @@ Modpack Info
 - [**No Chat Reports**](https://modrinth.com/mod/no-chat-reports) (both, Fabric-1.20.1-v2.2.2) - Makes chat unreportable (where possible)
 - [**Nullscape**](https://modrinth.com/mod/nullscape) (both, 1.2.3) - Nullscape keeps the End as a barren, depressing, and bleak place: as it should be, and always will be.
 - [**Obscure API**](https://modrinth.com/mod/obscure-api) (both, 16) - Auxiliary Library
+- [**Patchouli**](https://modrinth.com/mod/patchouli) (both, 1.20.1-81-fabric) - Accessible, Data-Driven, Dependency-Free Documentation for Minecraft Modders and Pack Makers
+- [**playerAnimator**](https://modrinth.com/mod/playeranimator) (both, 1.0.2-rc1+1.20-fabric) - animate the player
 - [**Puzzles Lib**](https://modrinth.com/mod/puzzles-lib) (both, v8.1.8-1.20.1-Fabric) - Why's it called Puzzles you ask? That's the puzzle!
 - [**Reese's Sodium Options**](https://modrinth.com/mod/reeses-sodium-options) (client, mc1.20.1-1.6.5) - Alternative Options Menu for Sodium
+- [**Simply Swords**](https://modrinth.com/mod/simply-swords) (both, 1.51.5-1.20.1) - Adds Spears, Glaives, Chakrams, Katanas, Greathammer/axes, Rapiers, and many more weapons!
 - [**Sodium**](https://modrinth.com/mod/sodium) (client, mc1.20.1-0.5.3) - A modern rendering engine for Minecraft which greatly improves performance
 - [**spark**](https://modrinth.com/mod/spark) (both, 1.10.53-fabric) - spark is a performance profiler for Minecraft clients, servers and proxies.
 - [**squaremap**](https://modrinth.com/mod/squaremap) (server, 1.2.0) - squaremap is a minimalistic & lightweight world map viewer for Minecraft servers, using the vanilla map rendering style
