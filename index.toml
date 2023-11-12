@@ -186,6 +186,11 @@ hash = "d621a0fd3532a74353d363eff7c8919bf3c3033d759f810c27677eda3bfc0109"
 metafile = true
 
 [[files]]
+file = "mods/gui-clock.pw.toml"
+hash = "e588c87cac0431accdf0a94870173b41bf2ad8f6cf8af05ed57bbd160a64f49d"
+metafile = true
+
+[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "7e9f6a5b564e4fbe92bff784eb13a2565eb5a631ed452cf9b8748e73935ae8b2"
 metafile = true
