@@ -19,7 +19,7 @@ jobs:
       - name: Add version to modpack name
         run: echo "PACK_NAME_VERSION=${PACK_NAME}_${{ github.ref_name }}" >> $GITHUB_ENV
       - name: Create mrpack
-        run:  nix develop .#builder --command packwiz modrinth export --output $PACK_NAME_VERSION
+        run: nix develop .#builder --command packwiz modrinth export --output $PACK_NAME_VERSION
       - name: Upload mrpack
         uses: softprops/action-gh-release@v1
         with:
