@@ -8,4 +8,4 @@ build-mrpack:
     nix develop .#builder --command packwiz modrinth export
 
 genereate-readme:
-    cd generate-readme && poetry run generate-readme -- --root ../ && mv README.md ../
+    cd generate-readme && poetry run generate-readme -- --manifest ../pack.toml --output ../README.md
