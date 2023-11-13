@@ -1,0 +1,13 @@
+name = "Applied Energistics 2 Wireless Terminals"
+filename = "ae2wtlib-15.1.3-fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/pNabrMMw/versions/rMyyj2Oc/ae2wtlib-15.1.3-fabric.jar"
+hash-format = "sha1"
+hash = "b904dbf68f4380e99b78c9af142c2f923b447d75"
+
+[update]
+[update.modrinth]
+mod-id = "pNabrMMw"
+version = "rMyyj2Oc"

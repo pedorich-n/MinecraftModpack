@@ -1,6 +1,11 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/ae2-emi-crafting.pw.toml"
+hash = "27bee2dec0693db30bc4a8981d1409d7075f1515ea379f70f3c897a76ec49970"
+metafile = true
+
+[[files]]
 file = "mods/ae2.pw.toml"
 hash = "58f9b55c0998e0df2eaeea259e1bd181a3c4eb93f32824bdac565cec66f94880"
 metafile = true
@@ -13,6 +18,11 @@ metafile = true
 [[files]]
 file = "mods/amethyst-equipment.pw.toml"
 hash = "2009712f9b4b14cf7ced39985e6cd92b1d7b89bc5bc9eea92b7fb1330c86d434"
+metafile = true
+
+[[files]]
+file = "mods/applied-energistics-2-wireless-terminals.pw.toml"
+hash = "b0e70adfb7f19c394fcc2b862839f3cb70be027cba275c2e7ff42b7aad75bfc1"
 metafile = true
 
 [[files]]
@@ -48,6 +58,11 @@ metafile = true
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
 hash = "7721e78d990cc15c02f1a03cd6d7652ea995b271a3d19a6ae44829b4c69acbf0"
+metafile = true
+
+[[files]]
+file = "mods/cave-dust.pw.toml"
+hash = "31274861cb2f560e5f4a7bb3c1d51b727d885686ce6cc03cca4c861fdc48caf8"
 metafile = true
 
 [[files]]
