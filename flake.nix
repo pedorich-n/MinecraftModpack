@@ -1,5 +1,5 @@
 {
-  description = "getchoo's modpack";
+  description = "FabricModpack";
 
   inputs = {
     nixpkgs.url = "nixpkgs/nixos-unstable";

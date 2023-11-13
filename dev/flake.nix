@@ -1,5 +1,5 @@
 {
-  description = "getchoo's modpack";
+  description = "FabricModpack Dev";
 
   inputs = {
     nixpkgs.url = "nixpkgs/nixos-unstable";
@@ -25,15 +25,14 @@
   outputs = inputs@{ flake-parts, systems, self, ... }: flake-parts.lib.mkFlake { inherit inputs; } ({ moduleWithSystem, ... }: {
     systems = import systems;
 
-
     perSystem = { system, pkgs, ... }: {
       _module.args.pkgs = import inputs.nixpkgs {
         inherit system;
         overlays = [ inputs.poetry2nix.overlays.default ];
       };
 
-      packages = { 
-        generate-readme = pkgs.callPackage ../generate-readme {};
+      packages = {
+        generate-readme = pkgs.callPackage ../generate-readme { };
       };
 
       devShells = {
