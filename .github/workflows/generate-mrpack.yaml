@@ -18,7 +18,7 @@ jobs:
       - name: Export modpack name
         working-directory: dev
         run: |
-          PACK_NAME=$(nix develop .#builder --command yq '.name' pack.toml)
+          PACK_NAME=$(nix develop .#builder --command yq '.name' ${{ github.workspace }}/pack.toml)
           echo "PACK_NAME_VERSION=${PACK_NAME}-${{ github.ref_name }}.mrpack" >> $GITHUB_ENV
       - name: Create mrpack
         working-directory: dev
