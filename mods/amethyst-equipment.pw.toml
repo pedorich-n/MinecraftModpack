@@ -1,0 +1,13 @@
+name = "Amethyst Equipment"
+filename = "amethystequipment-fabric-mc1.20.1-v1.0.10.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/UUffNxLR/versions/n6VsBb07/amethystequipment-fabric-mc1.20.1-v1.0.10.jar"
+hash-format = "sha1"
+hash = "2ea73b62dcba455721dbdadc9bee0141cb6c30a3"
+
+[update]
+[update.modrinth]
+mod-id = "UUffNxLR"
+version = "n6VsBb07"
