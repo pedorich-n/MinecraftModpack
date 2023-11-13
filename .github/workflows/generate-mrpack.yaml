@@ -14,13 +14,16 @@ jobs:
         uses: actions/checkout@v4
       - name: Install Nix
         uses: cachix/install-nix-action@v23
+        # TODO: use https://github.com/nicknovitski/nix-develop once supports working-directory
       - name: Export modpack name
+        working-directory: dev
         run: |
           PACK_NAME=$(nix develop .#builder --command yq '.name' pack.toml)
           echo "PACK_NAME_VERSION=${PACK_NAME}-${{ github.ref_name }}.mrpack" >> $GITHUB_ENV
       - name: Create mrpack
-        run: nix develop .#builder --command packwiz modrinth export --output $PACK_NAME_VERSION
+        working-directory: dev
+        run: nix develop .#builder --command packwiz modrinth export --pack-file ${{ github.workspace }}/pack.toml --output ${{ github.workspace }}/$PACK_NAME_VERSION
       - name: Upload mrpack
         uses: softprops/action-gh-release@v1
         with:
-          files: ${{ env.PACK_NAME_VERSION }}
+          files: "${{ github.workspace }}/${{ env.PACK_NAME_VERSION }}"
