@@ -1,5 +1,5 @@
 {
-  description = "getchoo's modpack";
+  description = "FabricModpack";
 
   inputs = {
     nixpkgs.url = "nixpkgs/nixos-unstable";
@@ -33,22 +33,6 @@
           #   side = "client";
           # };
         };
-
-      devShells = {
-        default = pkgs.mkShell {
-          packages = with pkgs; [
-            packwiz
-            poetry
-          ];
-        };
-
-        builder = pkgs.mkShell {
-          packages = with pkgs; [
-            yq-go
-            packwiz
-          ];
-        };
-      };
     };
   });
 }
