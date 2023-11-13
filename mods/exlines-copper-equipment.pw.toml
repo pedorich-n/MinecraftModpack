@@ -1,0 +1,13 @@
+name = "Exline's Copper Equipment"
+filename = "exlinecopperequipment-fabric-mc1.20.1-v2.1.6.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/W921hp7s/versions/aKgFgqUU/exlinecopperequipment-fabric-mc1.20.1-v2.1.6.jar"
+hash-format = "sha1"
+hash = "36b5b6e540f91535a297e6ec1a8cfa642c012169"
+
+[update]
+[update.modrinth]
+mod-id = "W921hp7s"
+version = "aKgFgqUU"
