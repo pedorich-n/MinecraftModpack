@@ -8,7 +8,8 @@ from typing import List, Optional
 
 import dacite
 import modrinth
-from mdutils.mdutils import MarkDownFile, MdUtils, TextUtils
+from mdutils.mdutils import MdUtils
+from mdutils.tools import TextUtils
 
 logging.addLevelName(logging.WARNING, "WARN")
 logging.basicConfig(
@@ -111,10 +112,14 @@ def alter_keys(dictionary, func):
     return empty
 
 
+def canonicalize_path(path: Path) -> Path:
+    return path.expanduser().resolve()
+
+
 def resolve_path(root: Path, input: str) -> Path:
     path = Path(input)
     if not path.is_absolute():
-        return root.joinpath(path).resolve()
+        return canonicalize_path(root.joinpath(path))
     else:
         return path
 
@@ -125,7 +130,7 @@ def resolve_path(root: Path, input: str) -> Path:
 # region: TOML
 def read_pack(path: Path, dacite_config: dacite.Config) -> PackInfo:
     with open(path, "rb") as pack_file:
-        logger.info("Reading pack file...")
+        logger.info(f"Reading pack file {path}...")
         pack_raw = tomllib.load(pack_file)
         pack = dacite.from_dict(
             data_class=PackInfo,
@@ -137,7 +142,7 @@ def read_pack(path: Path, dacite_config: dacite.Config) -> PackInfo:
 
 def read_index(path: Path, dacite_config: dacite.Config) -> IndexInfo:
     with open(path, "rb") as index_file:
-        logger.info("Reading index file...")
+        logger.info(f"Reading index file {path}...")
         index_raw = tomllib.load(index_file)
         index = dacite.from_dict(data_class=IndexInfo, data=index_raw, config=dacite_config)
         return index
@@ -145,7 +150,7 @@ def read_index(path: Path, dacite_config: dacite.Config) -> IndexInfo:
 
 def read_mod(path: Path) -> ModInfo:
     with open(path, "rb") as mod_file:
-        logger.info("Reading mod file...")
+        logger.info(f"Reading mod file {path}...")
         mod_raw = alter_keys(tomllib.load(mod_file), kebab_to_snake)
         mod = dacite.from_dict(
             data_class=ModInfo,
@@ -190,7 +195,7 @@ def get_pack_info_result(pack_info: PackInfo, mods: List[ModInfo]) -> PackInfoRe
     return result
 
 
-def generate_readme(info: PackInfoResult):
+def generate_readme(info: PackInfoResult, output: Path):
     def format_mod(mod: ModInfoResult, text_utils: TextUtils) -> str:
         buffer = []
         if mod.url:
@@ -206,7 +211,9 @@ def generate_readme(info: PackInfoResult):
 
         return "".join(buffer)
 
-    md_file = MdUtils(file_name="README.md", title="Modpack Info")
+    # This abuses the fact that internally `file_name` is passed into `open`,
+    # so it can actually be a full path, not just a filename
+    md_file = MdUtils(file_name=output.as_posix(), title="Modpack Info")
     text_utils = TextUtils()
 
     md_file.new_line("")
@@ -225,13 +232,15 @@ def generate_readme(info: PackInfoResult):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--root", type=str, required=True)
+    parser.add_argument("--manifest", type=str, required=True, help="Path to a manifest file (usually pack.toml)")
+    parser.add_argument("--output", type=str, required=False, default="README.md", help="Path to the output MD file")
 
     args = parser.parse_args()
-    root = Path(args.root).resolve()
+    pack_path = canonicalize_path(Path(args.manifest))
+    output_path = canonicalize_path(Path(args.output))
 
+    root = pack_path.parent
     dacite_config = dacite.Config(type_hooks={Path: lambda p: resolve_path(root, p)})
-    pack_path = root.joinpath("pack.toml")
 
     pack_info = read_pack(pack_path, dacite_config)
     index_info = read_index(pack_info.index.file, dacite_config)
@@ -239,4 +248,4 @@ def main():
 
     result = get_pack_info_result(pack_info, mods_info)
 
-    generate_readme(result)
+    generate_readme(result, output_path)
