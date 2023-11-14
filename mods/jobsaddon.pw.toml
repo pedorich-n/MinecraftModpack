@@ -1,0 +1,13 @@
+name = "JobsAddon"
+filename = "jobsaddon-1.1.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/whv2X0ei/versions/WjKImvUg/jobsaddon-1.1.4.jar"
+hash-format = "sha1"
+hash = "3c92d4792f943e290a032bcdf51a27556f49d175"
+
+[update]
+[update.modrinth]
+mod-id = "whv2X0ei"
+version = "WjKImvUg"

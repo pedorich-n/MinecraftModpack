@@ -1,0 +1,13 @@
+name = "AdventureZ"
+filename = "adventurez-1.4.19.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/defK2XM3/versions/zrb4qqdJ/adventurez-1.4.19.jar"
+hash-format = "sha1"
+hash = "aeac6adc51b901a67131e21f6bf81d4319bdb915"
+
+[update]
+[update.modrinth]
+mod-id = "defK2XM3"
+version = "zrb4qqdJ"

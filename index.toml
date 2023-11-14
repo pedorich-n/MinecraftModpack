@@ -1,6 +1,11 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/adventurez.pw.toml"
+hash = "5114753cb4d08fb69cc23ff9bf58c70c3d2411f01c0b828dc24c25fa0cb8994b"
+metafile = true
+
+[[files]]
 file = "mods/ae2-emi-crafting.pw.toml"
 hash = "27bee2dec0693db30bc4a8981d1409d7075f1515ea379f70f3c897a76ec49970"
 metafile = true
@@ -36,6 +41,11 @@ hash = "a243675bc757485925b293932ee289b9fbcfb3b75bd3ba74eca7603f191cedad"
 metafile = true
 
 [[files]]
+file = "mods/autotag.pw.toml"
+hash = "ea6fc6fba3ad1e9868e7807b17c04ebbad43a073b9be6d9374290b94eaa82e79"
+metafile = true
+
+[[files]]
 file = "mods/beautified-chat-client.pw.toml"
 hash = "781f3a99d5e8a69b05698ecb8540caa250e332affde988d138bec7257a900882"
 metafile = true
@@ -58,6 +68,16 @@ metafile = true
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
 hash = "7721e78d990cc15c02f1a03cd6d7652ea995b271a3d19a6ae44829b4c69acbf0"
+metafile = true
+
+[[files]]
+file = "mods/cameraoverhaul.pw.toml"
+hash = "b657f098bc6bdf2c7ee67f95bf6cbf7e39cf4db7c6b8fb6fd432b9471c53ec1a"
+metafile = true
+
+[[files]]
+file = "mods/cardinal-components-api.pw.toml"
+hash = "50e3b067e93d3e6683d540edc4d046ed7b6b5fbb31409df1727b120f225b1975"
 metafile = true
 
 [[files]]
@@ -138,6 +158,11 @@ metafile = true
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
 hash = "6e6ee1bf66d6977728d3bf5404338c87a0a4ad5260833efcd912aaaca776cf8f"
+metafile = true
+
+[[files]]
+file = "mods/dynamic-music-updated.pw.toml"
+hash = "0255916c48646a6a415ac7470a63a5acc95f45c78c1674355e53b99d68b3e792"
 metafile = true
 
 [[files]]
@@ -261,6 +286,11 @@ hash = "37eb8a447d46f38a7781f498f5dfcc162da72fc15d3ed2cb398cea1609b9bf61"
 metafile = true
 
 [[files]]
+file = "mods/jobsaddon.pw.toml"
+hash = "e78145133098a21326df60ba62126512cc2de3d99327db123444226e2380def1"
+metafile = true
+
+[[files]]
 file = "mods/krypton.pw.toml"
 hash = "71ef7cc16632c0039fe194183b5885968c6d740aaa67a58000653ae0cb40b882"
 metafile = true
@@ -273,6 +303,16 @@ metafile = true
 [[files]]
 file = "mods/leaves-be-gone.pw.toml"
 hash = "d7c03a9a61a81693732b6ae275f63ee63aa97def2e511be48b740e03c4f34a17"
+metafile = true
+
+[[files]]
+file = "mods/levelz.pw.toml"
+hash = "f42f88b133df35aa40911edb9af2819f62b10fc026f850fb823dbaad71225f17"
+metafile = true
+
+[[files]]
+file = "mods/libz.pw.toml"
+hash = "7b228ccb1fca34d4a36b5263b7aab6469d0d2fb57a3683a1f64500934881b658"
 metafile = true
 
 [[files]]
@@ -366,6 +406,11 @@ hash = "9a927c3e0830ba32e1b8a2e543597781724462595b8cce58f676962b442bb52b"
 metafile = true
 
 [[files]]
+file = "mods/sound-physics-remastered.pw.toml"
+hash = "3decc297ef37c1ecb820b095d076dfa04e5c2d16a29e165f27c911a80d2e4afd"
+metafile = true
+
+[[files]]
 file = "mods/spark.pw.toml"
 hash = "96e3771cd09bb4a808d1c1fcb5a050efdc2ffb4efe7b584407ed54c46c0388d9"
 metafile = true
@@ -391,13 +436,28 @@ hash = "c7b5cc4b23192c970f0aa018e1e5e801a56c3ec2149e87eb30e4d57fa624e2ba"
 metafile = true
 
 [[files]]
+file = "mods/tieredz.pw.toml"
+hash = "8f4b5473fba2495db5735b4b78517561753fb08025295484c9631e87aca92b60"
+metafile = true
+
+[[files]]
 file = "mods/travelers-titles.pw.toml"
 hash = "df6c42195656610837ff05462ac37bb40da04a18de198333769030c562cbfe2d"
 metafile = true
 
 [[files]]
+file = "mods/travelersbackpack.pw.toml"
+hash = "7677bf35a89d3f408f230e269892eb8fc20d38c8c5dacf13994af119c2f45908"
+metafile = true
+
+[[files]]
 file = "mods/visuality.pw.toml"
 hash = "1d0b62685fd74fdd9d8cba3b3f3a85da75423550704646251a39542fce96bcb4"
+metafile = true
+
+[[files]]
+file = "mods/warrior-rage.pw.toml"
+hash = "8ae5375d7c4dd6cb9c18f5bc09b04bcca71d968d0c754baf918503d2eb8eb463"
 metafile = true
 
 [[files]]

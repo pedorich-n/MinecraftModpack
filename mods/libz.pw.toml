@@ -1,0 +1,13 @@
+name = "LibZ"
+filename = "libz-1.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/yUBXc3AH/versions/yYR9jqw2/libz-1.0.2.jar"
+hash-format = "sha1"
+hash = "7879302e9e64eb45f7ff8c29ac626d9e7ce30c83"
+
+[update]
+[update.modrinth]
+mod-id = "yUBXc3AH"
+version = "yYR9jqw2"
