@@ -186,6 +186,11 @@ hash = "33f865a014f3acf2c1f2c452bfe7ba1a864acad178322a6eab3759c7e63c9654"
 metafile = true
 
 [[files]]
+file = "mods/equipment-compare.pw.toml"
+hash = "3be8e2a0f6a01ef550f2154583b26b27a243e4f2a6697d8a433080ae05ff1e1b"
+metafile = true
+
+[[files]]
 file = "mods/exlines-copper-equipment.pw.toml"
 hash = "c4fd4f6c5ba675102de250f6445ce9efee6c70c3c9157c89b2c131911787d93a"
 metafile = true
@@ -241,8 +246,23 @@ hash = "129bb8b135edc60038f021b693f5b88a0067b722f326e0d6067112243774289b"
 metafile = true
 
 [[files]]
+file = "mods/fzzy-core.pw.toml"
+hash = "d51b2807a1293b7429a5af88c2de7e940a6a4120fb453f61b1510e3085bc096b"
+metafile = true
+
+[[files]]
 file = "mods/galosphere.pw.toml"
 hash = "d621a0fd3532a74353d363eff7c8919bf3c3033d759f810c27677eda3bfc0109"
+metafile = true
+
+[[files]]
+file = "mods/gear-core.pw.toml"
+hash = "ee842ba48251ceff7749d4bfe02e507686c5641051fea1dc35a636e8eef9344b"
+metafile = true
+
+[[files]]
+file = "mods/gearifiers.pw.toml"
+hash = "34db2079c38605bcc21f8ea2eeac54ddc7bb2981b3402d7f570ea76acf882070"
 metafile = true
 
 [[files]]
@@ -253,6 +273,11 @@ metafile = true
 [[files]]
 file = "mods/gui-clock.pw.toml"
 hash = "e588c87cac0431accdf0a94870173b41bf2ad8f6cf8af05ed57bbd160a64f49d"
+metafile = true
+
+[[files]]
+file = "mods/iceberg.pw.toml"
+hash = "a4d47f10df4769734a850e6a2cd7342802f92f5e269b27464c86cfd0b5a2182f"
 metafile = true
 
 [[files]]
@@ -403,6 +428,11 @@ metafile = true
 [[files]]
 file = "mods/simply-swords.pw.toml"
 hash = "481554a4e059cda1be174d3942f0c0f0d7158fc8fc985ee332ccc4e2c74894b7"
+metafile = true
+
+[[files]]
+file = "mods/skills.pw.toml"
+hash = "b7aa073b4154b29b8383810f7a780e48ace423aef116d6af9cd51e0152fd6f38"
 metafile = true
 
 [[files]]
