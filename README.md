@@ -4,24 +4,29 @@ Modpack Info
   
   
 **Name**: Fabric_Modpack  
-**Version**: 2023.11.6  
+**Version**: 2023.11.7  
 **Minecraft Version**: 1.20.1  
 **Fabric Version**: 0.14.24  
 
 # Mods
 
+- [**Adaptive Tooltips**](https://modrinth.com/mod/adaptive-tooltips) (client, 1.3.0) - Highly configurable tooltip rendering, so you can always read them!
 - [**AE2 EMI Crafting Integration**](https://modrinth.com/mod/ae2-emi-crafting) (client, 1.0.1) - Adds support for crafting with EMI on Applied Energistics 2 terminals
 - [**Applied Energistics 2**](https://modrinth.com/mod/ae2) (both, 15.0.14) - AE2: A popular automation and storage mod
 - [**Alternate Current**](https://modrinth.com/mod/alternate-current) (server, mc1.20-1.7.0) - An efficient and non-locational redstone dust implementation
 - [**Amethyst Equipment**](https://modrinth.com/mod/amethyst-equipment) (both, 1.0.10) - This mod adds amethyst tools, a sword, armor, and horse armor!
 - [**Applied Energistics 2 Wireless Terminals**](https://modrinth.com/mod/applied-energistics-2-wireless-terminals) (both, 15.1.3-fabric) - An addon for Applied Energistics 2 that adds wireless versions of several Terminals
 - [**Aquamirae**](https://modrinth.com/mod/aquamirae) (both, 6) - Ship graveyard with terrible deep sea creatures!
+- [**Archers (RPG Series)**](https://modrinth.com/mod/archers) (both, 1.0.5+1.20.1) - 🏹 Draw, Release, Conquer - Master the art of Archery!
 - [**Architectury API**](https://modrinth.com/mod/architectury-api) (both, 9.1.12+fabric) - An intermediary api aimed to ease developing multiplatform mods.
+- [**AzureLib Armor**](https://modrinth.com/mod/azurelib-armor) (both, 1.0.3) - A striped down Azurelib just for Armor!
 - [**Beautified Chat [Client]**](https://modrinth.com/mod/beautified-chat-client) (both, 1.20.1-2.3-forge+fabric) - 💬 A highly configurable mod to change the chat style and colour on the client.
 - [**Better Archeology**](https://modrinth.com/mod/better-archeology) (both, 1.0.2) - Discover artifacts & fossils by encountering new structures that'll enhance your adventure and exploration!
 - [**Better Combat**](https://modrinth.com/mod/better-combat) (both, 1.8.2+1.20.1-fabric) - ⚔️ Easy, spectacular and fun melee combat system from Minecraft Dungeons.
 - [**Botarium**](https://modrinth.com/mod/botarium) (both, 2.2.1) - A crossplatform API for devs that makes transfer and storage of items, fluids and energy easier, as well as some other helpful things
 - [**Concurrent Chunk Management Engine (Fabric)**](https://modrinth.com/mod/c2me-fabric) (both, 0.2.0+alpha.11.0+1.20.1) - A Fabric mod designed to improve the chunk performance of Minecraft.
+- [**CameraOverhaul**](https://modrinth.com/mod/cameraoverhaul) (client, 1.4.0-fabric-universal) - A mod that makes gameplay & movement more satisfying through the use of various camera tilting. 
+- [**Cardinal Components API**](https://modrinth.com/mod/cardinal-components-api) (both, 5.2.2) - A data attachment API that is easy, modular, and extremely fast.
 - [**Cave Dust**](https://modrinth.com/mod/cave-dust) (client, 1.4.1) - Dust is a Minecraft mod that adds the white ash particle from the Basalt Deltas biome to the underground to simulate dust!
 - [**CC: Tweaked**](https://modrinth.com/mod/cc-tweaked) (both, 1.108.4) - ComputerCraft fork adding programmable computers, turtles and more to Minecraft.
 - [**CC:C Bridge**](https://modrinth.com/mod/cccbridge) (both, 1.6.2b-fabric) - Adds compatibility between the ComputerCraft and Create mod with peripherals!
@@ -38,9 +43,11 @@ Modpack Info
 - [**Deep Mob Learning: Refabricated**](https://modrinth.com/mod/deep-mob-learning-refabricated) (both, 0.5.15-BETA+1.20.1) - Alternative, server friendly mob loot acquisition
 - [**Double Doors**](https://modrinth.com/mod/double-doors) (both, 1.20.1-5.1-forge+fabric) - 🚪 Multiple identical double doors, trapdoors and fence gates can be opened simultaneously.
 - [**Dynamic FPS**](https://modrinth.com/mod/dynamic-fps) (client, 3.2.1) - Improve performance when Minecraft is in the background.
+- [**Dynamic Music Updated**](https://modrinth.com/mod/dynamic-music-updated) (client, v2.3.2+1.20) - A fork of LudoCrypt's Dynamic Music !
 - [**Emerald Equipment**](https://modrinth.com/mod/emerald-equipment) (both, 1.1.0) - This mod adds emerald tools, armor, and horse armor. Emerald tools will be faster at mining than most tools. Emerald tier items have values between iron and diamond tiers.
 - [**EMI**](https://modrinth.com/mod/emi) (both, 1.0.24+1.20.1+fabric) - A featureful and accessible item and recipe viewer
 - [**Entity Culling**](https://modrinth.com/mod/entityculling) (client, 1.6.2-1.20.2) - Using async path-tracing to hide Block-/Entities that are not visible
+- [**Equipment Compare**](https://modrinth.com/mod/equipment-compare) (client, 1.3.7) - Makes it easier to compare equipment by showing a tooltip for what you're already wearing.
 - [**Exline's Copper Equipment**](https://modrinth.com/mod/exlines-copper-equipment) (both, 2.1.6) - This mod adds copper tools, a sword, armor, and horse armor. You can smelt down old copper equipment for copper nuggets!
 - [**Exordium**](https://modrinth.com/mod/exordium) (client, 1.2.1-1.20.1) - Render the GUI and screens at a lower framerate to speed up what's really important: the worldrendering.
 - [**Explorify**](https://modrinth.com/mod/explorify) (both, 1.3.0) - An integrated vanilla-friendly collection of new dungeons and structures
@@ -52,9 +59,13 @@ Modpack Info
 - [**FallingTree**](https://modrinth.com/mod/fallingtree) (both, 1.20.1-4.3.1) - Break down your trees by only cutting one piece of it
 - [**FerriteCore**](https://modrinth.com/mod/ferrite-core) (both, 6.0.1) - Memory usage optimizations
 - [**Forge Config API Port**](https://modrinth.com/mod/forge-config-api-port) (both, v8.0.0-1.20.1-Fabric) - Forge's whole config system provided to the Fabric ecosystem. Designed for a multiloader architecture.
+- [**Fzzy Core**](https://modrinth.com/mod/fzzy-core) (both, 0.3.1+1.20.1) - API used in fzzyhmstrs mods that provides various utilities for Kotlin mods
 - [**Galosphere**](https://modrinth.com/mod/galosphere) (both, 1.3.1) - An expansion for caves, including new biomes, mobs, and more.
+- [**Gear Core**](https://modrinth.com/mod/gear-core) (both, 0.3.6+1.20.1) - Library mod for the creation of equipment modifiers that can apply entity attributes or track a variety of events like taking damage, killing mobs, and more.
+- [**Gearifiers**](https://modrinth.com/mod/gearifiers) (both, 0.5.2+1.20.1) - RPG Affixes for all your gear! Find gear with modifiers like Sharp, protective, legendary, useless, and many more. Re-roll modifiers in an altar to try and find ones you like!
 - [**Guarding**](https://modrinth.com/mod/guarding) (both, 2.3.3) - A simple mod for Fabric implementing new features to Shields to make them feel more complete.
 - [**GUI Clock**](https://modrinth.com/mod/gui-clock) (both, 1.20.1-4.3-forge+fabric) - ⏰ Shows the time/days played in the GUI/HUD with a clock in the inventory.
+- [**Iceberg**](https://modrinth.com/mod/iceberg) (both, 1.1.15) - A modding library that contains new events, helpers, and utilities to make modder's lives easier.
 - [**ImmediatelyFast**](https://modrinth.com/mod/immediatelyfast) (client, 1.2.6+1.20.2) - Speed up immediate mode rendering in Minecraft
 - [**Incendium**](https://modrinth.com/mod/incendium) (both, 5.3.3) - Incendium is a datapack that completely revamps the nether, way more than what Minecraft did in the 1.16 Nether Update.
 - [**Indium**](https://modrinth.com/mod/indium) (client, 1.0.27+mc1.20.1) - Sodium addon providing support for the Fabric Rendering API, based on Indigo
@@ -77,21 +88,33 @@ Modpack Info
 - [**Nullscape**](https://modrinth.com/mod/nullscape) (both, 1.2.3) - Nullscape keeps the End as a barren, depressing, and bleak place: as it should be, and always will be.
 - [**Obscure API**](https://modrinth.com/mod/obscure-api) (both, 16) - Auxiliary Library
 - [**Obsidian Equipment**](https://modrinth.com/mod/obsidian-equipment) (both, 1.0.8) - Obsidian can be smelted down like other ores into obsidian ingots. Use obsidian ingots like other ores to craft armor and tools.
+- [**Paladins & Priests (RPG Series)**](https://modrinth.com/mod/paladins-and-priests) (both, 1.0.3+1.20.1-fabric) - ✨ Protect and heal your friends as a Paladin or a Priest
 - [**Patchouli**](https://modrinth.com/mod/patchouli) (both, 1.20.1-81-fabric) - Accessible, Data-Driven, Dependency-Free Documentation for Minecraft Modders and Pack Makers
 - [**playerAnimator**](https://modrinth.com/mod/playeranimator) (both, 1.0.2-rc1+1.20-fabric) - animate the player
+- [**Projectile Damage Attribute**](https://modrinth.com/mod/projectile-damage-attribute) (both, 3.2.2+1.20.1-fabric) - 🏹 Range weapon damage becomes configurable.
 - [**Puzzles Lib**](https://modrinth.com/mod/puzzles-lib) (both, v8.1.8-1.20.1-Fabric) - Why's it called Puzzles you ask? That's the puzzle!
 - [**Reese's Sodium Options**](https://modrinth.com/mod/reeses-sodium-options) (client, mc1.20.1-1.6.5) - Alternative Options Menu for Sodium
+- [**Runes**](https://modrinth.com/mod/runes) (both, 0.9.10+1.20.1-fabric) - 🪨 Craft runes to serve as ammo for spells
 - [**Simply Swords**](https://modrinth.com/mod/simply-swords) (both, 1.51.5-1.20.1) - Adds Spears, Glaives, Chakrams, Katanas, Greathammer/axes, Rapiers, and many more weapons!
+- [**Pufferfish's Skills**](https://modrinth.com/mod/skills) (both, 0.10.0) - Adds a fully configurable skill system to the game.
 - [**Sodium**](https://modrinth.com/mod/sodium) (client, mc1.20.1-0.5.3) - A modern rendering engine for Minecraft which greatly improves performance
+- [**Sound Physics Remastered**](https://modrinth.com/mod/sound-physics-remastered) (both, fabric-1.20.1-1.2.1) - A Minecraft mod that provides realistic sound attenuation, reverberation, and absorption through blocks.
 - [**spark**](https://modrinth.com/mod/spark) (both, 1.10.53-fabric) - spark is a performance profiler for Minecraft clients, servers and proxies.
+- [**Spell Engine**](https://modrinth.com/mod/spell-engine) (both, 0.12.3+1.20.1) - 🪄 Data driven magic library
+- [**Spell Power Attributes**](https://modrinth.com/mod/spell-power) (both, 0.9.19+1.20.1-fabric) - 🔮 Spell Power entity attributes with related status effects and enchantments
 - [**squaremap**](https://modrinth.com/mod/squaremap) (server, 1.2.0) - squaremap is a minimalistic & lightweight world map viewer for Minecraft servers, using the vanilla map rendering style
 - [**Starlight (Fabric)**](https://modrinth.com/mod/starlight) (both, 1.1.2+1.20) - Rewrites the light engine to fix lighting performance and lighting errors
 - [**Tectonic**](https://modrinth.com/mod/tectonic) (both, 2.1.1) - Using the powerful worldgen tools from Caves and Cliffs, Tectonic completely rocks world generation with mountain ranges, underground rivers and more!
 - [**Terralith**](https://modrinth.com/mod/terralith) (both, 2.4.8) - Terralith takes Minecraft's 1.18 massive world generation overhaul, and turns it up to eleven.
 - [**Traveler's Titles**](https://modrinth.com/mod/travelers-titles) (client, 1.20-Fabric-4.0.1) - Epic, RPG-like titles when entering biomes & dimensions!
+- [**Traveler's Backpack**](https://modrinth.com/mod/travelersbackpack) (both, 1.20.1-9.1.8) - The official port of Adventure Backpack
+- [**Trinkets**](https://modrinth.com/mod/trinkets) (both, 3.7.1) - A data-driven accessory mod
 - [**Visuality**](https://modrinth.com/mod/visuality) (client, 0.7.1+1.20) - Little visual improvements by adding a bunch of new particles.
+- [**Warrior Rage**](https://modrinth.com/mod/warrior-rage) (both, 1.20.1-1.0.0) - Minecraft Mod, which brings rage during fights
 - [**YDM's Weapon Master**](https://modrinth.com/mod/weaponmaster) (both, 3.0.5+1.20.1) - With this Mod your Hotbar items will be visible on your Character, with a unique location for a Shield and Banner.
+- [**Wizards (RPG Series)**](https://modrinth.com/mod/wizards) (both, 1.0.3+1.20.1) - 🧙🏻‍♂️ Destroy your enemies with Arcane, Fire and Frost magic
 - [**Xaero's Minimap**](https://modrinth.com/mod/xaeros-minimap) (both, 23.8.4_Fabric_1.20) - Displays a map of the nearby world terrain, players, mobs, entities in the corner of your screen. Lets you create waypoints which help you find the locations you've marked.
+- [**YetAnotherConfigLib**](https://modrinth.com/mod/yacl) (both, 3.2.1+1.20-fabric) - A builder-based configuration library for Minecraft.
 - [**Your Items Are Safe**](https://modrinth.com/mod/your-items-are-safe) (both, 1.20.1-3.5-forge+fabric) - 💀 Spawns a chest and armor stand with player items on death, a gravestone alternative.
 - [**YUNG's API**](https://modrinth.com/mod/yungs-api) (both, 1.20-Fabric-4.0.2) - Library mod for YUNG's mods.
 - [**YUNG's Better Desert Temples**](https://modrinth.com/mod/yungs-better-desert-temples) (both, 1.20-Fabric-3.0.3) - A complete redesign of Minecraft's desert temples!
