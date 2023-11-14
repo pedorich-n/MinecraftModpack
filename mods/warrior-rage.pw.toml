@@ -1,0 +1,13 @@
+name = "Warrior Rage"
+filename = "warrior-rage-1.20.1-fabric-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/1BGsoydA/versions/v9uvp9hF/warrior-rage-1.20.1-fabric-1.0.0.jar"
+hash-format = "sha1"
+hash = "30b0d819672aef73c62ad980db2db7e1d0f25c9f"
+
+[update]
+[update.modrinth]
+mod-id = "1BGsoydA"
+version = "v9uvp9hF"
