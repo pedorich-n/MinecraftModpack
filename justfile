@@ -5,7 +5,10 @@ build-packwiz-server:
 #     nix build .#packwiz-client
 
 build-mrpack:
-    nix develop .#builder --command packwiz modrinth export
+    nix develop ./dev#builder --command packwiz modrinth export
 
 genereate-readme:
-    cd dev && nix run .#generate-readme -- --manifest ../pack.toml --output ../README.md
+    nix run ./dev#generate-readme -- --manifest pack.toml --output README.md
+
+develop:
+    nix develop ./dev#default

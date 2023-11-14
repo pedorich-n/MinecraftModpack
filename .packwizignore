@@ -11,3 +11,4 @@
 /PACK_INFO.md
 **/.mypy_cache
 **/__pycache__
+/dev
