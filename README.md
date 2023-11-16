@@ -4,7 +4,7 @@ Modpack Info
   
   
 **Name**: Fabric_Modpack  
-**Version**: 2023.11.8  
+**Version**: 2023.11.9  
 **Minecraft Version**: 1.20.1  
 **Fabric Version**: 0.14.24  
 
@@ -20,7 +20,6 @@ Modpack Info
 - [**Archers (RPG Series)**](https://modrinth.com/mod/archers) (both, 1.0.5+1.20.1) - 🏹 Draw, Release, Conquer - Master the art of Archery!
 - [**Architectury API**](https://modrinth.com/mod/architectury-api) (both, 9.1.12+fabric) - An intermediary api aimed to ease developing multiplatform mods.
 - [**AzureLib Armor**](https://modrinth.com/mod/azurelib-armor) (both, 1.0.3) - A striped down Azurelib just for Armor!
-- [**Beautified Chat [Server]**](https://modrinth.com/mod/beautified-chat-server) (both, 1.20.1-2.3-forge+fabric) - 💬 A highly configurable mod to change the style and colour of chat messages server-wide.
 - [**Better Archeology**](https://modrinth.com/mod/better-archeology) (both, 1.0.2) - Discover artifacts & fossils by encountering new structures that'll enhance your adventure and exploration!
 - [**Better Combat**](https://modrinth.com/mod/better-combat) (both, 1.8.2+1.20.1-fabric) - ⚔️ Easy, spectacular and fun melee combat system from Minecraft Dungeons.
 - [**Botarium**](https://modrinth.com/mod/botarium) (both, 2.2.1) - A crossplatform API for devs that makes transfer and storage of items, fluids and energy easier, as well as some other helpful things
@@ -30,6 +29,7 @@ Modpack Info
 - [**Cave Dust**](https://modrinth.com/mod/cave-dust) (client, 1.4.1) - Dust is a Minecraft mod that adds the white ash particle from the Basalt Deltas biome to the underground to simulate dust!
 - [**CC: Tweaked**](https://modrinth.com/mod/cc-tweaked) (both, 1.108.4) - ComputerCraft fork adding programmable computers, turtles and more to Minecraft.
 - [**CC:C Bridge**](https://modrinth.com/mod/cccbridge) (both, 1.6.2b-fabric) - Adds compatibility between the ComputerCraft and Create mod with peripherals!
+- [**Chat Patches**](https://modrinth.com/mod/chatpatches) (client, 201.5.5) - A Minecraft Fabric client-side mod that touches up a few aspects of Minecraft's mundane chat, with as much configurability as possible!
 - [**Chunky**](https://modrinth.com/mod/chunky) (both, 1.3.92) - Pre-generates chunks, quickly and efficiently
 - [**Cloth Config API**](https://modrinth.com/mod/cloth-config) (both, 11.1.106+fabric) - Configuration Library for Minecraft Mods
 - [**Collective**](https://modrinth.com/mod/collective) (both, 1.20.1-7.3-forge+fabric) - 🎓 Collective is a shared library with common code for all of Serilum's mods.
