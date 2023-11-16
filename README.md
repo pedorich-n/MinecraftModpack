@@ -4,7 +4,7 @@ Modpack Info
   
   
 **Name**: Fabric_Modpack  
-**Version**: 2023.11.7  
+**Version**: 2023.11.8  
 **Minecraft Version**: 1.20.1  
 **Fabric Version**: 0.14.24  
 
@@ -20,7 +20,7 @@ Modpack Info
 - [**Archers (RPG Series)**](https://modrinth.com/mod/archers) (both, 1.0.5+1.20.1) - 🏹 Draw, Release, Conquer - Master the art of Archery!
 - [**Architectury API**](https://modrinth.com/mod/architectury-api) (both, 9.1.12+fabric) - An intermediary api aimed to ease developing multiplatform mods.
 - [**AzureLib Armor**](https://modrinth.com/mod/azurelib-armor) (both, 1.0.3) - A striped down Azurelib just for Armor!
-- [**Beautified Chat [Client]**](https://modrinth.com/mod/beautified-chat-client) (both, 1.20.1-2.3-forge+fabric) - 💬 A highly configurable mod to change the chat style and colour on the client.
+- [**Beautified Chat [Server]**](https://modrinth.com/mod/beautified-chat-server) (both, 1.20.1-2.3-forge+fabric) - 💬 A highly configurable mod to change the style and colour of chat messages server-wide.
 - [**Better Archeology**](https://modrinth.com/mod/better-archeology) (both, 1.0.2) - Discover artifacts & fossils by encountering new structures that'll enhance your adventure and exploration!
 - [**Better Combat**](https://modrinth.com/mod/better-combat) (both, 1.8.2+1.20.1-fabric) - ⚔️ Easy, spectacular and fun melee combat system from Minecraft Dungeons.
 - [**Botarium**](https://modrinth.com/mod/botarium) (both, 2.2.1) - A crossplatform API for devs that makes transfer and storage of items, fluids and energy easier, as well as some other helpful things
@@ -33,6 +33,7 @@ Modpack Info
 - [**Chunky**](https://modrinth.com/mod/chunky) (both, 1.3.92) - Pre-generates chunks, quickly and efficiently
 - [**Cloth Config API**](https://modrinth.com/mod/cloth-config) (both, 11.1.106+fabric) - Configuration Library for Minecraft Mods
 - [**Collective**](https://modrinth.com/mod/collective) (both, 1.20.1-7.3-forge+fabric) - 🎓 Collective is a shared library with common code for all of Serilum's mods.
+- [**Compact Help Command**](https://modrinth.com/mod/compact-help-command) (both, 1.20.1-2.4-forge+fabric) - 🗜 Modifies the /help command to show all information, be colourful and have multiple pages.
 - [**Create Fabric Sodium Fix**](https://modrinth.com/mod/create-fabric-sodium-fix) (both, 0.5.1-d-build.5+mc1.20.1) - A fork of Create Fabric that supports Sodium 0.5+
 - [**Create: Garnished**](https://modrinth.com/mod/create-garnished) (both, 1.2-hotfix-2+1.20.1) - A Create Mod Addon that adds different food items, mainly nuts.
 - [**Create: New Age**](https://modrinth.com/mod/create-new-age) (both, 1.1.pre3) - Create: New Age is an addon for the Create mod that adds integration with electricity.
@@ -59,6 +60,7 @@ Modpack Info
 - [**FallingTree**](https://modrinth.com/mod/fallingtree) (both, 1.20.1-4.3.1) - Break down your trees by only cutting one piece of it
 - [**FerriteCore**](https://modrinth.com/mod/ferrite-core) (both, 6.0.1) - Memory usage optimizations
 - [**Forge Config API Port**](https://modrinth.com/mod/forge-config-api-port) (both, v8.0.0-1.20.1-Fabric) - Forge's whole config system provided to the Fabric ecosystem. Designed for a multiloader architecture.
+- [**Furnace Recycle**](https://modrinth.com/mod/furnace-recycle) (both, 1.20.1-2.1-forge+fabric) - 🔨 All metal-containing items are recyclable in a furnace and return raw materials.
 - [**Fzzy Core**](https://modrinth.com/mod/fzzy-core) (both, 0.3.1+1.20.1) - API used in fzzyhmstrs mods that provides various utilities for Kotlin mods
 - [**Galosphere**](https://modrinth.com/mod/galosphere) (both, 1.3.1) - An expansion for caves, including new biomes, mobs, and more.
 - [**Gear Core**](https://modrinth.com/mod/gear-core) (both, 0.3.6+1.20.1) - Library mod for the creation of equipment modifiers that can apply entity attributes or track a variety of events like taking damage, killing mobs, and more.

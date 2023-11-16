@@ -51,8 +51,8 @@ hash = "9e77ce91a88d6d603b80fd22eb5215ca59af752d5c6b6aa4efe1fb927a75dd12"
 metafile = true
 
 [[files]]
-file = "mods/beautified-chat-client.pw.toml"
-hash = "781f3a99d5e8a69b05698ecb8540caa250e332affde988d138bec7257a900882"
+file = "mods/beautified-chat-server.pw.toml"
+hash = "f8bef17945c30d536d218e013a6ca1f70bef3f6e7fda527cf02593137b71db53"
 metafile = true
 
 [[files]]
@@ -113,6 +113,11 @@ metafile = true
 [[files]]
 file = "mods/collective.pw.toml"
 hash = "7df8b9795c51643f31cba87ecaea0db96cf2edae97f09e1d37f85fba82adceb8"
+metafile = true
+
+[[files]]
+file = "mods/compact-help-command.pw.toml"
+hash = "b7bb74dc357d51598dec47adaa3cf08c3eb028d13be20422c6ac9a3b3fd94b2f"
 metafile = true
 
 [[files]]
@@ -243,6 +248,11 @@ metafile = true
 [[files]]
 file = "mods/forge-config-api-port.pw.toml"
 hash = "129bb8b135edc60038f021b693f5b88a0067b722f326e0d6067112243774289b"
+metafile = true
+
+[[files]]
+file = "mods/furnace-recycle.pw.toml"
+hash = "508d5f3361fb0bc954ac7979cce037ce11cc3dd2d1f6fd750abb765bc3d2495d"
 metafile = true
 
 [[files]]
