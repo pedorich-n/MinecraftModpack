@@ -51,8 +51,8 @@ hash = "9e77ce91a88d6d603b80fd22eb5215ca59af752d5c6b6aa4efe1fb927a75dd12"
 metafile = true
 
 [[files]]
-file = "mods/beautified-chat-client.pw.toml"
-hash = "781f3a99d5e8a69b05698ecb8540caa250e332affde988d138bec7257a900882"
+file = "mods/beautified-chat-server.pw.toml"
+hash = "f8bef17945c30d536d218e013a6ca1f70bef3f6e7fda527cf02593137b71db53"
 metafile = true
 
 [[files]]
