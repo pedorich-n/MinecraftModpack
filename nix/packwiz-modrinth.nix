@@ -17,7 +17,7 @@ in
 
   # To fix github action's "mkdir /homeless-shelter: permission denied"
   preBuild = ''
-    HOME=$TMPDIR
+    export HOME=$TMPDIR
   '';
 
   buildPhase = ''
