@@ -15,6 +15,11 @@ in
 
   buildInputs = [ packwiz jq unzip zip moreutils ];
 
+  # To fix github action's "mkdir /homeless-shelter: permission denied"
+  preBuild = ''
+    HOME=$TMPDIR
+  '';
+
   buildPhase = ''
     packwiz modrinth export --output ./${resultName}
   '';
