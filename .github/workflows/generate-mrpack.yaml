@@ -16,9 +16,6 @@ jobs:
         uses: cachix/install-nix-action@v23
       - name: Create mrpack
         run: |
-          HOME=${{ runner.temp }}/homeless
-          mkdir $HOME
-
           OUTPUT_PATH=$(nix build .#modrinth-pack --print-out-paths)
           echo "OUTPUT_PATH=$OUTPUT_PATH" >> $GITHUB_ENV
       - name: Upload mrpack

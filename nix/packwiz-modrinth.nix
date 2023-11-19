@@ -16,6 +16,9 @@ in
   buildInputs = [ packwiz jq unzip zip moreutils ];
 
   buildPhase = ''
+    # this line needed for Github Action
+    export HOME=$TMPDIR
+
     packwiz modrinth export --output ./${resultName}
   '';
 
