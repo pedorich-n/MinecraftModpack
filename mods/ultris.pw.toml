@@ -1,0 +1,13 @@
+name = "Ultris: Boss Expansion"
+filename = "ultris-v5.6.9c.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/tA7mQv7R/versions/2V8JegEj/ultris-v5.6.9c.jar"
+hash-format = "sha1"
+hash = "7ddf40d66494e6089dba830acdffc6740adf0f41"
+
+[update]
+[update.modrinth]
+mod-id = "tA7mQv7R"
+version = "2V8JegEj"

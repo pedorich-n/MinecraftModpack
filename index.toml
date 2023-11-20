@@ -151,6 +151,11 @@ hash = "6e6ee1bf66d6977728d3bf5404338c87a0a4ad5260833efcd912aaaca776cf8f"
 metafile = true
 
 [[files]]
+file = "mods/endrem.pw.toml"
+hash = "bbd91f6874d99a59119b15103576c6686fe55bbf68dc3a03576d9ecd92023206"
+metafile = true
+
+[[files]]
 file = "mods/enhanced-celestials.pw.toml"
 hash = "d8cff179a1e34fac660bb78c7b93e0b3181422991ac50a5d8169d895dfe70275"
 metafile = true
@@ -233,6 +238,16 @@ metafile = true
 [[files]]
 file = "mods/gazebos.pw.toml"
 hash = "ce79370dc41e2ad09847c823bdc0f12aba55d12d621a33c8eb408ceb8420daa4"
+metafile = true
+
+[[files]]
+file = "mods/geckolib.pw.toml"
+hash = "08636c58b5d8591cb713231a9f9831369436b8ad2504c5610c3b66370b5891fc"
+metafile = true
+
+[[files]]
+file = "mods/geophilic.pw.toml"
+hash = "dff520bc4934ac3bf7fa1b0634c25a8d3b150117d20860f2d13b2d88664c52f1"
 metafile = true
 
 [[files]]
@@ -361,6 +376,11 @@ hash = "437e0fb9136c2c31f05f61902cbf2bee8e5558b32248f8de1a3e483c4f4ad611"
 metafile = true
 
 [[files]]
+file = "mods/naturalist.pw.toml"
+hash = "6cef110f567b6957a35aa4224c70e7e4ad22dd25f852b2a39d2457fdb804edff"
+metafile = true
+
+[[files]]
 file = "mods/nears.pw.toml"
 hash = "93c27699d9d3d200520cb535545383612666baaed9943a5f736800c0802f4c7d"
 metafile = true
@@ -446,6 +466,11 @@ hash = "64dd26764b474b4f2831197a2873ea86156f0c68518cee18eb78dcb962273434"
 metafile = true
 
 [[files]]
+file = "mods/ships.pw.toml"
+hash = "70073be39156ac51836063ba00067a173b1cc0c8802d9bbefbcc6366456126e4"
+metafile = true
+
+[[files]]
 file = "mods/show-me-what-you-got.pw.toml"
 hash = "73e522db6666ce4a96b69a93953553dc02d1bec4520f61207502f154ea6d608e"
 metafile = true
@@ -491,6 +516,11 @@ hash = "66049d24a7a6738f349784a79dc0e6b12a82d0593ea978ef7938c787be4f44d3"
 metafile = true
 
 [[files]]
+file = "mods/the-lost-castle.pw.toml"
+hash = "71759ba6675ec4109bc555e2f5adfa5d433d8f633692a1bb69b0c7b2a0b90ae9"
+metafile = true
+
+[[files]]
 file = "mods/tieredz.pw.toml"
 hash = "8f4b5473fba2495db5735b4b78517561753fb08025295484c9631e87aca92b60"
 metafile = true
@@ -508,6 +538,11 @@ metafile = true
 [[files]]
 file = "mods/trinkets.pw.toml"
 hash = "b2e02d1210f025b905299bfc88f895058640158343322641aca2c4875622c992"
+metafile = true
+
+[[files]]
+file = "mods/ultris.pw.toml"
+hash = "fbae272c03e36e382e39939f410fd5b9ae771a7b6f956890512f71c5a6a2d159"
 metafile = true
 
 [[files]]
@@ -553,6 +588,11 @@ metafile = true
 [[files]]
 file = "mods/weaponmaster.pw.toml"
 hash = "1c7e7e52a4125be4fa1bfe155a7b9fdaf8fa4c1a1f3ad1203171817f36cd41df"
+metafile = true
+
+[[files]]
+file = "mods/when-dungeons-arise.pw.toml"
+hash = "97f498b07031e2182b35950117c01d2b5be682ad03a12fedb041e739b9dbd0f9"
 metafile = true
 
 [[files]]
