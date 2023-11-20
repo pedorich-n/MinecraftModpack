@@ -21,6 +21,11 @@ hash = "a243675bc757485925b293932ee289b9fbcfb3b75bd3ba74eca7603f191cedad"
 metafile = true
 
 [[files]]
+file = "mods/artifacts.pw.toml"
+hash = "45e9ed825929aee685220a3625e94d89c5ba7c91557d2b8050b70c6008de1a7d"
+metafile = true
+
+[[files]]
 file = "mods/autotag.pw.toml"
 hash = "ea6fc6fba3ad1e9868e7807b17c04ebbad43a073b9be6d9374290b94eaa82e79"
 metafile = true
@@ -88,6 +93,11 @@ metafile = true
 [[files]]
 file = "mods/ct-overhaul-village.pw.toml"
 hash = "80298b747a1905798731066e4d8344aa2bb3367fb8b7d7492780cac46e9047f7"
+metafile = true
+
+[[files]]
+file = "mods/ctov-friends-and-foes-compat.pw.toml"
+hash = "d32052d1510b96b5138e158f01bd5e6fcecd42ebce1af34b11aa211965800f98"
 metafile = true
 
 [[files]]
@@ -203,6 +213,11 @@ metafile = true
 [[files]]
 file = "mods/formations.pw.toml"
 hash = "1fb6848f2fc67cb20f65b976c18d98bd98774d0a4c3b35af0d61057a984feb3f"
+metafile = true
+
+[[files]]
+file = "mods/friends-and-foes.pw.toml"
+hash = "72cb09c1b9cd9d3e8b837b8c226b40247ea6785a5049bb3a12162501103b8259"
 metafile = true
 
 [[files]]
@@ -356,11 +371,6 @@ hash = "147b6b0f10a870d77f49a494a62d0392ba47549d4e1bb9a09ccdcc4325afdb72"
 metafile = true
 
 [[files]]
-file = "mods/nevermore.pw.toml"
-hash = "a4ac05ba3b0eff327fc4fff1a07a84516a995c7820d3a9e8854912157b2e9925"
-metafile = true
-
-[[files]]
 file = "mods/ores-every-dimension.pw.toml"
 hash = "077698a7c49f534c59957b84cd8f6f109b40a45bb6f5955b8e6a6c3e65093ca2"
 metafile = true
@@ -418,11 +428,6 @@ metafile = true
 [[files]]
 file = "mods/rei.pw.toml"
 hash = "ae9f8aab8ab115688b981f290bc59db0de3b982e0a828b2ece38c41130b46a08"
-metafile = true
-
-[[files]]
-file = "mods/rpg-hud.pw.toml"
-hash = "14f2ffe5786e7ffb789688bd999730982e7e2a178ecf6990f991659ca7f7cb18"
 metafile = true
 
 [[files]]
