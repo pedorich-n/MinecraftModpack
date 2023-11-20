@@ -1,0 +1,13 @@
+name = "Bed Benefits"
+filename = "BedBenefits-Fabric-1.20.1-13.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Wl8l4Sim/versions/1baJrFw4/BedBenefits-Fabric-1.20.1-13.0.2.jar"
+hash-format = "sha1"
+hash = "f4bb64a377c4bd53f67a329fda83369b5c9d78dc"
+
+[update]
+[update.modrinth]
+mod-id = "Wl8l4Sim"
+version = "1baJrFw4"

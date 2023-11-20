@@ -1,0 +1,13 @@
+name = "Nether Sheep"
+filename = "NetherSheep-1.7-1.20-fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/hOrDPU58/versions/1oONoZuf/NetherSheep-1.7-1.20-fabric.jar"
+hash-format = "sha1"
+hash = "57ba8fec34ec821d11f558eed063a42c2d3c9d9f"
+
+[update]
+[update.modrinth]
+mod-id = "hOrDPU58"
+version = "1oONoZuf"

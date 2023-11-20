@@ -1,0 +1,13 @@
+name = "Server Sleep"
+filename = "serversleep-datapack.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Cw8IlnGM/versions/2LFCQnd1/serversleep-datapack.jar"
+hash-format = "sha1"
+hash = "d716afbca3a7994c71f660b821ac12fd9e06b8ca"
+
+[update]
+[update.modrinth]
+mod-id = "Cw8IlnGM"
+version = "2LFCQnd1"

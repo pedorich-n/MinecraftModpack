@@ -11,6 +11,11 @@ hash = "e3dfb2478e6bb096667d4ec89b0ddfef627747939373bdefee02f358d6e3dee1"
 metafile = true
 
 [[files]]
+file = "mods/aquamirae.pw.toml"
+hash = "ea42747450c6c385925895e98de7c1347c6e24b034bbaee198d5dfda4bb8eb1d"
+metafile = true
+
+[[files]]
 file = "mods/archers.pw.toml"
 hash = "fd5fed18ee77d9a0b46808030b57a216f084e018fc5db8d38cc44f93ab5f8206"
 metafile = true
@@ -41,6 +46,11 @@ hash = "b3f98ecce9ba4f90f371ef0c0ebbeedf81932b5c5832ad1e6fe9104b5d9a4287"
 metafile = true
 
 [[files]]
+file = "mods/bed-benefits.pw.toml"
+hash = "296b511555ebcee5c65a6a2de07b9c61da5b580d7aaa2259bbea52044bd66af3"
+metafile = true
+
+[[files]]
 file = "mods/better-combat.pw.toml"
 hash = "9e44e050783e06ab8135679dd4339e1bd96955423c35711bf09c485edeba77cd"
 metafile = true
@@ -61,6 +71,11 @@ hash = "db59d00c88ab7663c72736703f959733961a9fb00acebe524a2d862d4959adb2"
 metafile = true
 
 [[files]]
+file = "mods/bookshelf-lib.pw.toml"
+hash = "84f316671a16609ace1010b10f630ff04f12d3dac46fe48a0ce5d27f313260a6"
+metafile = true
+
+[[files]]
 file = "mods/c2me-fabric.pw.toml"
 hash = "7721e78d990cc15c02f1a03cd6d7652ea995b271a3d19a6ae44829b4c69acbf0"
 metafile = true
@@ -68,6 +83,11 @@ metafile = true
 [[files]]
 file = "mods/cardinal-components-api.pw.toml"
 hash = "50e3b067e93d3e6683d540edc4d046ed7b6b5fbb31409df1727b120f225b1975"
+metafile = true
+
+[[files]]
+file = "mods/cinderscapes.pw.toml"
+hash = "54cb55e5f1e39a6b3409399db7d8258c68e8ee64926fa650fb3d74b5cbb9fe42"
 metafile = true
 
 [[files]]
@@ -391,6 +411,16 @@ hash = "147b6b0f10a870d77f49a494a62d0392ba47549d4e1bb9a09ccdcc4325afdb72"
 metafile = true
 
 [[files]]
+file = "mods/nether-sheep.pw.toml"
+hash = "b1c66c50fb578e56ab349721c13989bcfabaf4694a8f3a3c9e045ad7b6332375"
+metafile = true
+
+[[files]]
+file = "mods/obscure-api.pw.toml"
+hash = "5b96aa24048b1cea2e05b91954a25579f41c83c7008afd5c48426b579664288a"
+metafile = true
+
+[[files]]
 file = "mods/ores-every-dimension.pw.toml"
 hash = "077698a7c49f534c59957b84cd8f6f109b40a45bb6f5955b8e6a6c3e65093ca2"
 metafile = true
@@ -463,6 +493,11 @@ metafile = true
 [[files]]
 file = "mods/runes.pw.toml"
 hash = "64dd26764b474b4f2831197a2873ea86156f0c68518cee18eb78dcb962273434"
+metafile = true
+
+[[files]]
+file = "mods/serversleep.pw.toml"
+hash = "18ef9ed32b347bee4e121c66c8bd88459bd21cb3c83a7d8c3f222ad9e45a67d6"
 metafile = true
 
 [[files]]
