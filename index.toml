@@ -191,6 +191,11 @@ hash = "39a6a39433b1b104bfafafcd60a8171f866daa2ebefffd64df822d0e69288e3a"
 metafile = true
 
 [[files]]
+file = "mods/forge-config-api-port.pw.toml"
+hash = "129bb8b135edc60038f021b693f5b88a0067b722f326e0d6067112243774289b"
+metafile = true
+
+[[files]]
 file = "mods/formations-nether.pw.toml"
 hash = "d5fac46144654658e564b01bbccab29ce67e9959a7264d591fbd3059e154a02d"
 metafile = true
@@ -413,6 +418,11 @@ metafile = true
 [[files]]
 file = "mods/rei.pw.toml"
 hash = "ae9f8aab8ab115688b981f290bc59db0de3b982e0a828b2ece38c41130b46a08"
+metafile = true
+
+[[files]]
+file = "mods/rpg-hud.pw.toml"
+hash = "14f2ffe5786e7ffb789688bd999730982e7e2a178ecf6990f991659ca7f7cb18"
 metafile = true
 
 [[files]]

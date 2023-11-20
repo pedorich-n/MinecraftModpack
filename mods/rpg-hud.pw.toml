@@ -1,0 +1,13 @@
+name = "RPG-HUD"
+filename = "[1.20.1][Fabric] RPG-HUD-3.10.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/EC41AOIq/versions/6pb8tE3E/%5B1.20.1%5D%5BFabric%5D%20RPG-HUD-3.10.jar"
+hash-format = "sha1"
+hash = "0e53df3e59834f78901e0fec3945711fd416cd7a"
+
+[update]
+[update.modrinth]
+mod-id = "EC41AOIq"
+version = "6pb8tE3E"
