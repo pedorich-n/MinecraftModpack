@@ -1,0 +1,13 @@
+name = "VillagersPlus"
+filename = "VillagersPlus_2.1_(FABRIC)_for_1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/oHGMwNDR/versions/QtzrqUgt/VillagersPlus_2.1_%28FABRIC%29_for_1.20.1.jar"
+hash-format = "sha1"
+hash = "7d07f7d9b2ef44613e2b78c9c3753e2718a336c7"
+
+[update]
+[update.modrinth]
+mod-id = "oHGMwNDR"
+version = "QtzrqUgt"

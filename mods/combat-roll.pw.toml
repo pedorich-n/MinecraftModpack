@@ -1,0 +1,13 @@
+name = "Combat Roll"
+filename = "combatroll-fabric-1.3.0+1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/wGKYL7st/versions/soyzSn1W/combatroll-fabric-1.3.0%2B1.20.1.jar"
+hash-format = "sha1"
+hash = "3c322af4d14547a74445cc4306001743b368c9ce"
+
+[update]
+[update.modrinth]
+mod-id = "wGKYL7st"
+version = "soyzSn1W"

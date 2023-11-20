@@ -1,0 +1,13 @@
+name = "WizardZ"
+filename = "wizardz-1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/sstDyAxN/versions/5hwBnr2J/wizardz-1.0.jar"
+hash-format = "sha1"
+hash = "253162347b003d1b05f5920c28a8de28638a307e"
+
+[update]
+[update.modrinth]
+mod-id = "sstDyAxN"
+version = "5hwBnr2J"

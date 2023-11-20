@@ -1,0 +1,13 @@
+name = "Ores Every Dimension"
+filename = "Ores Every Dimension.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/brY8OJ42/versions/oYi4X5s4/Ores%20Every%20Dimension.jar"
+hash-format = "sha1"
+hash = "66f76c3e3f40b9146790dc31da5d9e9e549f49b6"
+
+[update]
+[update.modrinth]
+mod-id = "brY8OJ42"
+version = "oYi4X5s4"

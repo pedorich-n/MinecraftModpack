@@ -1,0 +1,13 @@
+name = "PaladinZ"
+filename = "paladinz-1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/wzV50iIw/versions/oZJ4HH5O/paladinz-1.0.jar"
+hash-format = "sha1"
+hash = "07929f828d6888d69868b78f51b6145b2cc4b122"
+
+[update]
+[update.modrinth]
+mod-id = "wzV50iIw"
+version = "oZJ4HH5O"

@@ -1,0 +1,13 @@
+name = "Nameplate"
+filename = "nameplate-1.1.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/9J82qMn9/versions/mFgPkM5x/nameplate-1.1.4.jar"
+hash-format = "sha1"
+hash = "a576a95734dd6be24d4d3c6ba0963cec4002e49e"
+
+[update]
+[update.modrinth]
+mod-id = "9J82qMn9"
+version = "mFgPkM5x"

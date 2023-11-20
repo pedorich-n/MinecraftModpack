@@ -1,11 +1,12 @@
-name = "Fabric_Modpack"
-version = "2023.11.10"
+name = "Endering"
+author = "Pablo Peraza"
+version = "0.0.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "5ebf4533139ff9f2fe25c353cc55b4e0259a83189482709b09a5197ef0b2ee24"
+hash = "1ec63dc7811f7de4c48269a2aeb55e6f0ded2ebaca74f614aeb6e29f78c82f30"
 
 [versions]
 fabric = "0.14.24"
