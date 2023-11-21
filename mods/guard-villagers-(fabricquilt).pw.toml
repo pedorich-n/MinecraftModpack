@@ -1,0 +1,13 @@
+name = "Guard Villagers (Fabric/Quilt)"
+filename = "guardvillagers-2.0.8-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/59rkB3YY/versions/Kzz6E5Ap/guardvillagers-2.0.8-1.20.1.jar"
+hash-format = "sha1"
+hash = "641e6196e38958f3cac081a5edeb5db443aa2e7d"
+
+[update]
+[update.modrinth]
+mod-id = "59rkB3YY"
+version = "Kzz6E5Ap"

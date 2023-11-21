@@ -1,0 +1,13 @@
+name = "Radiant Gear"
+filename = "radiantgear-fabric-2.1.0+1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/AtT9wm5O/versions/MsZb9cgd/radiantgear-fabric-2.1.0%2B1.20.1.jar"
+hash-format = "sha1"
+hash = "ebb58e039adacd37c5b0fe4ebdd8201eef84acb5"
+
+[update]
+[update.modrinth]
+mod-id = "AtT9wm5O"
+version = "MsZb9cgd"

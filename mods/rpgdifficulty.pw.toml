@@ -1,0 +1,13 @@
+name = "RpgDifficulty"
+filename = "rpgdifficulty-1.3.13.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/G5AvCOPI/versions/TrES06kD/rpgdifficulty-1.3.13.jar"
+hash-format = "sha1"
+hash = "8033df8f9cab8f580cbddcdeafe5baf565c0083e"
+
+[update]
+[update.modrinth]
+mod-id = "G5AvCOPI"
+version = "TrES06kD"

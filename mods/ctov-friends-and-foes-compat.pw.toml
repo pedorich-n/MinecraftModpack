@@ -1,0 +1,13 @@
+name = "CTOV - Friends and Foes Compat"
+filename = "ctov-friends-and-foes-compat-2.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/kawJN2LZ/versions/BbKorFuj/ctov-friends-and-foes-compat-2.0.jar"
+hash-format = "sha1"
+hash = "3b553ec9ceefa63a47e79fa70bd16c33676b1203"
+
+[update]
+[update.modrinth]
+mod-id = "kawJN2LZ"
+version = "BbKorFuj"

@@ -1,0 +1,13 @@
+name = "Reinforced Shulker Boxes"
+filename = "reinforced-shulker-boxes-2.5.0+1.20.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/xlOwuSdN/versions/VPA2WJX5/reinforced-shulker-boxes-2.5.0%2B1.20.jar"
+hash-format = "sha1"
+hash = "4bbc9174c4f4479c3a948f6a66f430856adc8094"
+
+[update]
+[update.modrinth]
+mod-id = "xlOwuSdN"
+version = "VPA2WJX5"

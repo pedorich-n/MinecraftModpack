@@ -1,0 +1,13 @@
+name = "Structure Pool API"
+filename = "structure_pool_api-1.0+1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/LrYZi08Q/versions/Syp6lSTL/structure_pool_api-1.0%2B1.20.1.jar"
+hash-format = "sha1"
+hash = "4af199a3930dc5b1d343a7824b69063d240f0c0f"
+
+[update]
+[update.modrinth]
+mod-id = "LrYZi08Q"
+version = "Syp6lSTL"

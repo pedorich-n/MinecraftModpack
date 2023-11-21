@@ -1,0 +1,13 @@
+name = "Distorted Discs"
+filename = "DistortedDiscs-1.20.1-0.6.2_fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/c1YGVwll/versions/ppRiRdNN/DistortedDiscs-1.20.1-0.6.2_fabric.jar"
+hash-format = "sha1"
+hash = "17c8043f4b787f912f9d90e8f3bfe11caf288a0b"
+
+[update]
+[update.modrinth]
+mod-id = "c1YGVwll"
+version = "ppRiRdNN"
