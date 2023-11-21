@@ -71,6 +71,11 @@ hash = "6a51c7bacf8d179e11fe783804fd3687e409f34f6288e1aaceedf7261ee14006"
 metafile = true
 
 [[files]]
+file = "mods/bigger-better-end-cities.pw.toml"
+hash = "1a7dc213011ef5bc2755f286e9cf3588fe0f1222c0882b7a8ab549be7970cd97"
+metafile = true
+
+[[files]]
 file = "mods/bodies-bodies.pw.toml"
 hash = "a2adc95904d84c8d63c964f965827a1a34b413670a8b8deef1029ced76e93818"
 metafile = true
@@ -93,6 +98,11 @@ metafile = true
 [[files]]
 file = "mods/chatpatches.pw.toml"
 hash = "5d05ff6a4ce3ad876d26a23bbc609bf0089a3bbefd5f433fbbccd6ac00aed8e9"
+metafile = true
+
+[[files]]
+file = "mods/cinderscapes.pw.toml"
+hash = "54cb55e5f1e39a6b3409399db7d8258c68e8ee64926fa650fb3d74b5cbb9fe42"
 metafile = true
 
 [[files]]
@@ -201,11 +211,6 @@ hash = "bbd91f6874d99a59119b15103576c6686fe55bbf68dc3a03576d9ecd92023206"
 metafile = true
 
 [[files]]
-file = "mods/enhanced-celestials.pw.toml"
-hash = "d8cff179a1e34fac660bb78c7b93e0b3181422991ac50a5d8169d895dfe70275"
-metafile = true
-
-[[files]]
 file = "mods/entityculling.pw.toml"
 hash = "33f865a014f3acf2c1f2c452bfe7ba1a864acad178322a6eab3759c7e63c9654"
 metafile = true
@@ -301,11 +306,6 @@ hash = "0c5e71addef34c8dcd1c81dfc2ad851a3e274b9d8d3a7d388e1113d4139bf8d8"
 metafile = true
 
 [[files]]
-file = "mods/item-alchemy.pw.toml"
-hash = "462a67093d1c1b4b7ef9ba31d29ef6ea4fcd6280ab7f5f627315c7618d8a804b"
-metafile = true
-
-[[files]]
 file = "mods/jade.pw.toml"
 hash = "51709a536d48a3aa27af5c0316647dc0dc74be79000ecb5262795bb383c9a204"
 metafile = true
@@ -351,13 +351,18 @@ hash = "c239c951796882b9c93e649a0dba4f2d95804441faaed707b686381b7a5c67da"
 metafile = true
 
 [[files]]
-file = "mods/mcpitanlibarch.pw.toml"
-hash = "df3b887489515653eac7bcc023f7a5a8a9a16866e900e5dee528e55e64dccfe5"
+file = "mods/mariums-soulslike-weaponry.pw.toml"
+hash = "6c41ddf40d5d4d3f48ffd913a18b64b95e2c5a045a19e5754a6cfe30748c1542"
 metafile = true
 
 [[files]]
 file = "mods/memoryleakfix.pw.toml"
 hash = "8e42842f48b3227733bafced612212eee2298f567ca599ac6a55b9878ae661da"
+metafile = true
+
+[[files]]
+file = "mods/mes-moogs-end-structures.pw.toml"
+hash = "2fbce6c9dc6eb7ec8cb0261e64113544b4eceab281b61dbf3f5dc7f138b10c6b"
 metafile = true
 
 [[files]]
@@ -373,6 +378,16 @@ metafile = true
 [[files]]
 file = "mods/modmenu.pw.toml"
 hash = "4cd171d3f5f3e1d2948cb1b0062e742a5e85110c9e9a668f9aed5b0cebcb9c97"
+metafile = true
+
+[[files]]
+file = "mods/moogs-voyager-structures.pw.toml"
+hash = "053052c73977974636bc6d77dad6d5473533c50ea0a9dfd99eaed1ed27db529f"
+metafile = true
+
+[[files]]
+file = "mods/more-fossils.pw.toml"
+hash = "fe9e1163d2b65e146fa12a95ee7ce200441ba23042cb2fd8a46b97c047f77fe1"
 metafile = true
 
 [[files]]
@@ -408,6 +423,11 @@ metafile = true
 [[files]]
 file = "mods/nears.pw.toml"
 hash = "93c27699d9d3d200520cb535545383612666baaed9943a5f736800c0802f4c7d"
+metafile = true
+
+[[files]]
+file = "mods/nether-3.0.pw.toml"
+hash = "147b6b0f10a870d77f49a494a62d0392ba47549d4e1bb9a09ccdcc4325afdb72"
 metafile = true
 
 [[files]]
@@ -471,6 +491,11 @@ hash = "babcc560d562a67f83098bd9f334ee942272c222f2e1746d2329826631ccf760"
 metafile = true
 
 [[files]]
+file = "mods/radiant-gear.pw.toml"
+hash = "f6d1e9e7ae5c58e553b7ed878a835b60516243663c0f9fb57c547f1ca61ba8ea"
+metafile = true
+
+[[files]]
 file = "mods/re-disc-tribution.pw.toml"
 hash = "a13d7bba72e3b3161892281f57fae0428d21ee9843dac2e11089a7007ac9711a"
 metafile = true
@@ -528,6 +553,11 @@ metafile = true
 [[files]]
 file = "mods/show-me-what-you-got.pw.toml"
 hash = "73e522db6666ce4a96b69a93953553dc02d1bec4520f61207502f154ea6d608e"
+metafile = true
+
+[[files]]
+file = "mods/simply-swords.pw.toml"
+hash = "481554a4e059cda1be174d3942f0c0f0d7158fc8fc985ee332ccc4e2c74894b7"
 metafile = true
 
 [[files]]
