@@ -166,11 +166,6 @@ hash = "c56ae338249990a510c4479047c812cf320e5b3cf92833876fb43d846dc602ad"
 metafile = true
 
 [[files]]
-file = "mods/dropz.pw.toml"
-hash = "b74695a7c1e6fecc4e458fac8662b907719a28e448c26cf4b5fc669def2db05e"
-metafile = true
-
-[[files]]
 file = "mods/dungeons-and-taverns-ancient-city-overhaul.pw.toml"
 hash = "cf4b553affc8e25d8dea980efc7d73537e6fab7aa30fdd6c402c28cd79b129d5"
 metafile = true
@@ -473,11 +468,6 @@ metafile = true
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "babcc560d562a67f83098bd9f334ee942272c222f2e1746d2329826631ccf760"
-metafile = true
-
-[[files]]
-file = "mods/rayon.pw.toml"
-hash = "c0c0f81a86531c298fb11604dc6fc8877b5bebec4415a8684962abb5d1724099"
 metafile = true
 
 [[files]]
