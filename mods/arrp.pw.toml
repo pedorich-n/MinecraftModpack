@@ -1,0 +1,13 @@
+name = "ARRP"
+filename = "arrp-0.8.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/USLVyT7V/versions/gB6beVwo/arrp-0.8.0.jar"
+hash-format = "sha1"
+hash = "8034e06557b6dc72e9e2679ba5255ede65a14bb9"
+
+[update]
+[update.modrinth]
+mod-id = "USLVyT7V"
+version = "gB6beVwo"
