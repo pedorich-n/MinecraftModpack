@@ -10,6 +10,7 @@ python = "^3.11"
 dacite = "^1.8.1"
 mdutils = "^1.6.0"
 modrinth = "^0.1.5"
+curseforge = "^1.6.0"
 
 [tool.poetry.scripts]
 generate-readme = "src.main:main"

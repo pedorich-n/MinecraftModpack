@@ -111,6 +111,21 @@ files = [
 ]
 
 [[package]]
+name = "curseforge"
+version = "1.6.0"
+description = "A no-compromises wrapper for the CurseForge API"
+optional = false
+python-versions = "*"
+files = [
+    {file = "curseforge-1.6.0-py3-none-any.whl", hash = "sha256:9e11c649875fddcf270e0e1cdf07f0649632bba05c896b7f103148a723019a1c"},
+    {file = "curseforge-1.6.0.tar.gz", hash = "sha256:f1f376a86a8dbdc6b4d87167e45f4b5333fddc69748f8e1fddc6ad2de3bf0a67"},
+]
+
+[package.dependencies]
+diskcache = "*"
+requests = "*"
+
+[[package]]
 name = "dacite"
 version = "1.8.1"
 description = "Simple creation of data classes from dictionaries."
@@ -122,6 +137,17 @@ files = [
 
 [package.extras]
 dev = ["black", "coveralls", "mypy", "pre-commit", "pylint", "pytest (>=5)", "pytest-benchmark", "pytest-cov"]
+
+[[package]]
+name = "diskcache"
+version = "5.6.3"
+description = "Disk Cache -- Disk and file backed persistent cache."
+optional = false
+python-versions = ">=3"
+files = [
+    {file = "diskcache-5.6.3-py3-none-any.whl", hash = "sha256:5e31b2d5fbad117cc363ebaf6b689474db18a1f6438bc82358b024abd4c2ca19"},
+    {file = "diskcache-5.6.3.tar.gz", hash = "sha256:2c3a3fa2743d8535d832ec61c2054a1641f41775aa7c556758a109941e33e4fc"},
+]
 
 [[package]]
 name = "idna"
@@ -202,4 +228,4 @@ zstd = ["zstandard (>=0.18.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "cbb606b819bddd4f5d1f9b3fad6b7358df3c4269ef2eecb1314582d1fb9db118"
+content-hash = "6adb7e27dc9b3ee65814870d8d1b9a9f14f7ba02c6d37845f3bbb4a6fc87c33d"

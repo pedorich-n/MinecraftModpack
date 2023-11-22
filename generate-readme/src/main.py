@@ -10,6 +10,8 @@ import dacite
 import modrinth
 from mdutils.mdutils import MdUtils
 from mdutils.tools import TextUtils
+from curseforge import CurseClient
+
 
 logging.addLevelName(logging.WARNING, "WARN")
 logging.basicConfig(
@@ -58,8 +60,15 @@ class ModModrinthUpdateInfo:
 
 
 @dataclass
+class ModCurseForgeUpdateInfo:
+    file_id: int
+    project_id: int
+
+
+@dataclass
 class ModUpdateInfo:
     modrinth: Optional[ModModrinthUpdateInfo]
+    curseforge: Optional[ModCurseForgeUpdateInfo]
 
 
 @dataclass
@@ -107,7 +116,7 @@ def alter_keys(dictionary, func):
     for k, v in dictionary.items():
         if isinstance(v, dict):
             empty[func(k)] = alter_keys(v, func)
-        if isinstance(v, str):
+        else:
             empty[func(k)] = v
     return empty
 
@@ -173,18 +182,34 @@ def get_modrinth_mod_info(result: ModInfoResult, update_info: ModModrinthUpdateI
     return result
 
 
-def get_mod_info_result(mod_info: ModInfo) -> ModInfoResult:
+def get_curseforge_mod_info(
+    result: ModInfoResult, update_info: ModCurseForgeUpdateInfo, client: CurseClient
+) -> ModInfoResult:
+    mod = client.fetch(f"mods/{update_info.project_id}")
+
+    result.description = mod.get("summary")
+    result.url = mod["links"].get("websiteUrl")
+    result.version = None  # There's no mod version field in the API :(
+
+    return result
+
+
+def get_mod_info_result(mod_info: ModInfo, cf_client: Optional[CurseClient]) -> ModInfoResult:
     result = ModInfoResult(name=mod_info.name, side=mod_info.side)
 
     if mod_info.update.modrinth:
         logger.info(f"Fetching info from Modrinth for {mod_info.name}...")
         result = get_modrinth_mod_info(result, mod_info.update.modrinth)
 
+    elif mod_info.update.curseforge and cf_client:
+        logger.info(f"Fetching info from CurseForge for {mod_info.name}...")
+        result = get_curseforge_mod_info(result, mod_info.update.curseforge, cf_client)
+
     return result
 
 
-def get_pack_info_result(pack_info: PackInfo, mods: List[ModInfo]) -> PackInfoResult:
-    result_mods = [get_mod_info_result(mod) for mod in mods]
+def get_pack_info_result(pack_info: PackInfo, mods: List[ModInfo], cf_client: Optional[CurseClient]) -> PackInfoResult:
+    result_mods = [get_mod_info_result(mod, cf_client) for mod in mods]
     result = PackInfoResult(
         name=pack_info.name,
         version=pack_info.version,
@@ -234,10 +259,16 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--manifest", type=str, required=True, help="Path to a manifest file (usually pack.toml)")
     parser.add_argument("--output", type=str, required=False, default="README.md", help="Path to the output MD file")
+    parser.add_argument("--cf-key", type=str, required=False, default=None, help="CurseForge API Key")
 
     args = parser.parse_args()
     pack_path = canonicalize_path(Path(args.manifest))
     output_path = canonicalize_path(Path(args.output))
+
+    if args.cf_key:
+        cf_client = CurseClient(args.cf_key)
+    else:
+        cf_client = None
 
     root = pack_path.parent
     dacite_config = dacite.Config(type_hooks={Path: lambda p: resolve_path(root, p)})
@@ -246,6 +277,5 @@ def main():
     index_info = read_index(pack_info.index.file, dacite_config)
     mods_info = [read_mod(file_info.file) for file_info in index_info.files]
 
-    result = get_pack_info_result(pack_info, mods_info)
-
+    result = get_pack_info_result(pack_info, mods_info, cf_client)
     generate_readme(result, output_path)
