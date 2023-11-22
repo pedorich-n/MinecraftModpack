@@ -71,18 +71,13 @@ hash = "6a51c7bacf8d179e11fe783804fd3687e409f34f6288e1aaceedf7261ee14006"
 metafile = true
 
 [[files]]
+file = "mods/better-third-person.pw.toml"
+hash = "9c44cf229440021ac7c42cd265fcec944fb002e2264c61688dfc21546bdaed5d"
+metafile = true
+
+[[files]]
 file = "mods/bigger-better-end-cities.pw.toml"
 hash = "1a7dc213011ef5bc2755f286e9cf3588fe0f1222c0882b7a8ab549be7970cd97"
-metafile = true
-
-[[files]]
-file = "mods/bodies-bodies.pw.toml"
-hash = "a2adc95904d84c8d63c964f965827a1a34b413670a8b8deef1029ced76e93818"
-metafile = true
-
-[[files]]
-file = "mods/body-health-system.pw.toml"
-hash = "94351a35dbe209d393c08f7aeb8c94c3046bb6d9cda89f8efe1dc3433c83fe6a"
 metafile = true
 
 [[files]]
@@ -163,6 +158,11 @@ metafile = true
 [[files]]
 file = "mods/dcintegration.pw.toml"
 hash = "0b63f889c3c94734111131268bbd1c27632139c6b5ef4ec2b2f9d50e777d9f6a"
+metafile = true
+
+[[files]]
+file = "mods/death-knell.pw.toml"
+hash = "706cdf1e0eb2ee1b2b7f8171b537769f8be3684fdc769cfade557d52d7298e9d"
 metafile = true
 
 [[files]]
@@ -306,6 +306,11 @@ hash = "0c5e71addef34c8dcd1c81dfc2ad851a3e274b9d8d3a7d388e1113d4139bf8d8"
 metafile = true
 
 [[files]]
+file = "mods/iris.pw.toml"
+hash = "87ea5bf588ed195eaee3bcbd2432b5671692a203b25b688ffcbfeea6d2cea775"
+metafile = true
+
+[[files]]
 file = "mods/jade.pw.toml"
 hash = "51709a536d48a3aa27af5c0316647dc0dc74be79000ecb5262795bb383c9a204"
 metafile = true
@@ -351,11 +356,6 @@ hash = "c239c951796882b9c93e649a0dba4f2d95804441faaed707b686381b7a5c67da"
 metafile = true
 
 [[files]]
-file = "mods/mariums-soulslike-weaponry.pw.toml"
-hash = "6c41ddf40d5d4d3f48ffd913a18b64b95e2c5a045a19e5754a6cfe30748c1542"
-metafile = true
-
-[[files]]
 file = "mods/memoryleakfix.pw.toml"
 hash = "8e42842f48b3227733bafced612212eee2298f567ca599ac6a55b9878ae661da"
 metafile = true
@@ -398,6 +398,11 @@ metafile = true
 [[files]]
 file = "mods/moreculling.pw.toml"
 hash = "be1f88824f7ceb008ce38ae763a93921db0c27db68577fdb16c29c6a085ec1f3"
+metafile = true
+
+[[files]]
+file = "mods/morefrogs.pw.toml"
+hash = "a7313e570e143dd7b68294eecbb4744ef0e6e86a9d9d5a4762b8c5abbd760dc3"
 metafile = true
 
 [[files]]
@@ -556,8 +561,23 @@ hash = "73e522db6666ce4a96b69a93953553dc02d1bec4520f61207502f154ea6d608e"
 metafile = true
 
 [[files]]
+file = "mods/simple-copper-pipes.pw.toml"
+hash = "43cd002cd86e6740c51531fca1d78a1425cea700ecc5595e49e115fe7088805e"
+metafile = true
+
+[[files]]
+file = "mods/simply-skills.pw.toml"
+hash = "ea4875a723473ec73ade5d1b147044a51c3e9c2a7f02e0d07fcdd1c87245455c"
+metafile = true
+
+[[files]]
 file = "mods/simply-swords.pw.toml"
 hash = "481554a4e059cda1be174d3942f0c0f0d7158fc8fc985ee332ccc4e2c74894b7"
+metafile = true
+
+[[files]]
+file = "mods/skills.pw.toml"
+hash = "b7aa073b4154b29b8383810f7a780e48ace423aef116d6af9cd51e0152fd6f38"
 metafile = true
 
 [[files]]
@@ -638,6 +658,11 @@ metafile = true
 [[files]]
 file = "mods/ultris.pw.toml"
 hash = "fbae272c03e36e382e39939f410fd5b9ae771a7b6f956890512f71c5a6a2d159"
+metafile = true
+
+[[files]]
+file = "mods/universal-graves.pw.toml"
+hash = "5d52480f57b1b91195c6cde08c052e25df3e17addd5d5aadfeb7e8c8a594ffb9"
 metafile = true
 
 [[files]]
