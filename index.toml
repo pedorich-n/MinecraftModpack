@@ -66,11 +66,6 @@ hash = "06d14803ef706ee3ba0b24a30ba70bd5ee3a5c67d6e01d7ffc6396133cc871ef"
 metafile = true
 
 [[files]]
-file = "mods/bcbc.pw.toml"
-hash = "b3f98ecce9ba4f90f371ef0c0ebbeedf81932b5c5832ad1e6fe9104b5d9a4287"
-metafile = true
-
-[[files]]
 file = "mods/bed-benefits.pw.toml"
 hash = "296b511555ebcee5c65a6a2de07b9c61da5b580d7aaa2259bbea52044bd66af3"
 metafile = true
@@ -88,11 +83,6 @@ metafile = true
 [[files]]
 file = "mods/better-third-person.pw.toml"
 hash = "9c44cf229440021ac7c42cd265fcec944fb002e2264c61688dfc21546bdaed5d"
-metafile = true
-
-[[files]]
-file = "mods/bewitchment.pw.toml"
-hash = "bdca6c6aae1e50a528c5d343529d002cdbda431a059e70b9f8dc7d6fb21751f5"
 metafile = true
 
 [[files]]
@@ -503,11 +493,6 @@ metafile = true
 [[files]]
 file = "mods/patchouli.pw.toml"
 hash = "cd1f0cf0ae2b6e1c14e3caa4685ae721cb590835110e076400cd986be1db9903"
-metafile = true
-
-[[files]]
-file = "mods/pehkui.pw.toml"
-hash = "43b1a56c118d6ca8ee7b9599a88711d1e9426ad565a26ec07d7384457edf97a6"
 metafile = true
 
 [[files]]
