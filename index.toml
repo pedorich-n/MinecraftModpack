@@ -571,8 +571,18 @@ hash = "43cd002cd86e6740c51531fca1d78a1425cea700ecc5595e49e115fe7088805e"
 metafile = true
 
 [[files]]
+file = "mods/simply-skills.pw.toml"
+hash = "ea4875a723473ec73ade5d1b147044a51c3e9c2a7f02e0d07fcdd1c87245455c"
+metafile = true
+
+[[files]]
 file = "mods/simply-swords.pw.toml"
 hash = "481554a4e059cda1be174d3942f0c0f0d7158fc8fc985ee332ccc4e2c74894b7"
+metafile = true
+
+[[files]]
+file = "mods/skills.pw.toml"
+hash = "b7aa073b4154b29b8383810f7a780e48ace423aef116d6af9cd51e0152fd6f38"
 metafile = true
 
 [[files]]
