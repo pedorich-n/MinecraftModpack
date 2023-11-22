@@ -1,0 +1,13 @@
+name = "More Frogs"
+filename = "morefrogs-1.20.1-1.2.5-fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/iBGoeZ40/versions/jSQrMOym/morefrogs-1.20.1-1.2.5-fabric.jar"
+hash-format = "sha1"
+hash = "32b8781e90fef7b4e335e81ddbc833ab60a50986"
+
+[update]
+[update.modrinth]
+mod-id = "iBGoeZ40"
+version = "jSQrMOym"
