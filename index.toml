@@ -1,6 +1,16 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/ad-astra-giselle-addon.pw.toml"
+hash = "a47a72dfb4debbde2ea8e693e0990fa64261b18a97444cfd66b06e95d173055d"
+metafile = true
+
+[[files]]
+file = "mods/ad-astra.pw.toml"
+hash = "ff786550ebc945232c072bd3011919ab9fef52baf819705309d67c961332b604"
+metafile = true
+
+[[files]]
 file = "mods/adventurez.pw.toml"
 hash = "5114753cb4d08fb69cc23ff9bf58c70c3d2411f01c0b828dc24c25fa0cb8994b"
 metafile = true
@@ -86,6 +96,11 @@ hash = "84f316671a16609ace1010b10f630ff04f12d3dac46fe48a0ce5d27f313260a6"
 metafile = true
 
 [[files]]
+file = "mods/botarium.pw.toml"
+hash = "39c1c613510610ba17f1c40af55cbcf33cde14466f2f6ef9ab102fe67bf6cec5"
+metafile = true
+
+[[files]]
 file = "mods/cardinal-components-api.pw.toml"
 hash = "50e3b067e93d3e6683d540edc4d046ed7b6b5fbb31409df1727b120f225b1975"
 metafile = true
@@ -123,6 +138,16 @@ metafile = true
 [[files]]
 file = "mods/corgilib.pw.toml"
 hash = "c19456a7d54322948f6a9936342bb436d8380ee9f2542a0ce9d76fa501add711"
+metafile = true
+
+[[files]]
+file = "mods/create-fabric-sodium-fix.pw.toml"
+hash = "738234a75b69eadde29b6ebda5f0be28a3ac7f583d31f9a9a62febd4e784c3b7"
+metafile = true
+
+[[files]]
+file = "mods/createfabricreibugfix.pw.toml"
+hash = "5c4463d9b082ee1e4c9faa67734814296c0f4795735da2e298d7a0f8ddaf059b"
 metafile = true
 
 [[files]]
@@ -528,6 +553,16 @@ metafile = true
 [[files]]
 file = "mods/reinforced-shulker-boxes.pw.toml"
 hash = "2d8a93af767bb965505d115af079b716fff82e67f5672f91dad22efd6df885e2"
+metafile = true
+
+[[files]]
+file = "mods/resourceful-config.pw.toml"
+hash = "57d01e72025cda62fd692056f651cec99fdf34ca8874119dfd3e9d9d16f78195"
+metafile = true
+
+[[files]]
+file = "mods/resourceful-lib.pw.toml"
+hash = "637453f471b9b9a07c0d455eacbaa63509bd8066ca14f15e2225328bb18ca201"
 metafile = true
 
 [[files]]
