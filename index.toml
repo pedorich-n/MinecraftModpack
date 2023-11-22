@@ -81,11 +81,6 @@ hash = "1a7dc213011ef5bc2755f286e9cf3588fe0f1222c0882b7a8ab549be7970cd97"
 metafile = true
 
 [[files]]
-file = "mods/body-health-system.pw.toml"
-hash = "94351a35dbe209d393c08f7aeb8c94c3046bb6d9cda89f8efe1dc3433c83fe6a"
-metafile = true
-
-[[files]]
 file = "mods/bookshelf-lib.pw.toml"
 hash = "84f316671a16609ace1010b10f630ff04f12d3dac46fe48a0ce5d27f313260a6"
 metafile = true
@@ -353,11 +348,6 @@ metafile = true
 [[files]]
 file = "mods/lithium.pw.toml"
 hash = "c239c951796882b9c93e649a0dba4f2d95804441faaed707b686381b7a5c67da"
-metafile = true
-
-[[files]]
-file = "mods/mariums-soulslike-weaponry.pw.toml"
-hash = "6c41ddf40d5d4d3f48ffd913a18b64b95e2c5a045a19e5754a6cfe30748c1542"
 metafile = true
 
 [[files]]
