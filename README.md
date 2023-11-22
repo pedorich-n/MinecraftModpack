@@ -4,12 +4,14 @@ Modpack Info
   
   
 **Name**: Fabric_Modpack  
-**Version**: 2023.11.11  
+**Version**: 2023.11.12  
 **Minecraft Version**: 1.20.1  
 **Fabric Version**: 0.14.24  
 
 # Mods
 
+- [**Ad-Astra: Giselle Addon**](https://modrinth.com/mod/ad-astra-giselle-addon) (both, 5.6) - Add things be more convenience, compatibility for Ad Astra!
+- [**Ad Astra**](https://modrinth.com/mod/ad-astra) (both, 1.15.4) - Live long and prosper, Ad Astra!
 - [**AdventureZ**](https://modrinth.com/mod/adventurez) (both, 1.4.19+1.20.1) - adds a new endboss and other creatures
 - [**Alloy Forgery**](https://modrinth.com/mod/alloy-forgery) (both, 2.0.22+1.20) - Forge some alloys
 - [**AppleSkin**](https://modrinth.com/mod/appleskin) (both, 2.5.1+mc1.20) - Food/hunger-related HUD improvements
@@ -24,10 +26,10 @@ Modpack Info
 - [**Bed Benefits**](https://modrinth.com/mod/bed-benefits) (both, 13.0.2) - Adds some additional benefits to sleeping.
 - [**Better Combat**](https://modrinth.com/mod/better-combat) (both, 1.8.3+1.20.1-fabric) - ⚔️ Easy, spectacular and fun melee combat system from Minecraft Dungeons.
 - [**Better Ping Display [Fabric]**](https://modrinth.com/mod/better-ping-display-fabric) (client, 1.20.1-1.1.1) - Adds a configurable numerical ping display to the player list
+- [**Better Third Person**](https://modrinth.com/mod/better-third-person) (client, 1.9.0) - Improves third person camera view.
 - [**Bigger Better End Cities**](https://modrinth.com/mod/bigger-better-end-cities) (both, 1.20.1-1.0.4) - Rewrites end city generation to be bigger and better
-- [**Bodies! Bodies!**](https://modrinth.com/mod/bodies-bodies) (both, 1.0.1) - No more items despawning, if you die, your dead body will lay on the cold hard ground waiting for you.
-- [**Body Health System**](https://modrinth.com/mod/body-health-system) (both, 0.3.6) - A new health system for Minecraft
 - [**Bookshelf**](https://modrinth.com/mod/bookshelf-lib) (both, 20.1.6) - An open source library for other mods!
+- [**Botarium**](https://modrinth.com/mod/botarium) (both, 2.2.1) - A crossplatform API for devs that makes transfer and storage of items, fluids and energy easier, as well as some other helpful things
 - [**Cardinal Components API**](https://modrinth.com/mod/cardinal-components-api) (both, 5.2.2) - A data attachment API that is easy, modular, and extremely fast.
 - [**Chat Patches**](https://modrinth.com/mod/chatpatches) (client, 201.5.5) - A Minecraft Fabric client-side mod that touches up a few aspects of Minecraft's mundane chat, with as much configurability as possible!
 - [**Cinderscapes**](https://modrinth.com/mod/cinderscapes) (both, 4.0.9) - A biome mod expanding the life of The Nether
@@ -36,6 +38,8 @@ Modpack Info
 - [**Combat Roll**](https://modrinth.com/mod/combat-roll) (both, 1.3.0+1.20.1-fabric) - 🧶 Adds combat roll ability, with related attributes and enchantments.
 - [**Compact Help Command**](https://modrinth.com/mod/compact-help-command) (both, 1.20.1-2.4-forge+fabric) - 🗜 Modifies the /help command to show all information, be colourful and have multiple pages.
 - [**CorgiLib**](https://modrinth.com/mod/corgilib) (both, 1.20.1-4.0.0.4-fabric) - A library mod containing code used across Corgi Taco's mods.
+- [**Create Fabric Sodium Fix**](https://modrinth.com/mod/create-fabric-sodium-fix) (both, 0.5.1-d-build.5+mc1.20.1) - A fork of Create Fabric that supports Sodium 0.5+
+- [**CreateFabric&REIBugFix**](https://modrinth.com/mod/createfabricreibugfix) (client, 0.1.0-create0.5.1-mc1.20.x) - Fix Create-Fabric Recipe display on REI issues.
 - [**ChoiceTheorem's Overhauled Village**](https://modrinth.com/mod/ct-overhaul-village) (both, 3.3.6) - Enhances and creates new villages and pillager outposts, that perfectly fit into your Minecraft world.
 - [**CTOV - Friends and Foes Compat**](https://modrinth.com/mod/ctov-friends-and-foes-compat) (both, 2.0+mod) - Compatibility add-on for Friends and Foes mod and CTOV
 - [**CTOV - Gazebo compat**](https://modrinth.com/mod/ctov-gazebo-compat) (both, 1.0+mod) - Compatibility datapack between ChoiceTheorem's overhauled village and gazebos mod
@@ -43,6 +47,7 @@ Modpack Info
 - [**CTOV - Villagers Plus Compat**](https://modrinth.com/mod/ctov-villagers-plus-compat) (both, 2.0+mod) - Compatibility datapack between ChoiceTheorem's overhauled village and VillagersPlus mod
 - [**Dawn API**](https://modrinth.com/mod/dawn) (both, v5.0.0) - API that facilitates the creation of features.
 - [**Discord Integration**](https://modrinth.com/mod/dcintegration) (server, 3.0.3-1.20.1) - This mod links your server chat with a channel on your discord server
+- [**Death Knell**](https://modrinth.com/mod/death-knell) (both, 10.0.3) - Spice up the game with new player death messages.
 - [**Distorted Discs**](https://modrinth.com/mod/distorteddiscs) (both, 0.6.2) - Adds 50+ new records that can be found throughout your world. Vanilla Style. Music by BBoldt.
 - [**Double Doors**](https://modrinth.com/mod/double-doors) (both, 1.20.1-5.1-forge+fabric) - 🚪 Multiple identical double doors, trapdoors and fence gates can be opened simultaneously.
 - [**Dungeons and Taverns Ancient City Overhaul**](https://modrinth.com/mod/dungeons-and-taverns-ancient-city-overhaul) (both, 1+mod) - Standalone Splinter version of Dungeons and Taverns Ancient City Overhaul
@@ -71,6 +76,7 @@ Modpack Info
 - [**GUI Clock**](https://modrinth.com/mod/gui-clock) (both, 1.20.1-4.3-forge+fabric) - ⏰ Shows the time/days played in the GUI/HUD with a clock in the inventory.
 - [**ImmediatelyFast**](https://modrinth.com/mod/immediatelyfast) (client, 1.2.7+1.20.2) - Speed up immediate mode rendering in Minecraft
 - [**Indium**](https://modrinth.com/mod/indium) (client, 1.0.27+mc1.20.1) - Sodium addon providing support for the Fabric Rendering API, based on Indigo
+- [**Iris Shaders**](https://modrinth.com/mod/iris) (client, 1.6.10+1.20.1) - A modern shaders mod for Minecraft intended to be compatible with existing OptiFine shader packs
 - [**Jade 🔍**](https://modrinth.com/mod/jade) (both, 11.6.2) - Shows information about what you are looking at. (Hwyla/Waila fork for Minecraft 1.16+)
 - [**Jewelry (RPG Series)**](https://modrinth.com/mod/jewelry) (both, 1.2.2+1.20.1) - 💍 Find precious gems deep down, and craft them into powerful jewelry!
 - [**JLine for Dedicated Server**](https://modrinth.com/mod/jline4mcdsrv) (server, 0.4.3) - A server side mod to enable command history, auto completion and syntax highlighting on the server console
@@ -80,7 +86,6 @@ Modpack Info
 - [**Leaves Be Gone**](https://modrinth.com/mod/leaves-be-gone) (both, v8.0.0-1.20.1-Fabric) - Quick leaf decay from cutting down trees. Built for fast performance and mod compat!
 - [**LibZ**](https://modrinth.com/mod/libz) (both, 1.0.3+1.20.1) - Open source library for a couple of Globox_Z mods
 - [**Lithium**](https://modrinth.com/mod/lithium) (both, mc1.20.1-0.11.2) - No-compromises game logic/server optimization mod
-- [**Marium's Soulslike Weaponry**](https://modrinth.com/mod/mariums-soulslike-weaponry) (both, 1.0.0) - A minecraft mod that adds new bosses and legendary weapons
 - [**Memory Leak Fix**](https://modrinth.com/mod/memoryleakfix) (both, v1.1.2) - A mod that fixes random memory leaks for both the client and server
 - [**MES - Moog's End Structures**](https://modrinth.com/mod/mes-moogs-end-structures) (both, 1.3-1.20-fabric) - Lots of Vanilla styled structrues to fill up the end dimension with life!
 - [**Mob Captains**](https://modrinth.com/mod/mob-captains) (both, v2.1.2+mod) - Rare and strong mobs will spawn, dropping illegally enchanted gear
@@ -90,6 +95,7 @@ Modpack Info
 - [**More Fossils**](https://modrinth.com/mod/more-fossils) (both, 2.0.0) - Lets fossils generate in any biome, with more of them being found in the Deep Dark.
 - [**More Mobs**](https://modrinth.com/mod/more-mobs) (both, 1.5+mod) - Humanoid mobs get new variants through over 85 custom player heads or unused vanilla mobs! No Resource Pack needed!
 - [**More Culling**](https://modrinth.com/mod/moreculling) (client, v0.19.0-1.20.x) - A mod that changes how multiple types of culling are handled in order to improve performance
+- [**More Frogs**](https://modrinth.com/mod/morefrogs) (both, 1.2.5) - Adds more frog variants to minecraft.
 - [**Mouse Tweaks**](https://modrinth.com/mod/mouse-tweaks) (client, 1.20-2.25-fabric) - Enhances inventory management by adding various functions to the mouse buttons. 
 - [**Mythic Metals**](https://modrinth.com/mod/mythicmetals) (both, 0.19.0+1.20-alpha) - Adds a large variety of ores, toolsets, weapons and armor to the game.
 - [**Nameplate**](https://modrinth.com/mod/nameplate) (both, 1.1.4+1.20.1) - Show mob levels depending on health
@@ -115,13 +121,18 @@ Modpack Info
 - [**Reinforced Barrels**](https://modrinth.com/mod/reinforced-barrels) (both, 2.4.1+1.20) - Adds reinforced barrels.
 - [**Reinforced Chests**](https://modrinth.com/mod/reinforced-chests) (both, 2.4.2+1.20) - Adds reinforced chests.
 - [**Reinforced Shulker Boxes**](https://modrinth.com/mod/reinforced-shulker-boxes) (both, 2.5.0+1.20) - Adds reinforced shulker boxes.
+- [**Resourceful Config**](https://modrinth.com/mod/resourceful-config) (both, 2.1.0) - Resourceful Config is a mod that allows for developers to make cross-platform configs
+- [**Resourceful Lib**](https://modrinth.com/mod/resourceful-lib) (both, 2.1.16) - Resourceful Lib
 - [**RpgDifficulty**](https://modrinth.com/mod/rpgdifficulty) (both, 1.3.13+1.20.1) - Strengthen mobs over distance and/or time
 - [**RpgZ**](https://modrinth.com/mod/rpgz) (both, 0.5.3+1.20.1) - rpg style mob looting
 - [**Runes**](https://modrinth.com/mod/runes) (both, 0.9.10+1.20.1-fabric) - 🪨 Craft runes to serve as ammo for spells
 - [**Server Sleep**](https://modrinth.com/mod/serversleep) (both, mod) - The simplest multiplayer sleep mod/datapack. - Changes playersSleepingPercentage to 50%
 - [**Ships**](https://modrinth.com/mod/ships) (both, 3.0.1+mod) - Adds a new ship dungeon and lets illagers use boats.
 - [**Show Me What You Got**](https://modrinth.com/mod/show-me-what-you-got) (both, 1.20-1.1.1) - Allows displaying your items in chat. Brag about your cool equipment!
+- [**Simple Copper Pipes**](https://modrinth.com/mod/simple-copper-pipes) (both, 1.15.4-1.20.1) - Adds vanilla-friendly copper pipes to Minecraft!
+- [**Simply Skills**](https://modrinth.com/mod/simply-skills) (both, 1.0.0+1.20.1) - A comprehensive skill tree mod with a focus on combat specialisations (classes)
 - [**Simply Swords**](https://modrinth.com/mod/simply-swords) (both, 1.51.5-1.20.1) - Adds Spears, Glaives, Chakrams, Katanas, Greathammer/axes, Rapiers, and many more weapons!
+- [**Pufferfish's Skills**](https://modrinth.com/mod/skills) (both, 0.10.0) - Adds a fully configurable skill system to the game.
 - [**Sodium Extra**](https://modrinth.com/mod/sodium-extra) (client, mc1.20.1-0.5.1) - Features that shouldn't be in Sodium.
 - [**Sodium**](https://modrinth.com/mod/sodium) (client, mc1.20.1-0.5.3) - A modern rendering engine for Minecraft which greatly improves performance
 - [**Sound Physics Remastered**](https://modrinth.com/mod/sound-physics-remastered) (both, fabric-1.20.1-1.2.1) - A Minecraft mod that provides realistic sound attenuation, reverberation, and absorption through blocks.
@@ -138,6 +149,7 @@ Modpack Info
 - [**TravelerZ**](https://modrinth.com/mod/travelerz) (both, 1.0.1+1.20.1) - Adds titles while traveling through biomes to show the average level of mobs as an addon for the nameplate mod
 - [**Trinkets**](https://modrinth.com/mod/trinkets) (both, 3.7.1) - A data-driven accessory mod
 - [**Ultris: Boss Expansion**](https://modrinth.com/mod/ultris) (both, 5.6.9c+mod) - Explore 8 new and exciting bosses to take on across your world, with new structures, items, and stories for you to unravel.
+- [**Universal Graves**](https://modrinth.com/mod/universal-graves) (both, 3.0.0+1.20.1) - Customisable grave mod for Fabric!
 - [**Universal Ores**](https://modrinth.com/mod/universal_ores) (both, v1.5.2) - Adds ores variants for andesite, diorite, granite and tuff
 - [**Veinminer**](https://modrinth.com/mod/veinminer) (server, 1.1.0+mod) - Mine the whole vine on mining a single ore. Known feature by modpacks and pvp games like UHC (quick mine)
 - [**Village Spawn Point**](https://modrinth.com/mod/village-spawn-point) (both, 1.20.1-4.1-forge+fabric) - 🏙 Sets the spawn point in a new world to the center of a village.

@@ -22,13 +22,13 @@
         {
           packwiz-server = packwiz2nixLib.fetchPackwizModpack {
             manifest = "${self}/pack.toml";
-            hash = "sha256-ENDYw0gAaSLlf5MlbB7+MSf2JkIvY4x23vUsBDGvHdA=";
+            hash = "sha256-ja7ujHGOs7DIITGNxyX0+s35O76rAJaeOVXJ9ZKEvWI=";
             side = "server";
           };
 
           modrinth-pack = pkgs.callPackage ./nix/packwiz-modrinth.nix { } {
             src = self;
-            hash = "sha256-Hh/ZhfNIn8OOtutvlcVWLM08Mk+ROxEButXF4Y0Uj5A=";
+            hash = "sha256-wdn9mUnQnxJR3SBNIsisP2itJoiKxov6ei4t9+4KlYU=";
           };
 
           # Not used for anything right now
