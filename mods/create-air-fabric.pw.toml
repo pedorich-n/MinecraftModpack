@@ -1,0 +1,13 @@
+name = "Create Air Fabric"
+filename = "createairfabric-1.0+1.20.1-15.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/C90qpzXw/versions/kF36awMc/createairfabric-1.0%2B1.20.1-15.jar"
+hash-format = "sha1"
+hash = "b4ce573a566d5416e3f38fca9220142e659092cc"
+
+[update]
+[update.modrinth]
+mod-id = "C90qpzXw"
+version = "kF36awMc"
