@@ -21,11 +21,6 @@ hash = "149062fec33cc9b361650d6aacbbb668381007e14ec6b1ef98fb7e4fe9c51685"
 metafile = true
 
 [[files]]
-file = "mods/anvilfix.pw.toml"
-hash = "aed66354bca15a6dce888ea63ba18532be7110501b6fbe14ccb846d6c5ec4175"
-metafile = true
-
-[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "e3dfb2478e6bb096667d4ec89b0ddfef627747939373bdefee02f358d6e3dee1"
 metafile = true
@@ -308,6 +303,11 @@ metafile = true
 [[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "39a6a39433b1b104bfafafcd60a8171f866daa2ebefffd64df822d0e69288e3a"
+metafile = true
+
+[[files]]
+file = "mods/fixed-anvil-repair-cost.pw.toml"
+hash = "04877bcac578bf5df8fad4bac89521e59dcd69100b3b8c124acf6a87d7785ee7"
 metafile = true
 
 [[files]]

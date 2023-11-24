@@ -4,7 +4,7 @@ Modpack Info
   
   
 **Name**: Fabric_Modpack  
-**Version**: 2023.11.13  
+**Version**: 2023.11.14  
 **Minecraft Version**: 1.20.1  
 **Fabric Version**: 0.14.24  
 
@@ -14,7 +14,6 @@ Modpack Info
 - [**Ad Astra**](https://modrinth.com/mod/ad-astra) (both, 1.15.4) - Live long and prosper, Ad Astra!
 - [**AdventureZ**](https://modrinth.com/mod/adventurez) (both, 1.4.19+1.20.1) - adds a new endboss and other creatures
 - [**Alloy Forgery**](https://modrinth.com/mod/alloy-forgery) (both, 2.0.22+1.20) - Forge some alloys
-- [**AnvilFix**](https://modrinth.com/mod/anvilfix) (server, Alpha-1.0.1) - This mod aims to fix the long-standing Anvil balance issues Mojang refuses to fix.
 - [**AppleSkin**](https://modrinth.com/mod/appleskin) (both, 2.5.1+mc1.20) - Food/hunger-related HUD improvements
 - [**Aquamirae**](https://modrinth.com/mod/aquamirae) (both, 6) - Ship graveyard with terrible deep sea creatures!
 - [**Archers (RPG Series)**](https://modrinth.com/mod/archers) (both, 1.0.6+1.20.1) - 🏹 Draw, Release, Conquer - Master the art of Archery!
@@ -72,6 +71,7 @@ Modpack Info
 - [**Falling Leaves**](https://modrinth.com/mod/fallingleaves) (client, 1.15.4) - Adds a neat little particle effect to leaf blocks
 - [**FallingTree**](https://modrinth.com/mod/fallingtree) (both, 1.20.1-4.3.1) - Break down your trees by only cutting one piece of it
 - [**FerriteCore**](https://modrinth.com/mod/ferrite-core) (both, 6.0.1) - Memory usage optimizations
+- [**Fixed Anvil Repair Cost**](https://modrinth.com/mod/fixed-anvil-repair-cost) (both, 1.20.1-3.2-forge+fabric) - 💰 Patches the anvil to set the default level cost, material cost and percentage repaired.
 - [**Forge Config API Port**](https://modrinth.com/mod/forge-config-api-port) (both, v8.0.0-1.20.1-Fabric) - Forge's whole config system provided to the Fabric ecosystem. Designed for a multiloader architecture.
 - [**Friends&Foes (Fabric)**](https://modrinth.com/mod/friends-and-foes) (both, fabric-mc1.20.1-1.9.8) - Adds outvoted and forgotten mobs from the mob votes in a believable vanilla plus style. (Copper Golem, Glare, Moobloom, Iceologer, Barnacle, Wildfire, Illusioner, Rascal, Tuff Golem)
 - [**Fabric Waystones**](https://modrinth.com/mod/fwaystones) (both, 3.3.1+mc1.20.1) - A better way of transport
