@@ -4,7 +4,7 @@ Modpack Info
   
   
 **Name**: Fabric_Modpack  
-**Version**: 2023.11.12  
+**Version**: 2023.11.13  
 **Minecraft Version**: 1.20.1  
 **Fabric Version**: 0.14.24  
 
@@ -14,13 +14,14 @@ Modpack Info
 - [**Ad Astra**](https://modrinth.com/mod/ad-astra) (both, 1.15.4) - Live long and prosper, Ad Astra!
 - [**AdventureZ**](https://modrinth.com/mod/adventurez) (both, 1.4.19+1.20.1) - adds a new endboss and other creatures
 - [**Alloy Forgery**](https://modrinth.com/mod/alloy-forgery) (both, 2.0.22+1.20) - Forge some alloys
+- [**AnvilFix**](https://modrinth.com/mod/anvilfix) (server, Alpha-1.0.1) - This mod aims to fix the long-standing Anvil balance issues Mojang refuses to fix.
 - [**AppleSkin**](https://modrinth.com/mod/appleskin) (both, 2.5.1+mc1.20) - Food/hunger-related HUD improvements
 - [**Aquamirae**](https://modrinth.com/mod/aquamirae) (both, 6) - Ship graveyard with terrible deep sea creatures!
 - [**Archers (RPG Series)**](https://modrinth.com/mod/archers) (both, 1.0.6+1.20.1) - 🏹 Draw, Release, Conquer - Master the art of Archery!
 - [**Architectury API**](https://modrinth.com/mod/architectury-api) (both, 9.1.12+fabric) - An intermediary api aimed to ease developing multiplatform mods.
-- [**Armor Toughness Bar**](https://modrinth.com/mod/armor-toughness-bar) (client, 1.0.0) - A dead-simple armor toughness bar for Fabric.
 - [**ARRP**](https://modrinth.com/mod/arrp) (both, 0.8.0) - Runtime Asset/Data Generation API
 - [**Artifacts**](https://modrinth.com/mod/artifacts) (both, 9.2.0) - Adds various treasure items that can be found through exploration
+- [**AttributeFix**](https://modrinth.com/mod/attributefix) (both, 21.0.3) - Removes arbitrary limits on Minecraft's attribute system. Fixes MANY mods!
 - [**AutoTag**](https://modrinth.com/mod/autotag) (both, 2.0.2+1.20) - Automatically populates some item, block and other tags (for mod compatibility)
 - [**AzureLib Armor**](https://modrinth.com/mod/azurelib-armor) (both, 2.0.0) - A striped down Azurelib just for Armor!
 - [**Bed Benefits**](https://modrinth.com/mod/bed-benefits) (both, 13.0.2) - Adds some additional benefits to sleeping.
@@ -33,9 +34,11 @@ Modpack Info
 - [**Cardinal Components API**](https://modrinth.com/mod/cardinal-components-api) (both, 5.2.2) - A data attachment API that is easy, modular, and extremely fast.
 - [**Chat Patches**](https://modrinth.com/mod/chatpatches) (client, 201.5.5) - A Minecraft Fabric client-side mod that touches up a few aspects of Minecraft's mundane chat, with as much configurability as possible!
 - [**Cinderscapes**](https://modrinth.com/mod/cinderscapes) (both, 4.0.9) - A biome mod expanding the life of The Nether
+- [**Clear Enchanting**](https://modrinth.com/mod/clear-enchanting) (client, 1.1.0) - Shows the enchantment table's enchantments without having to hover over them.
 - [**Cloth Config API**](https://modrinth.com/mod/cloth-config) (both, 11.1.106+fabric) - Configuration Library for Minecraft Mods
 - [**Collective**](https://modrinth.com/mod/collective) (both, 1.20.1-7.7-fabric+forge+neo) - 🎓 Collective is a shared library with common code for all of Serilum's mods.
 - [**Combat Roll**](https://modrinth.com/mod/combat-roll) (both, 1.3.0+1.20.1-fabric) - 🧶 Adds combat roll ability, with related attributes and enchantments.
+- [**Combat Enchantments**](https://modrinth.com/mod/combatenchantments) (both, 2.14.9) - Adds some new combat focused enchantments
 - [**Compact Help Command**](https://modrinth.com/mod/compact-help-command) (both, 1.20.1-2.4-forge+fabric) - 🗜 Modifies the /help command to show all information, be colourful and have multiple pages.
 - [**CorgiLib**](https://modrinth.com/mod/corgilib) (both, 1.20.1-4.0.0.4-fabric) - A library mod containing code used across Corgi Taco's mods.
 - [**Create Fabric Sodium Fix**](https://modrinth.com/mod/create-fabric-sodium-fix) (both, 0.5.1-d-build.5+mc1.20.1) - A fork of Create Fabric that supports Sodium 0.5+
@@ -56,12 +59,15 @@ Modpack Info
 - [**Dungeons and Taverns**](https://modrinth.com/mod/dungeons-and-taverns) (both, 3.0.3+mod) - A Structure Datapack adding dungeons, taverns and other structures to find while you explore the world.
 - [**Dynamic FPS**](https://modrinth.com/mod/dynamic-fps) (client, 3.2.1) - Improve performance when Minecraft is in the background.
 - [**Dynamic Music Updated**](https://modrinth.com/mod/dynamic-music-updated) (client, v2.3.2+1.20) - A fork of LudoCrypt's Dynamic Music !
+- [**Easy Magic**](https://modrinth.com/mod/easy-magic) (both, v8.0.1-1.20.1-Fabric) - Enchanting tables as they always should have been! Items stay after closing, and easy re-rolls.
 - [**End Remastered**](https://modrinth.com/mod/endrem) (both, 5.2.3) - Make your journey to the End more Challenging and Engaging with End Remastered!
 - [**Entity Culling**](https://modrinth.com/mod/entityculling) (client, 1.6.2-1.20.2) - Using async path-tracing to hide Block-/Entities that are not visible
+- [**Eureka!**](https://modrinth.com/mod/eureka) (both, 1.20.1-fabric-1.3.0-beta.2) - Eureka! Build ships in Minecraft out of ordinary blocks, with physics.
 - [**Even Better Archeology**](https://modrinth.com/mod/even-better-archeology) (both, 2.0.0-beta.6) - A fork of Better Archeology with compatibility for more mods
 - [**Exordium**](https://modrinth.com/mod/exordium) (client, 1.2.1-1.20.1) - Render the GUI and screens at a lower framerate to speed up what's really important: the worldrendering.
 - [**Explosive Enhancement**](https://modrinth.com/mod/explosive-enhancement) (client, 1.2.2-1.20.x) - Makes the explosion animation look cooler.
 - [**Fabric API**](https://modrinth.com/mod/fabric-api) (both, 0.90.7+1.20.1) - Lightweight and modular API providing common hooks and intercompatibility measures utilized by mods using the Fabric toolchain.
+- [**Fabric Language Kotlin**](https://modrinth.com/mod/fabric-language-kotlin) (both, 1.10.14+kotlin.1.9.20) - This is a mod that enables usage of the Kotlin programming language for Fabric mods.
 - [**FabricExporter**](https://modrinth.com/mod/fabricexporter) (server, 1.0.10) - Fabric mod that adds a Prometheus exporter with general metrics of your server
 - [**Falling Leaves**](https://modrinth.com/mod/fallingleaves) (client, 1.15.4) - Adds a neat little particle effect to leaf blocks
 - [**FallingTree**](https://modrinth.com/mod/fallingtree) (both, 1.20.1-4.3.1) - Break down your trees by only cutting one piece of it
@@ -86,6 +92,7 @@ Modpack Info
 - [**Leaves Be Gone**](https://modrinth.com/mod/leaves-be-gone) (both, v8.0.0-1.20.1-Fabric) - Quick leaf decay from cutting down trees. Built for fast performance and mod compat!
 - [**LibZ**](https://modrinth.com/mod/libz) (both, 1.0.3+1.20.1) - Open source library for a couple of Globox_Z mods
 - [**Lithium**](https://modrinth.com/mod/lithium) (both, mc1.20.1-0.11.2) - No-compromises game logic/server optimization mod
+- [**Max Enchant X**](https://modrinth.com/mod/max-enchant-x) (both, 1.3) - Sets the default maximum level for most enchantments to 10.
 - [**Memory Leak Fix**](https://modrinth.com/mod/memoryleakfix) (both, v1.1.2) - A mod that fixes random memory leaks for both the client and server
 - [**MES - Moog's End Structures**](https://modrinth.com/mod/mes-moogs-end-structures) (both, 1.3-1.20-fabric) - Lots of Vanilla styled structrues to fill up the end dimension with life!
 - [**Mob Captains**](https://modrinth.com/mod/mob-captains) (both, v2.1.2+mod) - Rare and strong mobs will spawn, dropping illegally enchanted gear
@@ -106,6 +113,7 @@ Modpack Info
 - [**No Chat Reports**](https://modrinth.com/mod/no-chat-reports) (both, Fabric-1.20.1-v2.2.2) - Makes chat unreportable (where possible)
 - [**Obscure API**](https://modrinth.com/mod/obscure-api) (both, 16) - Auxiliary Library
 - [**Ores Every Dimension**](https://modrinth.com/mod/ores-every-dimension) (both, 1.1.0) - Add Overworld ore to the Nether and the End!
+- [**Overflowing Bars**](https://modrinth.com/mod/overflowing-bars) (client, v8.0.0-1.20.1-Fabric) - Expand health, armor and armor toughness bars beyond vanilla. Nice and compact without confusing colors.
 - [**oωo (owo-lib)**](https://modrinth.com/mod/owo-lib) (both, 0.11.2+1.20) - A general utility, GUI and config library for modding on Fabric and Quilt
 - [**Paladins & Priests (RPG Series)**](https://modrinth.com/mod/paladins-and-priests) (both, 1.0.4+1.20.1-fabric) - ✨ Protect and heal your friends as a Paladin or a Priest
 - [**Patchouli**](https://modrinth.com/mod/patchouli) (both, 1.20.1-81-fabric) - Accessible, Data-Driven, Dependency-Free Documentation for Minecraft Modders and Pack Makers
@@ -123,7 +131,6 @@ Modpack Info
 - [**Reinforced Shulker Boxes**](https://modrinth.com/mod/reinforced-shulker-boxes) (both, 2.5.0+1.20) - Adds reinforced shulker boxes.
 - [**Resourceful Config**](https://modrinth.com/mod/resourceful-config) (both, 2.1.0) - Resourceful Config is a mod that allows for developers to make cross-platform configs
 - [**Resourceful Lib**](https://modrinth.com/mod/resourceful-lib) (both, 2.1.16) - Resourceful Lib
-- [**RpgDifficulty**](https://modrinth.com/mod/rpgdifficulty) (both, 1.3.13+1.20.1) - Strengthen mobs over distance and/or time
 - [**RpgZ**](https://modrinth.com/mod/rpgz) (both, 0.5.3+1.20.1) - rpg style mob looting
 - [**Runes**](https://modrinth.com/mod/runes) (both, 0.9.10+1.20.1-fabric) - 🪨 Craft runes to serve as ammo for spells
 - [**Server Sleep**](https://modrinth.com/mod/serversleep) (both, mod) - The simplest multiplayer sleep mod/datapack. - Changes playersSleepingPercentage to 50%
@@ -146,20 +153,22 @@ Modpack Info
 - [**The Lost Castle**](https://modrinth.com/mod/the-lost-castle) (both, 1.0.1) - Former structure of End Remastered, The Lost Castle introduces an enormous castle. Inside resides infinite fortune and mysteries from a long forgotten civilization that disappeared a long time ago...
 - [**TieredZ**](https://modrinth.com/mod/tieredz) (both, 1.3.0+1.20.1) - Adds tiers/modifiers to tools
 - [**Traveler's Backpack**](https://modrinth.com/mod/travelersbackpack) (both, 1.20.1-9.1.8) - The official port of Adventure Backpack
-- [**TravelerZ**](https://modrinth.com/mod/travelerz) (both, 1.0.1+1.20.1) - Adds titles while traveling through biomes to show the average level of mobs as an addon for the nameplate mod
 - [**Trinkets**](https://modrinth.com/mod/trinkets) (both, 3.7.1) - A data-driven accessory mod
 - [**Ultris: Boss Expansion**](https://modrinth.com/mod/ultris) (both, 5.6.9c+mod) - Explore 8 new and exciting bosses to take on across your world, with new structures, items, and stories for you to unravel.
 - [**Universal Graves**](https://modrinth.com/mod/universal-graves) (both, 3.0.0+1.20.1) - Customisable grave mod for Fabric!
 - [**Universal Ores**](https://modrinth.com/mod/universal_ores) (both, v1.5.2) - Adds ores variants for andesite, diorite, granite and tuff
+- [**Valkyrien Skies**](https://modrinth.com/mod/valkyrien-skies) (both, 1.20.1-fabric-2.3.0-beta.4) - Physics in Minecraft
 - [**Veinminer**](https://modrinth.com/mod/veinminer) (server, 1.1.0+mod) - Mine the whole vine on mining a single ore. Known feature by modpacks and pvp games like UHC (quick mine)
 - [**Village Spawn Point**](https://modrinth.com/mod/village-spawn-point) (both, 1.20.1-4.1-forge+fabric) - 🏙 Sets the spawn point in a new world to the center of a village.
 - [**Villager Names**](https://modrinth.com/mod/villager-names-serilum) (both, 1.20.1-7.0-fabric+forge+neo) - 🧑‍🌾 Gives all villager entities a default or custom name to liven up the world.
 - [**VillagersPlus**](https://modrinth.com/mod/villagersplus) (both, 2.1) - A villager extension mod, adding new villager types, trades and beautiful workstations.
 - [**Villages&Pillages**](https://modrinth.com/mod/villages-and-pillages) (both, fabric-mc1.20.1-1.0.0) - Structure mod that brings an exciting twist to Minecraft by introducing hostile and unfriendly pillages, providing a thrilling contrast to the peaceful villages.
 - [**Visuality**](https://modrinth.com/mod/visuality) (client, 0.7.1+1.20) - Little visual improvements by adding a bunch of new particles.
+- [**way2wayfabric**](https://modrinth.com/mod/way2wayfabric) (client, 0.0.5) - Waystone -> Xaero's Minimap Waypoint sync for fabric
 - [**YDM's Weapon Master**](https://modrinth.com/mod/weaponmaster) (both, 3.0.5+1.20.1) - With this Mod your Hotbar items will be visible on your Character, with a unique location for a Shield and Banner.
 - [**When Dungeons Arise**](https://modrinth.com/mod/when-dungeons-arise) (both, 2.1.57-1.20.1) - Adds various elegant -and likely hostile- roguelike dungeons and structures that generate on your worlds!
 - [**Wizards (RPG Series)**](https://modrinth.com/mod/wizards) (both, 1.0.4+1.20.1) - 🧙🏻‍♂️ Destroy your enemies with Arcane, Fire and Frost magic
+- [**Worthy Food**](https://modrinth.com/mod/worthy-food) (both, 1.3.0) - Yet another food mod. Balanced and simple to craft food, without polluting your world with tons of useless crops
 - [**William Wythers' Overhauled Overworld**](https://modrinth.com/mod/wwoo) (both, 2.0.0) - This mod overhauls all vanilla biomes, with different sub biomes!
 - [**Xaero's Minimap**](https://modrinth.com/mod/xaeros-minimap) (both, 23.8.4_Fabric_1.20) - Displays a map of the nearby world terrain, players, mobs, entities in the corner of your screen. Lets you create waypoints which help you find the locations you've marked.
 - [**Xaero's World Map**](https://modrinth.com/mod/xaeros-world-map) (both, 1.36.0_Fabric_1.20) - Adds a full screen world map which shows you what you have explored in the world. Works great together with Xaero's Minimap.

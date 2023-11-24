@@ -1,0 +1,13 @@
+name = "Combat Enchantments"
+filename = "combat-enchantments-2.14.9.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/BInctu86/versions/YXlwMBYv/combat-enchantments-2.14.9.jar"
+hash-format = "sha1"
+hash = "a9f69ba01545d14a23a95c44cde292f2d9fa6a97"
+
+[update]
+[update.modrinth]
+mod-id = "BInctu86"
+version = "YXlwMBYv"

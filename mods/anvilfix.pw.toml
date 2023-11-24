@@ -1,0 +1,13 @@
+name = "AnvilFix"
+filename = "anvilfix-Alpha-1.0.1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/n5pvpBRJ/versions/ZjNYl5R5/anvilfix-Alpha-1.0.1.jar"
+hash-format = "sha1"
+hash = "5aecad62f330650dced2a37ad2a872710f432072"
+
+[update]
+[update.modrinth]
+mod-id = "n5pvpBRJ"
+version = "ZjNYl5R5"
