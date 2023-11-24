@@ -4,7 +4,7 @@ Modpack Info
   
   
 **Name**: Fabric_Modpack  
-**Version**: 2023.11.14  
+**Version**: 2023.11.15  
 **Minecraft Version**: 1.20.1  
 **Fabric Version**: 0.14.24  
 
@@ -61,7 +61,6 @@ Modpack Info
 - [**Easy Magic**](https://modrinth.com/mod/easy-magic) (both, v8.0.1-1.20.1-Fabric) - Enchanting tables as they always should have been! Items stay after closing, and easy re-rolls.
 - [**End Remastered**](https://modrinth.com/mod/endrem) (both, 5.2.3) - Make your journey to the End more Challenging and Engaging with End Remastered!
 - [**Entity Culling**](https://modrinth.com/mod/entityculling) (client, 1.6.2-1.20.2) - Using async path-tracing to hide Block-/Entities that are not visible
-- [**Eureka!**](https://modrinth.com/mod/eureka) (both, 1.20.1-fabric-1.3.0-beta.2) - Eureka! Build ships in Minecraft out of ordinary blocks, with physics.
 - [**Even Better Archeology**](https://modrinth.com/mod/even-better-archeology) (both, 2.0.0-beta.6) - A fork of Better Archeology with compatibility for more mods
 - [**Exordium**](https://modrinth.com/mod/exordium) (client, 1.2.1-1.20.1) - Render the GUI and screens at a lower framerate to speed up what's really important: the worldrendering.
 - [**Explosive Enhancement**](https://modrinth.com/mod/explosive-enhancement) (client, 1.2.2-1.20.x) - Makes the explosion animation look cooler.
@@ -157,7 +156,6 @@ Modpack Info
 - [**Ultris: Boss Expansion**](https://modrinth.com/mod/ultris) (both, 5.6.9c+mod) - Explore 8 new and exciting bosses to take on across your world, with new structures, items, and stories for you to unravel.
 - [**Universal Graves**](https://modrinth.com/mod/universal-graves) (both, 3.0.0+1.20.1) - Customisable grave mod for Fabric!
 - [**Universal Ores**](https://modrinth.com/mod/universal_ores) (both, v1.5.2) - Adds ores variants for andesite, diorite, granite and tuff
-- [**Valkyrien Skies**](https://modrinth.com/mod/valkyrien-skies) (both, 1.20.1-fabric-2.3.0-beta.4) - Physics in Minecraft
 - [**Veinminer**](https://modrinth.com/mod/veinminer) (server, 1.1.0+mod) - Mine the whole vine on mining a single ore. Known feature by modpacks and pvp games like UHC (quick mine)
 - [**Village Spawn Point**](https://modrinth.com/mod/village-spawn-point) (both, 1.20.1-4.1-forge+fabric) - 🏙 Sets the spawn point in a new world to the center of a village.
 - [**Villager Names**](https://modrinth.com/mod/villager-names-serilum) (both, 1.20.1-7.0-fabric+forge+neo) - 🧑‍🌾 Gives all villager entities a default or custom name to liven up the world.

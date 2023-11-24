@@ -256,11 +256,6 @@ hash = "33f865a014f3acf2c1f2c452bfe7ba1a864acad178322a6eab3759c7e63c9654"
 metafile = true
 
 [[files]]
-file = "mods/eureka.pw.toml"
-hash = "4948614479a784c815feb0eb7781512310e81ff9c197afdce8ca4191dcebe796"
-metafile = true
-
-[[files]]
 file = "mods/even-better-archeology.pw.toml"
 hash = "1bab83bae6a1413f23f059553e55fa28b42a5673e8e481547bf646aff44716f1"
 metafile = true
@@ -733,11 +728,6 @@ metafile = true
 [[files]]
 file = "mods/universal_ores.pw.toml"
 hash = "a31a9db89b6b0a610ae4b78edcf0f20527e6bde59bf47814d0d817be7c9a9dd6"
-metafile = true
-
-[[files]]
-file = "mods/valkyrien-skies.pw.toml"
-hash = "615c4d880d5d5d34be5b88ecff4b0bf00f1df24b71edf26a98ed0c772b946b34"
 metafile = true
 
 [[files]]
