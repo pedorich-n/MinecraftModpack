@@ -1,0 +1,13 @@
+name = "Max Enchant X"
+filename = "max-enchant-x-1.3-1.20.X-fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/j5ko3Mvb/versions/5JN45fIt/max-enchant-x-1.3-1.20.X-fabric.jar"
+hash-format = "sha1"
+hash = "2414452cec247dda655676a923365c71a873b21d"
+
+[update]
+[update.modrinth]
+mod-id = "j5ko3Mvb"
+version = "5JN45fIt"

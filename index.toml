@@ -21,6 +21,11 @@ hash = "149062fec33cc9b361650d6aacbbb668381007e14ec6b1ef98fb7e4fe9c51685"
 metafile = true
 
 [[files]]
+file = "mods/anvilfix.pw.toml"
+hash = "aed66354bca15a6dce888ea63ba18532be7110501b6fbe14ccb846d6c5ec4175"
+metafile = true
+
+[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "e3dfb2478e6bb096667d4ec89b0ddfef627747939373bdefee02f358d6e3dee1"
 metafile = true
@@ -41,11 +46,6 @@ hash = "a243675bc757485925b293932ee289b9fbcfb3b75bd3ba74eca7603f191cedad"
 metafile = true
 
 [[files]]
-file = "mods/armor-toughness-bar.pw.toml"
-hash = "1e3eb1d75135437b3e0b32eed808270890968e21a9753f0e72b7241e8e2935e3"
-metafile = true
-
-[[files]]
 file = "mods/arrp.pw.toml"
 hash = "30ebb056dae73be3dd1241193bd95f5291b8b3e7d3d0acfd1573ee29096a9b53"
 metafile = true
@@ -53,6 +53,11 @@ metafile = true
 [[files]]
 file = "mods/artifacts.pw.toml"
 hash = "45e9ed825929aee685220a3625e94d89c5ba7c91557d2b8050b70c6008de1a7d"
+metafile = true
+
+[[files]]
+file = "mods/attributefix.pw.toml"
+hash = "7b264a2274bf9d1a5a87a0f7b605791227d2cc2702214d1ab222221c9fc1f9ab"
 metafile = true
 
 [[files]]
@@ -116,6 +121,11 @@ hash = "54cb55e5f1e39a6b3409399db7d8258c68e8ee64926fa650fb3d74b5cbb9fe42"
 metafile = true
 
 [[files]]
+file = "mods/clear-enchanting.pw.toml"
+hash = "736ea1fd073ce6d648f1477d9f44ad898936770c175bdde088eb96cbff425188"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "b6348f94ec939f563285dc96683e61da8fc17ab2f2897be2751fa24789513691"
 metafile = true
@@ -128,6 +138,11 @@ metafile = true
 [[files]]
 file = "mods/combat-roll.pw.toml"
 hash = "e4d6b010df7d40b0b59e099e091a67c78734af617c79865bf0bca7b1760a0bf3"
+metafile = true
+
+[[files]]
+file = "mods/combatenchantments.pw.toml"
+hash = "3c35abcd671edc68f90ef0175cbf04cb3579756d91e5ee012bb6d7f997c974cd"
 metafile = true
 
 [[files]]
@@ -231,6 +246,11 @@ hash = "0255916c48646a6a415ac7470a63a5acc95f45c78c1674355e53b99d68b3e792"
 metafile = true
 
 [[files]]
+file = "mods/easy-magic.pw.toml"
+hash = "66bfaf23e46a6862f29ad0a95d09ccee0039bfc1f3d5d227956225cdddc0085c"
+metafile = true
+
+[[files]]
 file = "mods/endrem.pw.toml"
 hash = "bbd91f6874d99a59119b15103576c6686fe55bbf68dc3a03576d9ecd92023206"
 metafile = true
@@ -238,6 +258,11 @@ metafile = true
 [[files]]
 file = "mods/entityculling.pw.toml"
 hash = "33f865a014f3acf2c1f2c452bfe7ba1a864acad178322a6eab3759c7e63c9654"
+metafile = true
+
+[[files]]
+file = "mods/eureka.pw.toml"
+hash = "4948614479a784c815feb0eb7781512310e81ff9c197afdce8ca4191dcebe796"
 metafile = true
 
 [[files]]
@@ -258,6 +283,11 @@ metafile = true
 [[files]]
 file = "mods/fabric-api.pw.toml"
 hash = "119c2437e208c88b2c86cb5dbad22ac12ae310282e6691dfc86aade596f6f70c"
+metafile = true
+
+[[files]]
+file = "mods/fabric-language-kotlin.pw.toml"
+hash = "b77d49d5c1b11ffbd9d3f34b407d8065117e804b4776ac5754e066fac9fe7526"
 metafile = true
 
 [[files]]
@@ -381,6 +411,11 @@ hash = "c239c951796882b9c93e649a0dba4f2d95804441faaed707b686381b7a5c67da"
 metafile = true
 
 [[files]]
+file = "mods/max-enchant-x.pw.toml"
+hash = "70300e3a163bc8d6ce1ff01470b861f58653043a419181178ef8c188bb11e80a"
+metafile = true
+
+[[files]]
 file = "mods/memoryleakfix.pw.toml"
 hash = "8e42842f48b3227733bafced612212eee2298f567ca599ac6a55b9878ae661da"
 metafile = true
@@ -481,6 +516,11 @@ hash = "077698a7c49f534c59957b84cd8f6f109b40a45bb6f5955b8e6a6c3e65093ca2"
 metafile = true
 
 [[files]]
+file = "mods/overflowing-bars.pw.toml"
+hash = "997e81246b3d8ff635679e126481e62ce4a21979659c2ad11b0a46c778f95836"
+metafile = true
+
+[[files]]
 file = "mods/owo-lib.pw.toml"
 hash = "28b3e0806647eb166e942cf6552993bb6d666949c53f0d51927bdfb063cb6cc4"
 metafile = true
@@ -563,11 +603,6 @@ metafile = true
 [[files]]
 file = "mods/resourceful-lib.pw.toml"
 hash = "637453f471b9b9a07c0d455eacbaa63509bd8066ca14f15e2225328bb18ca201"
-metafile = true
-
-[[files]]
-file = "mods/rpgdifficulty.pw.toml"
-hash = "fe1288f6febffc381c95c906117871bbcdf3a74744126efcc28206d1a314e367"
 metafile = true
 
 [[files]]
@@ -681,11 +716,6 @@ hash = "7677bf35a89d3f408f230e269892eb8fc20d38c8c5dacf13994af119c2f45908"
 metafile = true
 
 [[files]]
-file = "mods/travelerz.pw.toml"
-hash = "80e0cb305488f208335261ad08ae20ffc75cbebf083ab66894182dd35c621413"
-metafile = true
-
-[[files]]
 file = "mods/trinkets.pw.toml"
 hash = "b2e02d1210f025b905299bfc88f895058640158343322641aca2c4875622c992"
 metafile = true
@@ -703,6 +733,11 @@ metafile = true
 [[files]]
 file = "mods/universal_ores.pw.toml"
 hash = "a31a9db89b6b0a610ae4b78edcf0f20527e6bde59bf47814d0d817be7c9a9dd6"
+metafile = true
+
+[[files]]
+file = "mods/valkyrien-skies.pw.toml"
+hash = "615c4d880d5d5d34be5b88ecff4b0bf00f1df24b71edf26a98ed0c772b946b34"
 metafile = true
 
 [[files]]
@@ -736,6 +771,11 @@ hash = "1d0b62685fd74fdd9d8cba3b3f3a85da75423550704646251a39542fce96bcb4"
 metafile = true
 
 [[files]]
+file = "mods/way2wayfabric.pw.toml"
+hash = "8d2217dc18ef88b1032c2e192ed2905a738e15e8425cc2a5a292949bca77d109"
+metafile = true
+
+[[files]]
 file = "mods/weaponmaster.pw.toml"
 hash = "1c7e7e52a4125be4fa1bfe155a7b9fdaf8fa4c1a1f3ad1203171817f36cd41df"
 metafile = true
@@ -748,6 +788,11 @@ metafile = true
 [[files]]
 file = "mods/wizards.pw.toml"
 hash = "eb564fa72e6bd9df45a040554926e73c88c43f72b7293def016449199333a860"
+metafile = true
+
+[[files]]
+file = "mods/worthy-food.pw.toml"
+hash = "be82087d8fbbbb56d916669534f26c71a2d75ff2c4edd9f7a63805a081e577c2"
 metafile = true
 
 [[files]]
