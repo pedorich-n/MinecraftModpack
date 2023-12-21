@@ -1,0 +1,13 @@
+name = "BotaniaCombat"
+filename = "botaniacombat-1.20.1-0.9.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/CFXaaDkh/versions/eKSE4Cxm/botaniacombat-1.20.1-0.9.1.jar"
+hash-format = "sha1"
+hash = "7899ef27cd2c2a1889e78b6ca21f39cac5dc8cdb"
+
+[update]
+[update.modrinth]
+mod-id = "CFXaaDkh"
+version = "eKSE4Cxm"

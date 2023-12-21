@@ -1,13 +1,13 @@
-name = "Fabric_Modpack"
-author = "Pablo Peraza"
-version = "2023.11.15"
+name = "Money Guys Reborn"
+author = "Piousp"
+version = "2.0.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "3581818c86d873d064fb1957da1478b4b1bb8b13c0d273bef71a78706681d17f"
+hash = "d9d08dd468c49929990aed9973c8d74755aa13afa5e2c0702aa7fb1d22eb1bdf"
 
 [versions]
-fabric = "0.14.24"
+fabric = "0.15.0"
 minecraft = "1.20.1"

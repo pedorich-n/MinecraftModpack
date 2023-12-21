@@ -1,0 +1,13 @@
+name = "Farmer's Delight: Cookbook Reforged"
+filename = "fdcookbook-1.18.2-fabric-1.2.2-beta.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/RpguhJmg/versions/te9sUaQb/fdcookbook-1.18.2-fabric-1.2.2-beta.jar"
+hash-format = "sha1"
+hash = "23ffe9c3569e7558a74c8d91700ddac529f85a3b"
+
+[update]
+[update.modrinth]
+mod-id = "RpguhJmg"
+version = "te9sUaQb"

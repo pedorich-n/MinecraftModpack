@@ -1,0 +1,13 @@
+name = "Passable Leaves"
+filename = "passableleaves-1.5.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/islPsGe4/versions/JVlq5ByG/passableleaves-1.5.1.jar"
+hash-format = "sha1"
+hash = "092beb9d7e2758717d912f709d9e8c1232023f94"
+
+[update]
+[update.modrinth]
+mod-id = "islPsGe4"
+version = "JVlq5ByG"
