@@ -476,6 +476,11 @@ hash = "3f737ee9ce4cc33b0befb734eef1b9d19382f027e559594d9a88de370fa4e355"
 metafile = true
 
 [[files]]
+file = "mods/no-chat-reports.pw.toml"
+hash = "7ca62a9da5c2ec9f0a8bed5394021c959e90077db16b313be44f4c8736f7fbf5"
+metafile = true
+
+[[files]]
 file = "mods/noisium.pw.toml"
 hash = "708c3992f04530d2366b570ad6503b97881d039f2d79530c861b8f276b2ec591"
 metafile = true
@@ -498,6 +503,11 @@ metafile = true
 [[files]]
 file = "mods/ores-every-dimension.pw.toml"
 hash = "077698a7c49f534c59957b84cd8f6f109b40a45bb6f5955b8e6a6c3e65093ca2"
+metafile = true
+
+[[files]]
+file = "mods/overflowing-bars.pw.toml"
+hash = "997e81246b3d8ff635679e126481e62ce4a21979659c2ad11b0a46c778f95836"
 metafile = true
 
 [[files]]

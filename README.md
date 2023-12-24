@@ -105,11 +105,13 @@ Modpack Info
 - [**Nears**](https://modrinth.com/mod/nears) (both, 2.0.4) - Fruits for the nether.
 - [**Nether 3.0**](https://modrinth.com/mod/nether-3.0) (both, 3.51+mod) - A light datapack which alters Nether generation to make it more interesting to traverse by modifying existing biomes.
 - [**Nether Depths Upgrade**](https://modrinth.com/mod/nether-depths-upgrade) (both, fabric-3.1.1-1.20) - Nether Depths Upgrade is a small mod that adds some extra flora and fauna to the lava seas of the nether. A total of nine fish have been added, a new enchant and potion in order to explore the lava in the nether.
+- [**No Chat Reports**](https://modrinth.com/mod/no-chat-reports) (both, Fabric-1.20.1-v2.2.2) - Makes chat unreportable (where possible)
 - [**Noisium**](https://modrinth.com/mod/noisium) (both, 1.0.2+mc1.20.x) - Optimises worldgen performance for a better gameplay experience.
 - [**NPC Variety**](https://modrinth.com/mod/npc-variety) (both, 2.3.0) - Adding variety to your villagers, with different skin tones and eye colors
 - [**Nyf's Spiders**](https://modrinth.com/mod/nyfs-spiders) (both, 2.1.1) - Modifes spiders to be more realistic
 - [**Obscure API**](https://modrinth.com/mod/obscure-api) (both, 16) - Auxiliary Library
 - [**Ores Every Dimension**](https://modrinth.com/mod/ores-every-dimension) (both, 1.1.0) - Add Overworld ore to the Nether and the End!
+- [**Overflowing Bars**](https://modrinth.com/mod/overflowing-bars) (client, v8.0.0-1.20.1-Fabric) - Expand health, armor and armor toughness bars beyond vanilla. Nice and compact without confusing colors.
 - [**oωo (owo-lib)**](https://modrinth.com/mod/owo-lib) (both, 0.11.2+1.20) - A general utility, GUI and config library for modding on Fabric and Quilt
 - [**Paladins & Priests (RPG Series)**](https://modrinth.com/mod/paladins-and-priests) (both, 1.0.4+1.20.1-fabric) - ✨ Protect and heal your friends as a Paladin or a Priest
 - [**Passable Leaves**](https://modrinth.com/mod/passable-leaves) (both, 1.5.1) - Let you walk through leaves
