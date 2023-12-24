@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "icon.jpeg"
-hash = "1aefee535ba7e1f43b1500254a4e9560e3355808b3c0d255a4bc972603ad622d"
-
-[[files]]
 file = "mods/alternate-current.pw.toml"
 hash = "bedc5fd207a9959c72565f0131b65a8eec71dcdef3e83f6c4556f81e7292326a"
 metafile = true

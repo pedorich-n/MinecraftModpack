@@ -133,6 +133,14 @@ def resolve_path(root: Path, input: str) -> Path:
         return path
 
 
+def clean_text(input: str) -> str:
+    cleaned_text = re.sub(r"\n+", " ", input)
+    cleaned_text = re.sub(r" +", " ", cleaned_text)
+    cleaned_text = cleaned_text.strip()
+
+    return cleaned_text
+
+
 # endregion
 
 
@@ -175,7 +183,7 @@ def get_modrinth_mod_info(result: ModInfoResult, update_info: ModModrinthUpdateI
     mod = modrinth.Projects.ModrinthProject(update_info.mod_id)
     version = modrinth.Versions.ModrinthVersion(mod, update_info.version)
 
-    result.description = mod.desc
+    result.description = clean_text(mod.desc)
     result.version = version.versionNumber
     result.url = f"https://modrinth.com/mod/{mod.slug}"
 
@@ -187,7 +195,7 @@ def get_curseforge_mod_info(
 ) -> ModInfoResult:
     mod = client.fetch(f"mods/{update_info.project_id}")
 
-    result.description = mod.get("summary")
+    result.description = clean_text(mod.get("summary"))
     result.url = mod["links"].get("websiteUrl")
     result.version = None  # There's no mod version field in the API :(
 
