@@ -120,8 +120,18 @@ hash = "b6348f94ec939f563285dc96683e61da8fc17ab2f2897be2751fa24789513691"
 metafile = true
 
 [[files]]
+file = "mods/collective.pw.toml"
+hash = "3c2b29ba9a3d803ee3472d08242dddbac3db46d1e3fe278774aaa3848d59106b"
+metafile = true
+
+[[files]]
 file = "mods/colorful-hearts.pw.toml"
 hash = "85548ab17eee379f0de617ea4f9c6ac0ed073525d80be571b38b1be4f5c1d59c"
+metafile = true
+
+[[files]]
+file = "mods/compact-help-command.pw.toml"
+hash = "76bc8c9fd4ecb55fd64364c97dccc195d14e3cea26ee8707630cc04927f40460"
 metafile = true
 
 [[files]]
@@ -162,6 +172,11 @@ metafile = true
 [[files]]
 file = "mods/dawn.pw.toml"
 hash = "e6cd8a58a2938b799035c66df16b440db0edf09c798978b8e857a6a27e8a6474"
+metafile = true
+
+[[files]]
+file = "mods/dcintegration.pw.toml"
+hash = "d955154e074cd7e1d9ed50667457a7c886f0c18088e6b3167d9ce22265bc5550"
 metafile = true
 
 [[files]]
@@ -217,6 +232,11 @@ metafile = true
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
 hash = "651e82c2b53b326df742ea36e806f3003e5ad68d1177a09fbe94d9dc7e780471"
+metafile = true
+
+[[files]]
+file = "mods/fabricexporter.pw.toml"
+hash = "4637aea36cfa56c6456981c710535cdde86f1006fb4c1ba239fbc759b782cd88"
 metafile = true
 
 [[files]]
@@ -352,6 +372,11 @@ metafile = true
 [[files]]
 file = "mods/jewelry.pw.toml"
 hash = "db00e88c7969739a30077850545c586108ae26ad0039686fc4d7513b8f4754b7"
+metafile = true
+
+[[files]]
+file = "mods/jline4mcdsrv.pw.toml"
+hash = "37eb8a447d46f38a7781f498f5dfcc162da72fc15d3ed2cb398cea1609b9bf61"
 metafile = true
 
 [[files]]
@@ -580,6 +605,11 @@ hash = "0562a83565f02e9b862b2e0b616ee3dcb669d651410d4519446110b31ae51232"
 metafile = true
 
 [[files]]
+file = "mods/spark.pw.toml"
+hash = "96e3771cd09bb4a808d1c1fcb5a050efdc2ffb4efe7b584407ed54c46c0388d9"
+metafile = true
+
+[[files]]
 file = "mods/spawn-animations.pw.toml"
 hash = "61e88480a7df95b00cae33f2dec5eadadd96ba4d68e2536ca036584495961a4f"
 metafile = true
@@ -597,6 +627,11 @@ metafile = true
 [[files]]
 file = "mods/spell-power.pw.toml"
 hash = "930b34fba49b8fa535d0bd23bcce6329b45ffde876809ba144eefe8489d76938"
+metafile = true
+
+[[files]]
+file = "mods/squaremap.pw.toml"
+hash = "76e4ea239bb4f733b8e92ef2086f5b303e7c15ea909d73152873189dc6da003f"
 metafile = true
 
 [[files]]

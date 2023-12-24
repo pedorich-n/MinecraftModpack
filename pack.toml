@@ -1,12 +1,12 @@
-name = "Money Guys Reborn"
+name = "Fabric_Modpack"
 author = "Piousp"
-version = "2.0.0"
+version = "2023.12.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "7c9389c5c4c29ca0ba9ca25d8f2e81f29ffc3e7515d94051018a3f1f4ed5e5ae"
+hash = "1968457b9d93208f984a538e1bfea1f4e5926f78c99425c3f87f263e7dcb2ada"
 
 [versions]
 fabric = "0.15.0"
