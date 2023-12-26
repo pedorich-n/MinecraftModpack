@@ -1,13 +1,13 @@
 name = "AzureLib Armor"
-filename = "azurelibarmor-fabric-1.20.1-2.0.0.jar"
+filename = "azurelibarmor-fabric-1.20.1-2.0.3.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/pduQXSbl/versions/lrCEX2GY/azurelibarmor-fabric-1.20.1-2.0.0.jar"
+url = "https://cdn.modrinth.com/data/pduQXSbl/versions/jDEK1u1B/azurelibarmor-fabric-1.20.1-2.0.3.jar"
 hash-format = "sha1"
-hash = "fa68ae218876831ac6b5470e28564d570e38c4ad"
+hash = "78085000f9ab209b454151cb333510aec3f1caa6"
 
 [update]
 [update.modrinth]
 mod-id = "pduQXSbl"
-version = "lrCEX2GY"
+version = "jDEK1u1B"

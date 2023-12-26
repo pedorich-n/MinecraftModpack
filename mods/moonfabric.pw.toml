@@ -1,0 +1,13 @@
+name = "moonfabric"
+filename = "moonfabric-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/w7zg1u2q/versions/PV2Wvyrt/moonfabric-1.0.0.jar"
+hash-format = "sha1"
+hash = "152086a7e7426e0c198a8528de8770a45aba8319"
+
+[update]
+[update.modrinth]
+mod-id = "w7zg1u2q"
+version = "PV2Wvyrt"

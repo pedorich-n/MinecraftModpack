@@ -1,0 +1,13 @@
+name = "Warden Tools"
+filename = "wardentools-mc1.20.1-2.3.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/KuQueJOG/versions/dCDFU5kn/wardentools-mc1.20.1-2.3.2.jar"
+hash-format = "sha1"
+hash = "b8f477718ff4e5a3cc9ac79e224b13d263d97447"
+
+[update]
+[update.modrinth]
+mod-id = "KuQueJOG"
+version = "dCDFU5kn"

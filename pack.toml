@@ -1,13 +1,13 @@
 name = "Fabric_Modpack"
-author = "Pablo Peraza"
-version = "2023.11.15"
+author = "Piousp"
+version = "2023.12.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "3581818c86d873d064fb1957da1478b4b1bb8b13c0d273bef71a78706681d17f"
+hash = "1a3d427b9885dece8bf92c084d77ef2680130169fa25af8e8e3b234d5f1588ab"
 
 [versions]
-fabric = "0.14.24"
+fabric = "0.15.0"
 minecraft = "1.20.1"

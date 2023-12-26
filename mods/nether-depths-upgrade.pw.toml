@@ -1,0 +1,13 @@
+name = "Nether Depths Upgrade"
+filename = "netherdepthsupgrade-fabric-3.1.1-1.20.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/vI1QKJro/versions/loXsK6pI/netherdepthsupgrade-fabric-3.1.1-1.20.jar"
+hash-format = "sha1"
+hash = "953ffd33f94431de96de5e7382033943b7efe3c3"
+
+[update]
+[update.modrinth]
+mod-id = "vI1QKJro"
+version = "loXsK6pI"

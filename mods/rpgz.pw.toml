@@ -1,13 +1,13 @@
 name = "RpgZ"
-filename = "rpgz-0.5.3.jar"
+filename = "rpgz-0.6.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/pWpEhhT7/versions/z7lAeKe7/rpgz-0.5.3.jar"
+url = "https://cdn.modrinth.com/data/pWpEhhT7/versions/HVFJeuv7/rpgz-0.6.0.jar"
 hash-format = "sha1"
-hash = "7d6c8724f6d45d7d24c01329bf63ac62a2ad8042"
+hash = "7517a44403b97c15d26caba2acd3f34a0431f766"
 
 [update]
 [update.modrinth]
 mod-id = "pWpEhhT7"
-version = "z7lAeKe7"
+version = "HVFJeuv7"
