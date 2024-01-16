@@ -11,6 +11,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
+
   outputs = inputs@{ flake-parts, systems, packwiz2nix, self, ... }: flake-parts.lib.mkFlake { inherit inputs; } ({ moduleWithSystem, ... }: {
     systems = import systems;
 

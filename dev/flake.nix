@@ -22,7 +22,8 @@
       };
     };
   };
-  outputs = inputs@{ flake-parts, systems, self, ... }: flake-parts.lib.mkFlake { inherit inputs; } ({ moduleWithSystem, ... }: {
+
+  outputs = inputs@{ flake-parts, systems, self, ... }: flake-parts.lib.mkFlake { inherit inputs; } ({
     systems = import systems;
 
     perSystem = { system, pkgs, ... }: {
@@ -40,13 +41,6 @@
           packages = with pkgs; [
             packwiz
             poetry
-          ];
-        };
-
-        builder = pkgs.mkShell {
-          packages = with pkgs; [
-            yq-go
-            packwiz
           ];
         };
       };
