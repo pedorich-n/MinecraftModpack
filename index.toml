@@ -181,6 +181,11 @@ hash = "d955154e074cd7e1d9ed50667457a7c886f0c18088e6b3167d9ce22265bc5550"
 metafile = true
 
 [[files]]
+file = "mods/double-doors.pw.toml"
+hash = "f0f49ff245a4551a6e87187731a3d4d2217aab641e290217a24ef115df31825e"
+metafile = true
+
+[[files]]
 file = "mods/dungeons-and-taverns-ancient-city-overhaul.pw.toml"
 hash = "cf4b553affc8e25d8dea980efc7d73537e6fab7aa30fdd6c402c28cd79b129d5"
 metafile = true
@@ -738,6 +743,11 @@ metafile = true
 [[files]]
 file = "mods/warden-tools.pw.toml"
 hash = "bafc858edb6bb7c0867ad20cf80142e99b919bd9a5903367ea9e3d8f30bdbf9e"
+metafile = true
+
+[[files]]
+file = "mods/way2wayfabric.pw.toml"
+hash = "22c02c241c720ef0e1ce59efb559a82ae47a5451409dda20bdf5f1e9c8dd0597"
 metafile = true
 
 [[files]]
