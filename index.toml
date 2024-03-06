@@ -26,6 +26,11 @@ hash = "45e9ed825929aee685220a3625e94d89c5ba7c91557d2b8050b70c6008de1a7d"
 metafile = true
 
 [[files]]
+file = "mods/audaki-cart-engine.pw.toml"
+hash = "9f355ed8e7f4a031ffec56ed5dca20b9d266cc0123645fb1d9aaab6f592d0623"
+metafile = true
+
+[[files]]
 file = "mods/azurelib-armor.pw.toml"
 hash = "e9037631f35d6bedf15863b46032c06921c49537018ac43d475e549914d5de86"
 metafile = true
@@ -173,6 +178,11 @@ metafile = true
 [[files]]
 file = "mods/dcintegration.pw.toml"
 hash = "d955154e074cd7e1d9ed50667457a7c886f0c18088e6b3167d9ce22265bc5550"
+metafile = true
+
+[[files]]
+file = "mods/double-doors.pw.toml"
+hash = "f0f49ff245a4551a6e87187731a3d4d2217aab641e290217a24ef115df31825e"
 metafile = true
 
 [[files]]
@@ -566,6 +576,11 @@ hash = "23d596d1d2e39ae3b05415790663819401fc62d745d6a817e88d9c36d07bce53"
 metafile = true
 
 [[files]]
+file = "mods/respawning-animals.pw.toml"
+hash = "a1ab5216888d751adb562c416604d95216dfe7cc68dd3e6f4e90ea21492cf8f4"
+metafile = true
+
+[[files]]
 file = "mods/revelationary.pw.toml"
 hash = "baac04be6dfec29d210c53eadddb7f6f0be051ddcf36300c0ce718fc9680a399"
 metafile = true
@@ -671,6 +686,11 @@ hash = "85182812adebb8cd80ce042b5612bc8ddadb0317fa92d932d98c4e1596906e49"
 metafile = true
 
 [[files]]
+file = "mods/toms-storage.pw.toml"
+hash = "16533ac83d5cd1cb2708e080ad7996b22a595a7184a034516d46ad871776cd9b"
+metafile = true
+
+[[files]]
 file = "mods/travelers-titles.pw.toml"
 hash = "df6c42195656610837ff05462ac37bb40da04a18de198333769030c562cbfe2d"
 metafile = true
@@ -723,6 +743,11 @@ metafile = true
 [[files]]
 file = "mods/warden-tools.pw.toml"
 hash = "bafc858edb6bb7c0867ad20cf80142e99b919bd9a5903367ea9e3d8f30bdbf9e"
+metafile = true
+
+[[files]]
+file = "mods/way2wayfabric.pw.toml"
+hash = "22c02c241c720ef0e1ce59efb559a82ae47a5451409dda20bdf5f1e9c8dd0597"
 metafile = true
 
 [[files]]
