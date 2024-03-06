@@ -4,7 +4,7 @@ Modpack Info
   
   
 **Name**: Fabric_Modpack  
-**Version**: 2024.03.06  
+**Version**: 2024.03.07
 **Minecraft Version**: 1.20.1  
 **Fabric Version**: 0.15.0  
 
