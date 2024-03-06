@@ -4,7 +4,7 @@ Modpack Info
   
   
 **Name**: Fabric_Modpack  
-**Version**: 2023.12.1  
+**Version**: 2024.03.06  
 **Minecraft Version**: 1.20.1  
 **Fabric Version**: 0.15.0  
 
@@ -15,6 +15,7 @@ Modpack Info
 - [**Archers (RPG Series)**](https://modrinth.com/mod/archers) (both, 1.0.6+1.20.1) - 🏹 Draw, Release, Conquer - Master the art of Archery!
 - [**Architectury API**](https://modrinth.com/mod/architectury-api) (both, 9.1.12+fabric) - An intermediary api aimed to ease developing multiplatform mods.
 - [**Artifacts**](https://modrinth.com/mod/artifacts) (both, 9.2.0) - Adds various treasure items that can be found through exploration
+- [**Audaki Cart Engine**](https://modrinth.com/mod/audaki-cart-engine) (server, 2.0.6) - Faster Minecarts / Balanced for Survival. Vanilla Carts Improved // Minecart + Speed = Fun! Compatible with Redstone. Glitch-Free. Works with slopes and curves. Fully Vanilla: No special tracks or carts needed. Only Server-Sided-Mod required.
 - [**AzureLib Armor**](https://modrinth.com/mod/azurelib-armor) (both, 2.0.3) - A striped down Azurelib just for Armor!
 - [**Bartering Station**](https://modrinth.com/mod/bartering-station) (both, v8.0.0-1.20.1-Fabric) - Still running around bartering manually? Let's put those lazy piglins to work instead!
 - [**Better Advancements**](https://modrinth.com/mod/better-advancements) (both, 0.3.2.161) - Better Advancements tries to improve the UI and UX for the advancements system in minecraft 1.12+ in a modded environment
@@ -45,10 +46,11 @@ Modpack Info
 - [**Cull Less Leaves**](https://modrinth.com/mod/cull-less-leaves) (client, 1.3.0) - Cull leaves while looking hot!
 - [**Dawn API**](https://modrinth.com/mod/dawn) (both, v5.0.0) - API that facilitates the creation of features.
 - [**Discord Integration**](https://modrinth.com/mod/dcintegration) (server, 3.0.5-1.20.1) - This mod links your server chat with a channel on your discord server
+- [**Double Doors**](https://modrinth.com/mod/double-doors) (server, 1.20.1-5.2-fabric+forge+neo) - 🚪 Multiple identical double doors, trapdoors and fence gates can be opened simultaneously.
 - [**Dungeons and Taverns Ancient City Overhaul**](https://modrinth.com/mod/dungeons-and-taverns-ancient-city-overhaul) (both, 1+mod) - Standalone Splinter version of Dungeons and Taverns Ancient City Overhaul
 - [**Dungeons and Taverns Swamp Hut Rework**](https://modrinth.com/mod/dungeons-and-taverns-swamp-hut-rework) (both, 1+mod) - This Splinter Standalone version of Dungeons and Tavern adds the Swamp Hut rework. Adding 2 variants, an loot chest, an brewing stand and an bed
 - [**Dungeons and Taverns**](https://modrinth.com/mod/dungeons-and-taverns) (both, 3.0.3+mod) - A Structure Datapack adding dungeons, taverns and other structures to find while you explore the world.
-- [**Dynamic FPS**](https://modrinth.com/mod/dynamic-fps) (client, 3.2.1) - Improve performance when Minecraft is in the background.
+- [**Dynamic FPS**](https://modrinth.com/mod/dynamic-fps) (client, 3.2.1) - Reduce resource usage while Minecraft is in the background or idle.
 - [**End Remastered**](https://modrinth.com/mod/endrem) (both, 5.2.3) - Make your journey to the End more Challenging and Engaging with End Remastered!
 - [**Entity Culling**](https://modrinth.com/mod/entityculling) (client, 1.6.2-1.20.2) - Using async path-tracing to hide Block-/Entities that are not visible
 - [**Exordium**](https://modrinth.com/mod/exordium) (client, 1.2.1-1.20.1) - Render the GUI and screens at a lower framerate to speed up what's really important: the worldrendering.
@@ -63,7 +65,7 @@ Modpack Info
 - [**FastAnim**](https://modrinth.com/mod/fastanim) (client, 1.6-1.20) - Speeds up entity animation calculations!
 - [**Fastload**](https://modrinth.com/mod/fastload) (both, 3.4.0) - Modifies how worlds are loaded to speed up loading times.
 - [**FerriteCore**](https://modrinth.com/mod/ferrite-core) (both, 6.0.1) - Memory usage optimizations
-- [**Forge Config API Port**](https://modrinth.com/mod/forge-config-api-port) (both, v8.0.0-1.20.1-Fabric) - Forge's whole config system provided to the Fabric ecosystem. Designed for a multiloader architecture.
+- [**Forge Config API Port**](https://modrinth.com/mod/forge-config-api-port) (both, v8.0.0-1.20.1-Fabric) - NeoForge's & Forge's config systems provided to other modding ecosystems. Designed for a multiloader architecture.
 - [**Formations Nether**](https://modrinth.com/mod/formations-nether) (both, 1.0.2) - Formations Nether adds plenty of new structures to the nether!
 - [**Formations (Structure Library)**](https://modrinth.com/mod/formations) (both, 1.0.2-fabric-mc1.20) - Formations adds utilities for structure datapacks!
 - [**FPS - Display**](https://modrinth.com/mod/fpsdisplay) (client, 3.1.0+1.20.x) - A simple Fabric mod that displays the current FPS on screen.
@@ -123,13 +125,14 @@ Modpack Info
 - [**Radiant Gear**](https://modrinth.com/mod/radiant-gear) (both, 2.1.0+1.20.1) - A compatibility bridge between Curios API or Trinkets API and dynamic light mods such as Lucent or LambDynamicLights. Formerly known as Curious Lights.
 - [**Reese's Sodium Options**](https://modrinth.com/mod/reeses-sodium-options) (client, mc1.20.1-1.6.5) - Alternative Options Menu for Sodium
 - [**Roughly Enough Items (REI)**](https://modrinth.com/mod/rei) (both, 12.0.684+fabric) - Clean and Customizable. Alternative to Just Enough Items/JEI.
+- [**Respawning Animals**](https://modrinth.com/mod/respawning-animals) (server, v8.2.0-1.20.1-Fabric) - Animals no longer stay in the world forever, instead they spawn and disappear like monsters.
 - [**Revelationary**](https://modrinth.com/mod/revelationary) (both, 1.3.6+1.20.1) - Data Driven Block and Item Revelation system. Discover as you go!
 - [**RpgZ**](https://modrinth.com/mod/rpgz) (both, 0.6.0+1.20.1) - rpg style mob looting
 - [**Runes**](https://modrinth.com/mod/runes) (both, 0.9.10+1.20.1-fabric) - 🪨 Craft runes to serve as ammo for spells
 - [**Simply Skills**](https://modrinth.com/mod/simply-skills) (both, 1.0.0+1.20.1) - A comprehensive skill tree mod with a focus on combat specialisations (classes)
 - [**Simply Swords**](https://modrinth.com/mod/simply-swords) (both, 1.51.5-1.20.1) - Adds Spears, Glaives, Chakrams, Katanas, Greathammer/axes, Rapiers, and many more weapons!
 - [**Pufferfish's Skills**](https://modrinth.com/mod/skills) (both, 0.10.0) - Adds a fully configurable skill system to the game.
-- [**Sodium Extra**](https://modrinth.com/mod/sodium-extra) (client, mc1.20.1-0.5.1) - Features that shouldn't be in Sodium.
+- [**Sodium Extra**](https://modrinth.com/mod/sodium-extra) (client, mc1.20.1-0.5.1) - A Sodium addon that adds features that shouldn't be in Sodium.
 - [**Sodium**](https://modrinth.com/mod/sodium) (client, mc1.20.1-0.5.3) - A modern rendering engine for Minecraft which greatly improves performance
 - [**Sound Physics Remastered**](https://modrinth.com/mod/sound-physics-remastered) (both, fabric-1.20.1-1.3.0) - A Minecraft mod that provides realistic sound attenuation, reverberation, and absorption through blocks.
 - [**spark**](https://modrinth.com/mod/spark) (both, 1.10.53-fabric) - spark is a performance profiler for Minecraft clients, servers and proxies.
@@ -141,9 +144,10 @@ Modpack Info
 - [**Starlight (Fabric)**](https://modrinth.com/mod/starlight) (both, 1.1.2+1.20) - Rewrites the light engine to fix lighting performance and lighting errors
 - [**Stellarity**](https://modrinth.com/mod/stellarity) (both, 2.0e) - Extreme rehaul and expansion of The End! 'We have End Update at home.'
 - [**Structure Pool API**](https://modrinth.com/mod/structure-pool-api) (both, 1.0+1.20.1) - 📚 API to inject structures into structure pools.
-- [**Tectonic**](https://modrinth.com/mod/tectonic) (both, 2.1.1) - Using the powerful worldgen tools from Caves and Cliffs, Tectonic completely rocks world generation with mountain ranges, underground rivers and more!
+- [**Tectonic**](https://modrinth.com/mod/tectonic) (both, 2.1.1) - Massively altered world generation with mountain ranges, underground rivers and more!
 - [**The Lost Castle**](https://modrinth.com/mod/the-lost-castle) (both, 1.0.1) - Former structure of End Remastered, The Lost Castle introduces an enormous castle. Inside resides infinite fortune and mysteries from a long forgotten civilization that disappeared a long time ago...
 - [**Things**](https://modrinth.com/mod/things) (both, 0.3.3+1.20) - Trinkets and Utilities to enhance casual play
+- [**Tom's Simple Storage Mod**](https://modrinth.com/mod/toms-storage) (both, 1.20-1.6.5-fabric) - Simple vanilla style storage mod
 - [**Traveler's Titles**](https://modrinth.com/mod/travelers-titles) (client, 1.20-Fabric-4.0.1) - Epic, RPG-like titles when entering biomes & dimensions!
 - [**Traveler's Backpack**](https://modrinth.com/mod/travelersbackpack) (both, 1.20.1-9.1.8) - The official port of Adventure Backpack
 - [**Trinkets**](https://modrinth.com/mod/trinkets) (both, 3.7.1) - A data-driven accessory mod
@@ -152,9 +156,10 @@ Modpack Info
 - [**Universal Ores**](https://modrinth.com/mod/universal_ores) (both, v1.5.2) - Adds ores variants for andesite, diorite, granite and tuff
 - [**Vein Mining**](https://modrinth.com/mod/vein-mining) (both, 1.2.1+1.20.1) - A lightweight, highly configurable Vein Mining enchantment for tools.
 - [**Visuality**](https://modrinth.com/mod/visuality) (client, 0.7.1+1.20) - Little visual improvements by adding a bunch of new particles.
-- [**Wakes**](https://modrinth.com/mod/wakes) (client, 0.2.0) - A mod that adds wakes after boats (and all other entites) if they travel fast enough
+- [**Wakes**](https://modrinth.com/mod/wakes) (client, 0.2.0) - Adds splashes and wakes while traveling on water
 - [**Warden Bossbar**](https://modrinth.com/mod/warden-bossbar) (both, 2.0.0+mod) - The Warden didn't have a bossbar until now, so I just created one.
 - [**Warden Tools**](https://modrinth.com/mod/warden-tools) (both, mc1.20.1-2.3.2) - Warden Tools adds new Warden gear and completely overhauls Ancient City loot.
+- [**way2wayfabric**](https://modrinth.com/mod/way2wayfabric) (client, 0.0.6) - Waystone -> Xaero's Minimap Waypoint sync for fabric
 - [**YDM's Weapon Master**](https://modrinth.com/mod/weaponmaster) (both, 3.0.5+1.20.1) - With this Mod your Hotbar items will be visible on your Character, with a unique location for a Shield and Banner.
 - [**Wizards (RPG Series)**](https://modrinth.com/mod/wizards) (both, 1.0.4+1.20.1) - 🧙🏻‍♂️ Destroy your enemies with Arcane, Fire and Frost magic
 - [**Xaero's Minimap**](https://modrinth.com/mod/xaeros-minimap) (both, 23.9.3_Fabric_1.20) - Displays a map of the nearby world terrain, players, mobs, entities in the corner of your screen. Lets you create waypoints which help you find the locations you've marked.
