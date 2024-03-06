@@ -576,11 +576,6 @@ hash = "23d596d1d2e39ae3b05415790663819401fc62d745d6a817e88d9c36d07bce53"
 metafile = true
 
 [[files]]
-file = "mods/respawning-animals.pw.toml"
-hash = "a1ab5216888d751adb562c416604d95216dfe7cc68dd3e6f4e90ea21492cf8f4"
-metafile = true
-
-[[files]]
 file = "mods/revelationary.pw.toml"
 hash = "baac04be6dfec29d210c53eadddb7f6f0be051ddcf36300c0ce718fc9680a399"
 metafile = true

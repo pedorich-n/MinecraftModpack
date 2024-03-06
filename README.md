@@ -4,7 +4,7 @@ Modpack Info
   
   
 **Name**: Fabric_Modpack  
-**Version**: 2024.03.06  
+**Version**: 2024.03.07
 **Minecraft Version**: 1.20.1  
 **Fabric Version**: 0.15.0  
 
@@ -125,7 +125,6 @@ Modpack Info
 - [**Radiant Gear**](https://modrinth.com/mod/radiant-gear) (both, 2.1.0+1.20.1) - A compatibility bridge between Curios API or Trinkets API and dynamic light mods such as Lucent or LambDynamicLights. Formerly known as Curious Lights.
 - [**Reese's Sodium Options**](https://modrinth.com/mod/reeses-sodium-options) (client, mc1.20.1-1.6.5) - Alternative Options Menu for Sodium
 - [**Roughly Enough Items (REI)**](https://modrinth.com/mod/rei) (both, 12.0.684+fabric) - Clean and Customizable. Alternative to Just Enough Items/JEI.
-- [**Respawning Animals**](https://modrinth.com/mod/respawning-animals) (server, v8.2.0-1.20.1-Fabric) - Animals no longer stay in the world forever, instead they spawn and disappear like monsters.
 - [**Revelationary**](https://modrinth.com/mod/revelationary) (both, 1.3.6+1.20.1) - Data Driven Block and Item Revelation system. Discover as you go!
 - [**RpgZ**](https://modrinth.com/mod/rpgz) (both, 0.6.0+1.20.1) - rpg style mob looting
 - [**Runes**](https://modrinth.com/mod/runes) (both, 0.9.10+1.20.1-fabric) - 🪨 Craft runes to serve as ammo for spells

@@ -15,7 +15,7 @@
   outputs = inputs@{ flake-parts, systems, packwiz2nix, self, ... }: flake-parts.lib.mkFlake { inherit inputs; } ({ moduleWithSystem, ... }: {
     systems = import systems;
 
-    perSystem = { system, pkgs, ... }: {
+    perSystem = { system, pkgs, config, ... }: {
       packages =
         let
           packwiz2nixLib = inputs.packwiz2nix.lib.${system};
@@ -23,13 +23,13 @@
         {
           packwiz-server = packwiz2nixLib.fetchPackwizModpack {
             manifest = "${self}/pack.toml";
-            hash = "sha256-cE6QRKxv2HlCDsSFxMcSaJUO9CVVVgwN0qV8FsElLx0=";
+            hash = "sha256-fV/Q4Wg8kQlXsxPY0cDpOMJklHkiTM04i0fw6krWXaU=";
             side = "server";
           };
 
           modrinth-pack = pkgs.callPackage ./nix/packwiz-modrinth.nix { } {
             src = self;
-            hash = "sha256-APa+1WwhtZTm4tVKWJ6OtxNoy2m18yudwY4nLgz3JFA=";
+            hash = "sha256-DnILu6F+DmuAqa2ULMlLSkDOTaMKimaCXVyi0fgf66c=";
           };
 
           # Not used for anything right now
@@ -39,6 +39,8 @@
           #   side = "client";
           # };
         };
+
+      checks = config.packages;
     };
   });
 }
