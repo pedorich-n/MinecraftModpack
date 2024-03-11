@@ -1,13 +1,13 @@
 name = "Archers (RPG Series)"
-filename = "archers-1.0.6+1.20.1.jar"
+filename = "archers-1.0.7+1.20.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/QgooUXAJ/versions/HADxMSlV/archers-1.0.6%2B1.20.1.jar"
+url = "https://cdn.modrinth.com/data/QgooUXAJ/versions/8ZAr68x7/archers-1.0.7%2B1.20.1.jar"
 hash-format = "sha1"
-hash = "2984fa945ff7e3293a4ed0d5ba210886be4bcad8"
+hash = "2cfc7936944f1a0660fb77e7e2e04e65909c0d60"
 
 [update]
 [update.modrinth]
 mod-id = "QgooUXAJ"
-version = "HADxMSlV"
+version = "8ZAr68x7"

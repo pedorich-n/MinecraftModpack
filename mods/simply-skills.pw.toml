@@ -1,13 +1,13 @@
 name = "Simply Skills"
-filename = "simplyskills-1.0.0+1.20.1.jar"
+filename = "simplyskills-1.2.0+1.20.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/lyvwxqAy/versions/D7KQabYc/simplyskills-1.0.0%2B1.20.1.jar"
+url = "https://cdn.modrinth.com/data/lyvwxqAy/versions/B0uYOxSc/simplyskills-1.2.0%2B1.20.1.jar"
 hash-format = "sha1"
-hash = "02130e837e91da8a31601d918607538871dcc84e"
+hash = "644c72245c3456cc579dee85bd273b457c06aad8"
 
 [update]
 [update.modrinth]
 mod-id = "lyvwxqAy"
-version = "D7KQabYc"
+version = "B0uYOxSc"

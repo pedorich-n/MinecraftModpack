@@ -1,13 +1,13 @@
 name = "Warden Tools"
-filename = "wardentools-mc1.20.1-2.3.2.jar"
+filename = "wardentools-2.4.0+mc1.20.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/KuQueJOG/versions/dCDFU5kn/wardentools-mc1.20.1-2.3.2.jar"
+url = "https://cdn.modrinth.com/data/KuQueJOG/versions/yGDo6XgE/wardentools-2.4.0%2Bmc1.20.1.jar"
 hash-format = "sha1"
-hash = "b8f477718ff4e5a3cc9ac79e224b13d263d97447"
+hash = "a1b534577d189e538f3b9e90ebdd1001f3254edd"
 
 [update]
 [update.modrinth]
 mod-id = "KuQueJOG"
-version = "dCDFU5kn"
+version = "yGDo6XgE"

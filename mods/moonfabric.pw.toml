@@ -1,13 +1,13 @@
 name = "moonfabric"
-filename = "moonfabric-1.0.0.jar"
+filename = "moonfabric-1.6.5.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/w7zg1u2q/versions/PV2Wvyrt/moonfabric-1.0.0.jar"
+url = "https://cdn.modrinth.com/data/w7zg1u2q/versions/EbUmZ9VQ/moonfabric-1.6.5.jar"
 hash-format = "sha1"
-hash = "152086a7e7426e0c198a8528de8770a45aba8319"
+hash = "90997575c54bb2f487b103104a4facc32b8a07cd"
 
 [update]
 [update.modrinth]
 mod-id = "w7zg1u2q"
-version = "PV2Wvyrt"
+version = "EbUmZ9VQ"
