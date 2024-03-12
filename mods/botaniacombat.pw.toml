@@ -1,13 +1,13 @@
 name = "BotaniaCombat"
-filename = "botaniacombat-1.20.1-0.9.1.jar"
+filename = "botaniacombat-1.20.1-1.1.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/CFXaaDkh/versions/eKSE4Cxm/botaniacombat-1.20.1-0.9.1.jar"
+url = "https://cdn.modrinth.com/data/CFXaaDkh/versions/FGA2iEmK/botaniacombat-1.20.1-1.1.2.jar"
 hash-format = "sha1"
-hash = "7899ef27cd2c2a1889e78b6ca21f39cac5dc8cdb"
+hash = "66e9678870e76f538422c3b4d303e826f5f578f2"
 
 [update]
 [update.modrinth]
 mod-id = "CFXaaDkh"
-version = "eKSE4Cxm"
+version = "FGA2iEmK"

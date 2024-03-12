@@ -1,13 +1,13 @@
 name = "Jewelry (RPG Series)"
-filename = "Jewelry-1.2.2+1.20.1.jar"
+filename = "Jewelry-1.2.3+1.20.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/sNJAIjUm/versions/S5kYH7fo/Jewelry-1.2.2%2B1.20.1.jar"
+url = "https://cdn.modrinth.com/data/sNJAIjUm/versions/zwOZSKqu/Jewelry-1.2.3%2B1.20.1.jar"
 hash-format = "sha1"
-hash = "f5b3d3c3e235f2f5985fa7ff87f4328a7f4fed8d"
+hash = "f54d687e35afad80b46db8c36ded46a026ce813e"
 
 [update]
 [update.modrinth]
 mod-id = "sNJAIjUm"
-version = "S5kYH7fo"
+version = "zwOZSKqu"

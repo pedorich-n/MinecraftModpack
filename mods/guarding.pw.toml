@@ -1,13 +1,13 @@
 name = "Guarding"
-filename = "guarding-2.3.3.jar"
+filename = "guarding-2.4.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/aV1COQ7a/versions/1hJuekS7/guarding-2.3.3.jar"
+url = "https://cdn.modrinth.com/data/aV1COQ7a/versions/zz7EL9j5/guarding-2.4.0.jar"
 hash-format = "sha1"
-hash = "d1f04b33eda3940192d262ba5eb672829c2f506a"
+hash = "48f7a82d88e4c764544a87e5fe41353d5c197f5b"
 
 [update]
 [update.modrinth]
 mod-id = "aV1COQ7a"
-version = "1hJuekS7"
+version = "zz7EL9j5"
