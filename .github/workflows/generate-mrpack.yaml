@@ -19,6 +19,6 @@ jobs:
           OUTPUT_PATH=$(nix build .#modrinth-pack --print-out-paths)
           echo "OUTPUT_PATH=$OUTPUT_PATH" >> $GITHUB_ENV
       - name: Upload mrpack
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
           files: "${{ env.OUTPUT_PATH }}/*"
