@@ -352,6 +352,11 @@ hash = "972e94424dfabf10c75566e4113a04369c98d0ccc75de228fb89133f814b76e6"
 metafile = true
 
 [[files]]
+file = "mods/no-chat-reports.pw.toml"
+hash = "9a3c80bf6eee8234001d2a1602b3e123ac5706af051902e40f24abe317b86e50"
+metafile = true
+
+[[files]]
 file = "mods/noisium.pw.toml"
 hash = "967412dd78791d3c8ed00470ac9dd9473d0d03fdf78d04a9a004ea79bfcbde70"
 metafile = true
@@ -429,6 +434,11 @@ metafile = true
 [[files]]
 file = "mods/totw-modded.pw.toml"
 hash = "cc4d196949d893071f261e939501ca8c7a79ba8ced3d790ce98d25e4f207bca3"
+metafile = true
+
+[[files]]
+file = "mods/travelersbackpack.pw.toml"
+hash = "0328dcee3fced9edb7fe463b35624381fc94e09f6303a7cb1cdccb26747a130c"
 metafile = true
 
 [[files]]
