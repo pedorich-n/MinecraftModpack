@@ -38,7 +38,7 @@
 
           modrinth-pack = pkgs.callPackage ./nix/packwiz-modrinth.nix {
             src = self;
-            hash = "sha256-ie0Igriqj77fmhcRyJtUxqJKAI+db1+dNF3QgyVi7P4=";
+            hash = "sha256-isQlN/V2tWn8nrQQE72CLDtwSwzKGbAbSNcWARlozvo=";
           };
 
           # Not used for anything right now

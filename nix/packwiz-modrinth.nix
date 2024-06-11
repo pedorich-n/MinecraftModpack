@@ -3,6 +3,7 @@
 , lib
 , stdenvNoCC
 , packwiz
+, strip-nondeterminism
 }:
 stdenvNoCC.mkDerivation (finalAttrs:
 let
@@ -21,7 +22,7 @@ in
 
   dontFixup = true;
 
-  buildInputs = [ packwiz ];
+  nativeBuildInputs = [ packwiz strip-nondeterminism ];
 
   buildPhase = ''
     runHook preBuild
@@ -29,8 +30,12 @@ in
     # Github Ation fails with "failed to create cache directory: mkdir /homeless-shelter: permission denied" if this is not set
     export HOME=$TMPDIR
 
+    result="$out/${resultName}"
+
     mkdir -p $out
-    packwiz modrinth export --output "$out/${resultName}"
+    packwiz modrinth export --output "$result"
+
+    strip-nondeterminism --type zip "$result"
 
     runHook postBuild
   '';
