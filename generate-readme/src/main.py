@@ -31,7 +31,8 @@ class PackIndexInfo:
 
 @dataclass
 class PackVersionsInfo:
-    fabric: str
+    fabric: Optional[str]
+    forge: Optional[str]
     minecraft: str
 
 
@@ -89,7 +90,8 @@ class ModInfoResult:
 
 @dataclass
 class PackVersionsInfoResult:
-    fabric: str
+    fabric: Optional[str]
+    forge: Optional[str]
     minecraft: str
 
 
@@ -222,7 +224,11 @@ def get_pack_info_result(pack_info: PackInfo, mods: List[ModInfo], cf_client: Op
         name=pack_info.name,
         version=pack_info.version,
         mods=result_mods,
-        versions=PackVersionsInfoResult(fabric=pack_info.versions.fabric, minecraft=pack_info.versions.minecraft),
+        versions=PackVersionsInfoResult(
+            fabric=pack_info.versions.fabric,
+            forge=pack_info.versions.forge,
+            minecraft=pack_info.versions.minecraft,
+        ),
     )
 
     return result
@@ -253,7 +259,10 @@ def generate_readme(info: PackInfoResult, output: Path):
     md_file.new_line(text_utils.bold("Name") + f": {info.name}")
     md_file.new_line(text_utils.bold("Version") + f": {info.version}")
     md_file.new_line(text_utils.bold("Minecraft Version") + f": {info.versions.minecraft}")
-    md_file.new_line(text_utils.bold("Fabric Version") + f": {info.versions.fabric}")
+    if info.versions.fabric:
+        md_file.new_line(text_utils.bold("Fabric Version") + f": {info.versions.fabric}")
+    if info.versions.forge:
+        md_file.new_line(text_utils.bold("Forge Version") + f": {info.versions.forge}")
     md_file.new_line("")
 
     md_file.new_header(level=1, title="Mods")
@@ -283,7 +292,8 @@ def main():
 
     pack_info = read_pack(pack_path, dacite_config)
     index_info = read_index(pack_info.index.file, dacite_config)
-    mods_info = [read_mod(file_info.file) for file_info in index_info.files]
+    mods = [file for file in index_info.files if "mods" in file.file.parts]
+    mods_info = [read_mod(file_info.file) for file_info in mods]
 
     result = get_pack_info_result(pack_info, mods_info, cf_client)
     generate_readme(result, output_path)
