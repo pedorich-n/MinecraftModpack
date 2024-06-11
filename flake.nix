@@ -30,8 +30,6 @@
           packwiz2nixLib = inputs.packwiz2nix.lib.${system};
         in
         {
-          # packwiz = pkgs.callPackage ./nix/packwiz { };
-
           packwiz-server = packwiz2nixLib.fetchPackwizModpack {
             manifest = "${self}/pack.toml";
             hash = "sha256-PgW+pnpd548agb4UdXgtxp5tMqJ/1pUT8Pk2DkD2U0M=";
