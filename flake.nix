@@ -15,21 +15,32 @@
   outputs = inputs@{ flake-parts, systems, packwiz2nix, self, ... }: flake-parts.lib.mkFlake { inherit inputs; } ({ moduleWithSystem, ... }: {
     systems = import systems;
 
-    perSystem = { system, pkgs, config, ... }: {
+    perSystem = { system, pkgs, config, lib, ... }: {
+      _module.args = {
+        pkgs = import inputs.nixpkgs {
+          inherit system;
+          overlays = [
+            (import ./nix/overlay.nix)
+          ];
+        };
+      };
+
       packages =
         let
           packwiz2nixLib = inputs.packwiz2nix.lib.${system};
         in
         {
+          # packwiz = pkgs.callPackage ./nix/packwiz { };
+
           packwiz-server = packwiz2nixLib.fetchPackwizModpack {
             manifest = "${self}/pack.toml";
             hash = "sha256-PgW+pnpd548agb4UdXgtxp5tMqJ/1pUT8Pk2DkD2U0M=";
             side = "server";
           };
 
-          modrinth-pack = pkgs.callPackage ./nix/packwiz-modrinth.nix { } {
+          modrinth-pack = pkgs.callPackage ./nix/packwiz-modrinth.nix {
             src = self;
-            hash = "sha256-TRGUHK6BlTKjVxbdkvvD4UvfFa+XULHmeCD7piUnMc4=";
+            hash = "sha256-ie0Igriqj77fmhcRyJtUxqJKAI+db1+dNF3QgyVi7P4=";
           };
 
           # Not used for anything right now
