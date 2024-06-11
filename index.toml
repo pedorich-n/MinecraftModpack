@@ -177,6 +177,11 @@ hash = "ee3593e70420fd691ede6f65bd0989402b18b48ebe41280229a4b8c1cc3cb083"
 metafile = true
 
 [[files]]
+file = "mods/dcintegration.pw.toml"
+hash = "ec5b452599201804f40e6a9f4549849065b8428d5b046bd0638f9897e1e4b72c"
+metafile = true
+
+[[files]]
 file = "mods/distant-worlds.pw.toml"
 hash = "419bcc80436f50a61370d1142f64623250fe9dbcccaabd4d35edf2dfdca16214"
 metafile = true
@@ -337,6 +342,11 @@ hash = "eab12c7fddf20f293b8726f7553d2c0c0b6c578a2ba03ddf59ae40f6e684e2ce"
 metafile = true
 
 [[files]]
+file = "mods/modernfix.pw.toml"
+hash = "5313dd0c3ee565ae28c29e659db5937c65508220873dce58a70491aab76efb52"
+metafile = true
+
+[[files]]
 file = "mods/more-metals.pw.toml"
 hash = "75ea00008ca829090781841954d775e952c5e7d05c979bf124fe3b7a0d571258"
 metafile = true
@@ -439,6 +449,11 @@ metafile = true
 [[files]]
 file = "mods/travelersbackpack.pw.toml"
 hash = "0328dcee3fced9edb7fe463b35624381fc94e09f6303a7cb1cdccb26747a130c"
+metafile = true
+
+[[files]]
+file = "mods/tree-harvester.pw.toml"
+hash = "5dc49fed1045ca205ac2a750bb34e3e2526bf9577498b4013fc79efd67e6dd89"
 metafile = true
 
 [[files]]
