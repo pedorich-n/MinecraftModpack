@@ -26,9 +26,6 @@ in
   buildPhase = ''
     runHook preBuild
 
-    # this line needed for Github Action
-    export HOME=$TMPDIR
-
     mkdir -p $out
     packwiz modrinth export --output "$out/${resultName}"
 
