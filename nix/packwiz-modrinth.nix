@@ -26,6 +26,9 @@ in
   buildPhase = ''
     runHook preBuild
 
+    # Github Ation fails with "failed to create cache directory: mkdir /homeless-shelter: permission denied" if this is not set
+    export HOME=$TMPDIR
+
     mkdir -p $out
     packwiz modrinth export --output "$out/${resultName}"
 
