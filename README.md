@@ -93,6 +93,7 @@ Modpack Info
 - [**Waystones**](https://modrinth.com/mod/waystones) (both, 14.1.3+forge-1.20) - Teleport back to activated waystones. For Survival, Adventure or Servers.
 - [**Lukas' Weapon Leveling**](https://modrinth.com/mod/weapon-leveling) (both, 1.20.1-2.1.1-forge) - This mod makes it possible to level up your armor and weapons. It will also let items not disappear when broken.
 - [**WF's Cave Overhaul**](https://modrinth.com/mod/wfs-cave-overhaul) (both, 1.2.2-Fixed) - Brand new noise caves for a new adventure
+- [**Xaero's Minimap & World Map - Waystones Compatibility**](https://modrinth.com/mod/xaeros-minimap-world-map-waystones-compatibility-forge) (both, 1.0) - Creates a Waypoint in Xaero's Minimap & World Map when activate a Waystone
 - [**Xaero's Minimap**](https://modrinth.com/mod/xaeros-minimap) (client, 24.2.0_Forge_1.20) - Displays a map of the nearby world terrain, players, mobs, entities in the corner of your screen. Lets you create waypoints which help you find the locations you've marked.
 - [**Xaero's World Map**](https://modrinth.com/mod/xaeros-world-map) (client, 1.38.8_Forge_1.20) - Adds a full screen world map which shows you what you have explored in the world. Works great together with Xaero's Minimap.
 - [**YUNG's API**](https://modrinth.com/mod/yungs-api) (both, 1.20-Forge-4.0.5) - Library mod for YUNG's mods.

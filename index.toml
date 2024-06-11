@@ -472,6 +472,11 @@ hash = "8997d41c5416eeac47ea1b59b96799b94fa037ce53cb4649a4e1ade1681c0032"
 metafile = true
 
 [[files]]
+file = "mods/xaeros-minimap-world-map-waystones-compatibility-forge.pw.toml"
+hash = "070d8bf544e0b2f3407b6f0ebd3106037000fd3a4b61bc19b8c28785c3c0c4d6"
+metafile = true
+
+[[files]]
 file = "mods/xaeros-minimap.pw.toml"
 hash = "a4f51b0ae9d618e46d8d1c0b08a32d1639aa6338a8400ec14d61dbca1af272af"
 metafile = true
