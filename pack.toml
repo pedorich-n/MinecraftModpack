@@ -1,13 +1,13 @@
-name = "Fabric_Modpack"
+name = "Money Guys 5 Revival"
 author = "Piousp"
-version = "2024.03.08"
+version = "2024.06.01"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "027a93f4efc3844305ac07911a2ab73020390af4940addf3d7a9fbea42c74d1c"
+hash = "faa8c0375ae63b451ab32b97c4524a98315ebde10c69402a6f011d6be3673b89"
 
 [versions]
-fabric = "0.15.7"
+forge = "47.3.1"
 minecraft = "1.20.1"
