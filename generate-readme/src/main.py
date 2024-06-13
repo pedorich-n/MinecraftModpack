@@ -76,7 +76,7 @@ class ModUpdateInfo:
 class ModInfo:
     name: str
     side: str
-    update: ModUpdateInfo
+    update: Optional[ModUpdateInfo]
 
 
 @dataclass
@@ -207,13 +207,14 @@ def get_curseforge_mod_info(
 def get_mod_info_result(mod_info: ModInfo, cf_client: Optional[CurseClient]) -> ModInfoResult:
     result = ModInfoResult(name=mod_info.name, side=mod_info.side)
 
-    if mod_info.update.modrinth:
-        logger.info(f"Fetching info from Modrinth for {mod_info.name}...")
-        result = get_modrinth_mod_info(result, mod_info.update.modrinth)
+    if mod_info.update:
+        if mod_info.update.modrinth:
+            logger.info(f"Fetching info from Modrinth for {mod_info.name}...")
+            result = get_modrinth_mod_info(result, mod_info.update.modrinth)
 
-    elif mod_info.update.curseforge and cf_client:
-        logger.info(f"Fetching info from CurseForge for {mod_info.name}...")
-        result = get_curseforge_mod_info(result, mod_info.update.curseforge, cf_client)
+        elif mod_info.update.curseforge and cf_client:
+            logger.info(f"Fetching info from CurseForge for {mod_info.name}...")
+            result = get_curseforge_mod_info(result, mod_info.update.curseforge, cf_client)
 
     return result
 

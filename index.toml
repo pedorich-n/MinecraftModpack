@@ -397,6 +397,11 @@ hash = "30484a8787dd30e579c7098b77d0c1d243044c7458828b87d8c81c92001717fa"
 metafile = true
 
 [[files]]
+file = "mods/prometheusexporter.pw.toml"
+hash = "04bd22de632e7f671f7416ead44fde0988509fd55f5c12fd44f55da67ecb5e5e"
+metafile = true
+
+[[files]]
 file = "mods/rubidium-extra.pw.toml"
 hash = "f28e1481c14143758e65c2ae472f644793228ef91f5fbc041909b4c25c3525c0"
 metafile = true

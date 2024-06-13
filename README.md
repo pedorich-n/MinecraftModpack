@@ -78,6 +78,7 @@ Modpack Info
 - [**Patchouli**](https://modrinth.com/mod/patchouli) (both, 1.20.1-84-forge) - Accessible, Data-Driven, Dependency-Free Documentation for Minecraft Modders and Pack Makers
 - [**Philips Ruins**](https://modrinth.com/mod/philips-ruins) (both, 1.20.1-4.0) - This mod adds ancient ruins to your Minecraft world
 - [**playerAnimator**](https://modrinth.com/mod/playeranimator) (both, 1.0.2-rc1+1.20-forge) - animate the player
+**PrometheusExporter** (server)
 - [**Embeddium (Rubidium) Extra**](https://modrinth.com/mod/rubidium-extra) (client, 0.5.4.3+mc1.20.1-build.121) - Port of Sodium Extra to work with Embeddium/Rubidium on (Neo)Forge
 - [**Searchables**](https://modrinth.com/mod/searchables) (client, 1.0.3) - Searchables is a library mod that adds helper methods that allow for searching and filtering elements based on components, as well as offering built in auto-complete functionality.
 - [**Simplest Copper Gear**](https://modrinth.com/mod/simplest-copper-gear) (both, 1.0.4) - Copper armor and tools.
