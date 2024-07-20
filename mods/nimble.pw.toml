@@ -1,0 +1,13 @@
+name = "Nimble"
+filename = "Nimble-1.20.1-forge-5.0.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Q5UvqqQd/versions/SjlMVAhq/Nimble-1.20.1-forge-5.0.1.jar"
+hash-format = "sha1"
+hash = "292bca520a28ca84ebd4cf892555683126cdd0d4"
+
+[update]
+[update.modrinth]
+mod-id = "Q5UvqqQd"
+version = "SjlMVAhq"

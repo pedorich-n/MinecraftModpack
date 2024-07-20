@@ -1,0 +1,13 @@
+name = "AutoTools"
+filename = "autotools-1.20.1-forge-2.1.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/zgVJyCgK/versions/qPiFZaz0/autotools-1.20.1-forge-2.1.1.jar"
+hash-format = "sha1"
+hash = "852c037330da74b5027d3b80e069bc3da388c7f2"
+
+[update]
+[update.modrinth]
+mod-id = "zgVJyCgK"
+version = "qPiFZaz0"

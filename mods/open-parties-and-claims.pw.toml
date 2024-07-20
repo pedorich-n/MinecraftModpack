@@ -1,0 +1,13 @@
+name = "Open Parties and Claims"
+filename = "open-parties-and-claims-forge-1.20.1-0.23.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/gF3BGWvG/versions/absDIl5r/open-parties-and-claims-forge-1.20.1-0.23.1.jar"
+hash-format = "sha1"
+hash = "f0461c3c1a927d87c56b2ad17225a7b0b341da13"
+
+[update]
+[update.modrinth]
+mod-id = "gF3BGWvG"
+version = "absDIl5r"

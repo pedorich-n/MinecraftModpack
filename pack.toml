@@ -1,12 +1,12 @@
-name = "Money Guys 5 Revival"
-author = "Piousp"
-version = "2024.06.01"
+name = "Joaqim's Minecraft Modpack"
+author = "Joaqim Planstedt <mail@joaqim.xyz>"
+version = "1.0.1-rc1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "aa3fa7610a85a9776c3c58fe70b0d89270058adcc88c8d13281cda496bfe06fd"
+hash = "e2bd497c50438664c1ce7007de28734d8398dd61722ec0ac77007428de7c5f19"
 
 [versions]
 forge = "47.3.1"
