@@ -457,6 +457,11 @@ hash = "04bd22de632e7f671f7416ead44fde0988509fd55f5c12fd44f55da67ecb5e5e"
 metafile = true
 
 [[files]]
+file = "mods/radiant-gear.pw.toml"
+hash = "22f5df846eda08fff13732a29450e2e583f7c3336df7a3eaf1d7af3b629cc6d2"
+metafile = true
+
+[[files]]
 file = "mods/rei.pw.toml"
 hash = "6069264d5bd6f36ac4818f64b19b0734dc36f31b694f09d13368c437529dcf2d"
 metafile = true
