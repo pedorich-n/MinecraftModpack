@@ -22,3 +22,7 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: "${{ env.OUTPUT_PATH }}/*"
+      - name: "✏️ Generate release changelog"
+        uses: heinrichreimer/action-github-changelog-generator@v2.3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }} 
