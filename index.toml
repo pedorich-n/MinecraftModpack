@@ -222,11 +222,6 @@ hash = "7a36954588c8e552381bcec868e9d83a85f088d939fbbee0b5df82943d039f04"
 metafile = true
 
 [[files]]
-file = "mods/dynamic-lights.pw.toml"
-hash = "be04da0004ea86c126254940907e6767082778405141c15c170fb6c7fffebd37"
-metafile = true
-
-[[files]]
 file = "mods/dynamic-music-updated.pw.toml"
 hash = "0605000880c10019e16075a1615490ebe0f5a71038960b14f779e82607342164"
 metafile = true
@@ -492,11 +487,6 @@ hash = "bf4028cc11d1b8710a922f42233ad37fae16a39ad2c0df4753c0f06416238d83"
 metafile = true
 
 [[files]]
-file = "mods/spells-gone-wrong.pw.toml"
-hash = "44e574f67af52bda95752056e96cf1bcd50145d4efdcf0d2be520102e39f299f"
-metafile = true
-
-[[files]]
 file = "mods/spiritual-come-back-(scb).pw.toml"
 hash = "588fef0210eb4f6301a29a9cdd4f25f68abaafcd15305411a5a0bc85c0ca6a39"
 metafile = true
@@ -512,18 +502,8 @@ hash = "3c024c63263f4f879d604a01fe13f81119565907f0883f2d7eb53a2cc413546c"
 metafile = true
 
 [[files]]
-file = "mods/totw-modded.pw.toml"
-hash = "cc4d196949d893071f261e939501ca8c7a79ba8ced3d790ce98d25e4f207bca3"
-metafile = true
-
-[[files]]
 file = "mods/travelersbackpack.pw.toml"
 hash = "0328dcee3fced9edb7fe463b35624381fc94e09f6303a7cb1cdccb26747a130c"
-metafile = true
-
-[[files]]
-file = "mods/tree-harvester.pw.toml"
-hash = "5dc49fed1045ca205ac2a750bb34e3e2526bf9577498b4013fc79efd67e6dd89"
 metafile = true
 
 [[files]]
