@@ -56,7 +56,7 @@
           # symlinked as `./result`.
 
           packwiz-pack-hash = "sha256-Be0YAOJe2L479U+skB1bGzIVEi/mQtIL7FU+qgFiQ3Q=";
-          modrinth-pack-hash = "sha256-SOU2A4xshrw2i+WVa/Fvsfm2Y2Fv4pl6BiFaskHFmCE=";
+          modrinth-pack-hash = "sha256-BgFJKLG9NQTjD8tceEPrCzVxkeNh7sDxadNXNWbs/e4=";
         in {
           packwiz-server = fetchPackwizModpack {
             manifest = "${self}/pack.toml";
@@ -68,7 +68,7 @@
             src = self;
             hash = modrinth-pack-hash;
           };
-          /* 
+          /*
           multimc-pack = let
             checksums = mkChecksums pkgs ./mods;
             mods = mkPackwizPackages pkgs checksums;
@@ -76,7 +76,8 @@
             mkMultiMCPack {
               inherit pkgs mods;
               name = "Joaqim-s-Minecraft-Modpack";
-            };*/
+            };
+          */
         };
 
         checks = config.packages;
