@@ -1,6 +1,6 @@
 name = "Joaqim's Minecraft Modpack"
 author = "Joaqim Planstedt <mail@joaqim.xyz>"
-version = "1.0.1-rc2"
+version = "1.0.1-rc3"
 pack-format = "packwiz:1.1.0"
 
 [index]
