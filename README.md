@@ -4,7 +4,7 @@ Modpack Info
   
   
 **Name**: Joaqim's Minecraft Modpack  
-**Version**: 1.0.1-rc1  
+**Version**: 1.0.1-rc3  
 **Minecraft Version**: 1.20.1  
 **Forge Version**: 47.3.1  
 
@@ -43,7 +43,6 @@ Modpack Info
 - [**Discord Integration**](https://modrinth.com/mod/dcintegration) (server, 3.0.7.1-1.20.1) - This mod links your server chat with a channel on your discord server
 - [**Distant Worlds**](https://modrinth.com/mod/distant-worlds) (both, 1.1.0) - Adds dimension with its own biomes, materials, mobs and even new crafting method
 - [**Dungeons Enhanced**](https://modrinth.com/mod/dungeons-enhanced) (both, 5.2.2) - Spice up your game with new dungeons and structures.
-- [**Dynamic Lights**](https://modrinth.com/mod/dynamic-lights) (both, 1.8.2+mod) - Supported entities and items such as torches or lanterns emit light! Server-side only!
 - [**Dynamic Music Updated**](https://modrinth.com/mod/dynamic-music-updated) (client, v2.3.2+1.20) - A fork of LudoCrypt's Dynamic Music !
 - [**Easier Sleeping**](https://modrinth.com/mod/easier-sleeping) (both, 1.20.1-2.1.3) - Only a percentage of players has to sleep.
 - [**Embeddium**](https://modrinth.com/mod/embeddium) (client, 0.3.25+mc1.20.1) - A performance-enhancing client mod (based on Sodium) prioritizing reliability & mod compatibility
@@ -90,19 +89,17 @@ Modpack Info
 - [**Philips Ruins**](https://modrinth.com/mod/philips-ruins) (both, 1.20.1-4.0) - This mod adds ancient ruins to your Minecraft world
 - [**playerAnimator**](https://modrinth.com/mod/playeranimator) (both, 1.0.2-rc1+1.20-forge) - animate the player
 **PrometheusExporter** (server)
+- [**Radiant Gear**](https://modrinth.com/mod/radiant-gear) (client, 2.1.5+1.20.1) - A compatibility bridge between Curios API or Trinkets API and dynamic light mods such as Lucent or LambDynamicLights. Formerly known as Curious Lights.
 - [**Roughly Enough Items (REI)**](https://modrinth.com/mod/rei) (client, 12.1.725+forge) - Clean and Customizable. Alternative to Just Enough Items/JEI.
 - [**Embeddium (Rubidium) Extra**](https://modrinth.com/mod/rubidium-extra) (client, 0.5.4.3+mc1.20.1-build.121) - Port of Sodium Extra to work with Embeddium/Rubidium on (Neo)Forge
 - [**Searchables**](https://modrinth.com/mod/searchables) (client, 1.0.3) - Searchables is a library mod that adds helper methods that allow for searching and filtering elements based on components, as well as offering built in auto-complete functionality.
 - [**Simplest Copper Gear**](https://modrinth.com/mod/simplest-copper-gear) (both, 1.0.4) - Copper armor and tools.
 - [**Sky Lands**](https://modrinth.com/mod/sky-lands) (both, 0.3.0) - Adds new sky islands biomes, blocks, bosses, weaponery and much more
 - [**Small Ships**](https://modrinth.com/mod/small-ships) (both, 2.0.0-b1.3) - Vanilla friendly Ships for Minecraft. Now with cannons!
-- [**Spells Gone Wrong (Iron's Spells N Spellbooks)**](https://modrinth.com/mod/spells-gone-wrong) (server, 1.20.1-1.0.0) - This mod allows you to take damage from your own casted spells and configure new spell features. Only works on spells added by Iron's Spells N Spellbooks [Configurable]
 - [**Spiritual Come Back (SCB)**](https://modrinth.com/mod/spiritual-come-back-(scb)) (both, 1.6.1) - Spiritual Come Back is a mod that allows you to return for your loot or your grave without taking too much risk along the way with the Spirit form!
 - [**Structure Gel API**](https://modrinth.com/mod/structure-gel-api) (both, 2.16.2) - An API for simplifying the developer end of creating generated structures.
 - [**Tom's Simple Storage Mod**](https://modrinth.com/mod/toms-storage) (both, 1.20-1.6.6) - Simple vanilla style storage mod
-- [**Towers of the Wild Modded**](https://modrinth.com/mod/totw-modded) (server, 1.0.5) - Towers of the Wild - added to multiple dimensions and planets + waystone & paragliders
 - [**Traveler's Backpack**](https://modrinth.com/mod/travelersbackpack) (both, 1.20.1-9.1.14) - Unique and upgradeable backpacks with customisation, Curios API/Trinkets integration and more!
-- [**Tree Harvester**](https://modrinth.com/mod/tree-harvester) (server, 1.20.1-8.7-fabric+forge+neo) - 🌲 Harvest full trees and huge mushrooms instantly with an axe. Includes fast leaf decay and sapling placement.
 - [**Waystones**](https://modrinth.com/mod/waystones) (both, 14.1.3+forge-1.20) - Teleport back to activated waystones. For Survival, Adventure or Servers.
 - [**Lukas' Weapon Leveling**](https://modrinth.com/mod/weapon-leveling) (both, 1.20.1-2.1.1-forge) - This mod makes it possible to level up your armor and weapons. It will also let items not disappear when broken.
 - [**WF's Cave Overhaul**](https://modrinth.com/mod/wfs-cave-overhaul) (both, 1.2.2-Fixed) - Brand new noise caves for a new adventure
