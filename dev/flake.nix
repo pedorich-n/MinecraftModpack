@@ -23,28 +23,57 @@
     };
   };
 
-  outputs = inputs@{ flake-parts, systems, self, ... }: flake-parts.lib.mkFlake { inherit inputs; } ({
-    systems = import systems;
+  outputs = inputs @ {
+    flake-parts,
+    systems,
+    self,
+    ...
+  }:
+    flake-parts.lib.mkFlake {inherit inputs;} {
+      systems = import systems;
 
-    perSystem = { system, pkgs, ... }: {
-      _module.args.pkgs = import inputs.nixpkgs {
-        inherit system;
-        overlays = [ inputs.poetry2nix.overlays.default ];
-      };
+      perSystem = {
+        system,
+        pkgs,
+        ...
+      }: {
+        _module.args.pkgs = import inputs.nixpkgs {
+          inherit system;
+          overlays = [inputs.poetry2nix.overlays.default];
+        };
 
-      packages = {
-        generate-readme = pkgs.callPackage ../generate-readme { };
-      };
+        packages = {
+          generate-readme = pkgs.callPackage ../generate-readme {};
 
-      devShells = {
-        default = pkgs.mkShell {
-          packages = with pkgs; [
-            nvfetcher
-            packwiz
-            poetry
-          ];
+          packwiz-refresh = pkgs.writeShellApplication {
+            name = "packwiz-refresh";
+            runtimeInputs = [ pkgs.packwiz ];
+            
+            # Workaround for running packwiz in FLAKE_ROOT instead of `.direnv/flake-inputs`/*
+            # https://github.com/NixOS/nix/issues/8034#issuecomment-2046069655
+            text = ''
+            FLAKE_ROOT="$(git rev-parse --show-toplevel)"
+            (
+              cd "$FLAKE_ROOT"
+              if [[ "$FLAKE_ROOT" == *MinecraftModpack* ]]; then
+                packwiz refresh
+              else
+                echo "Warning: Not running in expected repository, but in '$FLAKE_ROOT'!"
+              fi
+            )
+            '';
+          };
+        };
+
+        devShells = {
+          default = pkgs.mkShell {
+            packages = with pkgs; [
+              nvfetcher
+              packwiz
+              poetry
+            ];
+          };
         };
       };
     };
-  });
 }

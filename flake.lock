@@ -66,11 +66,28 @@
         "type": "github"
       }
     },
+    "packwiz2nixMain": {
+      "locked": {
+        "lastModified": 1721536467,
+        "narHash": "sha256-GtuAf7TW/rZQtPxMGs4TRFhzSdUoCMP1A9t7Vj28c9M=",
+        "owner": "Joaqim",
+        "repo": "packwiz2nix",
+        "rev": "1584394e221dff66be505c4bda979ad82be18e10",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Joaqim",
+        "ref": "fix/sanitize-store-paths",
+        "repo": "packwiz2nix",
+        "type": "github"
+      }
+    },
     "root": {
       "inputs": {
         "flake-parts": "flake-parts",
         "nixpkgs": "nixpkgs",
         "packwiz2nix": "packwiz2nix",
+        "packwiz2nixMain": "packwiz2nixMain",
         "systems": "systems"
       }
     },
