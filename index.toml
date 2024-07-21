@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/Adorn.json5"
+hash = "0cf02a52f30beed3447bb84242e7ba5d58ed05feec0889b642c225e1ca5a1822"
+
+[[files]]
 file = "config/aether-common.toml"
 hash = "becf75f2578b0a788872fe177e20e8e33371bf340567ef5ba6302eb049c9e3f5"
 
@@ -33,8 +37,28 @@ file = "config/atlantis-common.toml"
 hash = "b56416a57ddc1b93e369b71a51464d1503f935db9b69c9079953e495c50917cf"
 
 [[files]]
+file = "config/autotools.toml"
+hash = "16ab468cf35cc49178c064229001e0b0ea126163b7fd7fb2e28179f50d6bf464"
+
+[[files]]
+file = "config/badoptimizations.txt"
+hash = "3aaec8222e5e957858c8931cd1e99b2367107d28954f6dfb7b8426891b95086a"
+
+[[files]]
+file = "config/canary.properties"
+hash = "a37eb7f218ab61f3277a103a85c5bd14ff0abe0dff94e17883bcbb5ea28a3855"
+
+[[files]]
+file = "config/controlify.json"
+hash = "646b6ee0af217fb6b96ae54163df495c72036df9afb61512475aa55818e9f9fa"
+
+[[files]]
 file = "config/distantworlds-common.toml"
 hash = "2d1898653714df2d91f0b14c92ef38a19863226899e5727114b90559d45ad58f"
+
+[[files]]
+file = "config/fpsreducer/fpsreducer-client.toml"
+hash = "d006f53d6ff97ea04d9f44af027a2940b73e22109df5407288e84788f014a1ee"
 
 [[files]]
 file = "config/iceandfire-common.toml"
@@ -43,6 +67,14 @@ hash = "4e686e3616fc1885ce4380e95fe8c9d32be13536693da638e27b091372c0777b"
 [[files]]
 file = "config/philips-ruins-common-configs.toml"
 hash = "59c9c58d632cc807ccc4d1c11d1144acdb688cacba0ffab2836d617106c44cce"
+
+[[files]]
+file = "config/roughlyenoughitems/collapsible.json5"
+hash = "a59667baa54738c1b294393a9b3652bcf7d392cdb8cba1c08a8006885b18e919"
+
+[[files]]
+file = "config/roughlyenoughitems/config.json5"
+hash = "7f3360ee0bd25bb1778e0e5596c6a728d0ec672f909930b05d21181379498f59"
 
 [[files]]
 file = "config/waystones-common.toml"
