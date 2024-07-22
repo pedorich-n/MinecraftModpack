@@ -434,11 +434,6 @@ hash = "972e94424dfabf10c75566e4113a04369c98d0ccc75de228fb89133f814b76e6"
 metafile = true
 
 [[files]]
-file = "mods/nimble.pw.toml"
-hash = "467b03f1194ad68499738819a14b5ee039887cfa7b8182acb5ab77d079dfea31"
-metafile = true
-
-[[files]]
 file = "mods/no-chat-reports.pw.toml"
 hash = "9a3c80bf6eee8234001d2a1602b3e123ac5706af051902e40f24abe317b86e50"
 metafile = true
