@@ -1,0 +1,13 @@
+name = "SekCore Lib"
+filename = "SekCLib-1.20-1.0.2-universal.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ZJp6Tx9H/versions/lSJZ0DAa/SekCLib-1.20-1.0.2-universal.jar"
+hash-format = "sha1"
+hash = "c8cfcdc98878effa34471a6595459f8c6b0c7cb7"
+
+[update]
+[update.modrinth]
+mod-id = "ZJp6Tx9H"
+version = "lSJZ0DAa"

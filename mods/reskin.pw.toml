@@ -1,0 +1,13 @@
+name = "Re:Skin"
+filename = "ReSkin-1.20-3.0.2-universal.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/VG7AUzq2/versions/PjzyLnrt/ReSkin-1.20-3.0.2-universal.jar"
+hash-format = "sha1"
+hash = "00df09d303e45bfbf86aa600adc89292c8af8989"
+
+[update]
+[update.modrinth]
+mod-id = "VG7AUzq2"
+version = "PjzyLnrt"
