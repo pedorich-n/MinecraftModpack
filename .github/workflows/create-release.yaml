@@ -1,17 +1,9 @@
 name: Create Release
 
-
-# Only trigger, when the flake check succeeds
 on:
-  workflow_run:
-    workflows: ["Nix Flake Check"]
-    types:
-      - completed
   push:     
     branches:
       - 'main'
-    paths:
-      - 'index.toml'
 
 jobs:
   create-release:
@@ -38,13 +30,28 @@ jobs:
           git_commit_gpgsign: true
           git_committer_name:  GitHub automation
           git_committer_email: joaqim-ci-bot@joaqim.xyz
+      
+      - name: Update Flake and Build Release
+        run: |
+          BUILD_ENUM="modrinth"
+          # Build using *Double Invocation* to get proper hashes
+          nix run ./dev#update-flake-hash
+
+          # Add hashes to Flake
+          git add flake.nix
+          
+          # Verify Flake
+          # nix flake check "./?dir=dev&submodules=1"
+
+          OUTPUT_PATH=$(nix build .#modrinth-pack --print-out-paths)
+          
+          echo "OUTPUT_PATH=$OUTPUT_PATH" >> $GITHUB_ENV
       - run: nix flake update --commit-lock-file
+
       - name: Update Tag and Create Changelog
         run: |
           
-          nix-env -iA nixos.gitMinimal nixos.github-changelog-generator nixos.packwiz
-          
-          packwiz refresh
+          nix-env -iA nixos.gitMinimal nixos.github-changelog-generator
 
           CURRENT_COMMIT=$(git log -1 --pretty=%B)
           PREVIOUS_TAG=$(git describe --tags --abbrev=0)
@@ -59,16 +66,6 @@ jobs:
           # Generate and add changelog
           github_changelog_generator -t "$GITHUB_TOKEN" -u Joaqim -p MinecraftModpack --since-tag $PREVIOUS_TAG
           git add CHANGELOG.md
-      
-      - name: Create Modrinth Modpack
-        run: |
-          # Build using *Double Invocation* to get proper hashes
-          nix run ./dev#update-flake-hash
-
-          # Proper build should just cached final result from above
-          OUTPUT_PATH=$(nix build .#modrinth-pack --print-out-paths)
-          
-          echo "OUTPUT_PATH=$OUTPUT_PATH" >> $GITHUB_ENV
       
       - name: Upload Modrinth Release
         uses: softprops/action-gh-release@v2

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # For now, we expect BUILD_ENUM to be provided in ENV
-#BUILD_ENUM=${1:-modrinth}
+BUILD_ENUM=${BUILD_ENUM:-modrinth}
 
 # Define the list of files to update
 FILES_WITH_HASH_TO_UPDATE=("flake.nix");
@@ -10,10 +10,10 @@ FILES_WITH_HASH_TO_UPDATE=("flake.nix");
 run_command() {
     case "$BUILD_ENUM" in
         modrinth)
-            nix build ./#modrinth-pack --print-out-paths
+            nix build ./#modrinth-pack
             ;;
         packwiz)
-            nix build ./#packwiz-server --print-out-paths
+            nix build ./#packwiz-server
             ;;
         *)
         echo "Invalid build type: $BUILD_ENUM, expected: 'modrinth' or 'packwiz'"
@@ -22,28 +22,28 @@ run_command() {
     esac
 }
 
+# Disable immediate exit on error
+set +e
+
 # Run the build command and capture the output
 OUTPUT=$(run_command 2>&1)
-
 COMMAND_EXIT_CODE=$?
 
-# Check if the initial run_command failed
-if [ $COMMAND_EXIT_CODE -ne 0 ]; then
+if [ $COMMAND_EXIT_CODE != 0 ]; then
     echo "$OUTPUT"
-    exit 1
+    exit $COMMAND_EXIT_CODE
 fi
 
-# Check if there is a hash mismatch error
-if echo "$OUTPUT" | grep -q "error: hash mismatch in fixed-output derivation"; then
-    # Extract the old and new hash from the output
-    OLD_HASH=$(echo "$OUTPUT" | grep "specified:" | awk '{print $2}')
-    NEW_HASH=$(echo "$OUTPUT" | grep "got:" | awk '{print $2}')
-    
+# Extract the old and new hash from the output
+OLD_HASH=$(echo "$OUTPUT" | grep "specified:" | awk '{print $2}')
+NEW_HASH=$(echo "$OUTPUT" | grep "got:" | awk '{print $2}')
+
+if [[ $OLD_HASH == "sha256-"* && $NEW_HASH == "sha256"* ]]; then
     # Replace the old hash with the new hash in each file
     for FILE in "${FILES_WITH_HASH_TO_UPDATE[@]}"; do
-        sed -i "s/$OLD_HASH/$NEW_HASH/" "$FILE"
+        sed -i "s;$OLD_HASH;$NEW_HASH;" "$FILE"
     done
-    
+
     # Run the command again and capture the output
     OUTPUT=$(run_command 2>&1)
     COMMAND_EXIT_CODE=$?
@@ -70,9 +70,8 @@ if echo "$OUTPUT" | grep -q "error: hash mismatch in fixed-output derivation"; t
             exit 0
         fi
     fi
-else
-    # Output the command result to the console
-    echo "$OUTPUT"
-    echo "Build Succeeded with already specified hashes."
-    exit 0
 fi
+
+# Output the command result to the console
+echo "$OUTPUT"
+echo "Build Succeeded with already correct hashes (presumably.)"
