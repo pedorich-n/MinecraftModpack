@@ -14,3 +14,10 @@
 /dev
 /.env
 /icon.jpeg
+/.envrc
+/.direnv
+/.vscode
+/checksums.json
+/*.sh
+/example-server
+/*.py

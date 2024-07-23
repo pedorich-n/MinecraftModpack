@@ -7,6 +7,11 @@ on:
     workflows: ["Nix Flake Check"]
     types:
       - completed
+  push:     
+    branches:
+      - 'main'
+    paths:
+      - 'index.toml'
 
 jobs:
   create-release:
@@ -34,11 +39,13 @@ jobs:
           git_committer_name:  GitHub automation
           git_committer_email: joaqim-ci-bot@joaqim.xyz
       - run: nix flake update --commit-lock-file
-      - name: Update Tag
+      - name: Update Tag and Create Changelog
         run: |
           
-          nix-env -iA nixos.gitMinimal nixos.github_changelog_generator
+          nix-env -iA nixos.gitMinimal nixos.github-changelog-generator nixos.packwiz
           
+          packwiz refresh
+
           CURRENT_COMMIT=$(git log -1 --pretty=%B)
           PREVIOUS_TAG=$(git describe --tags --abbrev=0)
 

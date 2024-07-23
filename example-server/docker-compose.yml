@@ -1,0 +1,22 @@
+version: '3.8'
+services:
+  joaqim-s-minecraft-modpack:
+    container_name: joaqim-s-minecraft-modpack 
+    image: itzg/minecraft-server:java17
+    environment:
+      ALLOW_FLIGHT: "TRUE"
+      DEBUG: "FALSE"
+      DIFFICULTY: "easy"
+      EULA: "TRUE"
+      FORGE_VERSION: "47.3.1"
+      MEMORY: "4G"
+      ONLINE_MODE: "FALSE"
+      PACKWIZ_URL: "https://github.com/joaqim/MinecraftModpack/raw/1.0.1-rc3/pack.toml"
+      TYPE: "FORGE"
+      TZ: "Europe/Stockholm"
+      USE_AIKAR_FLAGS: "TRUE"
+      VERSION: "1.20.1"
+    ports:
+      - "25565:25565"
+    volumes:
+      - ./data:/data

@@ -1,7 +1,6 @@
 name: Nix Flake Check
-on: 
-  push:
-    branches: ["main"]
+on: push
+
 
 jobs:
   nix-flake-check:
