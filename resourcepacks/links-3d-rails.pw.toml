@@ -1,0 +1,13 @@
+name = "Link's 3D Rails"
+filename = "3D_Rails_v1.0.1.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/GHMfAylb/versions/Dwh7E9zJ/3D_Rails_v1.0.1.zip"
+hash-format = "sha1"
+hash = "2b16714b0ab36d10a34c11b38ea17e361de4f5d4"
+
+[update]
+[update.modrinth]
+mod-id = "GHMfAylb"
+version = "Dwh7E9zJ"
