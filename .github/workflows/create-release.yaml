@@ -1,0 +1,79 @@
+name: Create Release
+
+
+# Only trigger, when the flake check succeeds
+on:
+  workflow_run:
+    workflows: ["Nix Flake Check"]
+    types:
+      - completed
+
+jobs:
+  create-release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ssh-key: ${{ secrets.JOAQIM_CI_BOT_SSH_PRIVATE_KEY }}
+        
+      - uses: cachix/install-nix-action@v27
+        with:
+          github_access_token: ${{ secrets.JOAQIM_CI_BOT_GITHUB_TOKEN }}
+          # Used only for things like nix-prefetch-*, which do not yet
+          # seem to universally support flakes
+          nix_path: nixpkgs=channel:nixos-unstable
+      - uses: DeterminateSystems/magic-nix-cache-action@main
+      
+      - uses: crazy-max/ghaction-import-gpg@v6
+        with:
+          gpg_private_key: ${{ secrets.JOAQIM_CI_BOT_PGP_PRIVATE_KEY }}
+          git_user_signingkey: true
+          git_commit_gpgsign: true
+          git_committer_name:  GitHub automation
+          git_committer_email: joaqim-ci-bot@joaqim.xyz
+      - run: nix flake update --commit-lock-file
+      - name: Update Tag
+        run: |
+          
+          nix-env -iA nixos.gitMinimal nixos.github_changelog_generator
+          
+          CURRENT_COMMIT=$(git log -1 --pretty=%B)
+          PREVIOUS_TAG=$(git describe --tags --abbrev=0)
+
+          UPDATED_TAG=$(nix run ./dev#create-modpack-release --manifest -- --manifest pack.toml --tag "$LAST_TAG" --commit-msg "$CURRENT_COMMIT")
+          
+          echo "UPDATED_TAG=$UPDATED_TAG" >> $GITHUB_ENV
+
+          # Add updated pack.toml
+          git add pack.toml
+
+          # Generate and add changelog
+          github_changelog_generator -t "$GITHUB_TOKEN" -u Joaqim -p MinecraftModpack --since-tag $PREVIOUS_TAG
+          git add CHANGELOG.md
+      
+      - name: Create Modrinth Modpack
+        run: |
+          # Build using *Double Invocation* to get proper hashes
+          nix run ./dev#update-flake-hash
+
+          # Proper build should just cached final result from above
+          OUTPUT_PATH=$(nix build .#modrinth-pack --print-out-paths)
+          
+          echo "OUTPUT_PATH=$OUTPUT_PATH" >> $GITHUB_ENV
+      
+      - name: Upload Modrinth Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: "${{ env.OUTPUT_PATH }}/*"
+        
+      - name: "Create and push Changes"
+        run: |
+          if [ ! -n "$(git status -s)" ]; then
+            echo "NOTHING TO COMMIT"
+          else
+            git commit -m "Automated Release: `${{ env.UPDATED_TAG }}`"
+            git push --no-verify --tags
+            git push --no-verify
+          fi

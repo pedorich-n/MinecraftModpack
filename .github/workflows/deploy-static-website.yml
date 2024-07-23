@@ -1,8 +1,11 @@
 name: Build Documentation from Readme
 
+# Only trigger, when the release workflow succeeds
 on:
-  push:
-    branches: [ "main" ] # Make sure this matches your default branch
+  workflow_run:
+    workflows: ["Create Release"]
+    types:
+      - completed
 
 jobs:
   build:

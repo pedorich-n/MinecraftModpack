@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "create-modpack-release"
+version = "0.0.1"
+description = ""
+authors = []
+packages = [{ include = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+tomli-w = "^1.0.0"
+tomli = "^2.0.1"
+
+[tool.poetry.scripts]
+create-modpack-release = "src.main:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

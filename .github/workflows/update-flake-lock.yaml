@@ -8,4 +8,4 @@ jobs:
   update-flake-lock:
     uses: pedorich-n/github-workflows/.github/workflows/update-flake-lock.yaml@main
     secrets:
-      gh_access_token: ${{ secrets.GH_ACCESS_TOKEN }}
+      gh_access_token: ${{ secrets.JOAQIM_CI_BOT_GITHUB_TOKEN }}
