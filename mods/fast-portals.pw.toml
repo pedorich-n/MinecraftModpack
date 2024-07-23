@@ -1,0 +1,13 @@
+name = "Fast Portals"
+filename = "fastportals-1.0.3-forge 1.20.x.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/HTSaaFuA/versions/8QqqLcWT/fastportals-1.0.3-forge%201.20.x.jar"
+hash-format = "sha1"
+hash = "787b6e72c58d2063ec4e4a417b4760bc612ddfeb"
+
+[update]
+[update.modrinth]
+mod-id = "HTSaaFuA"
+version = "8QqqLcWT"

@@ -1,0 +1,13 @@
+name = "Campfire Resting"
+filename = "campfiresleeper-1.5.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/k9O8NrbO/versions/u6UwWsSA/campfiresleeper-1.5.0.jar"
+hash-format = "sha1"
+hash = "cd464a686f030377ab5dadf5b93f373d5a942112"
+
+[update]
+[update.modrinth]
+mod-id = "k9O8NrbO"
+version = "u6UwWsSA"
