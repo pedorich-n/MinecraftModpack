@@ -174,6 +174,11 @@ hash = "eaa144428b42dedd12beea31db366ca686a621c9945d45a35494dca25846fc63"
 metafile = true
 
 [[files]]
+file = "mods/campfire-resting.pw.toml"
+hash = "09284c14404ace5ce673e1d233138b20ae711049e09e02d3bb5f9b32fb0967a4"
+metafile = true
+
+[[files]]
 file = "mods/canary.pw.toml"
 hash = "a388f4afe890e268a739cf598b68859ca3d86506a3fa3e46c17e4aa63debd309"
 metafile = true
@@ -244,6 +249,11 @@ hash = "ec5b452599201804f40e6a9f4549849065b8428d5b046bd0638f9897e1e4b72c"
 metafile = true
 
 [[files]]
+file = "mods/default-options.pw.toml"
+hash = "91c2538d726a12623122d1a2945a6ad3d2d5b290d43c72149f21af560e8465eb"
+metafile = true
+
+[[files]]
 file = "mods/distant-worlds.pw.toml"
 hash = "419bcc80436f50a61370d1142f64623250fe9dbcccaabd4d35edf2dfdca16214"
 metafile = true
@@ -286,6 +296,11 @@ metafile = true
 [[files]]
 file = "mods/fapdos-nether-mobs-recrafted.pw.toml"
 hash = "ea4ad4f1cce7fa52097b85173d09359e62f730e322a3b3426c5ade01d4c24446"
+metafile = true
+
+[[files]]
+file = "mods/fast-portals.pw.toml"
+hash = "4fafe23e480af1aebb9c1b8aa4887bf7c7080723d2374550e1183aab85476cd0"
 metafile = true
 
 [[files]]
@@ -449,6 +464,11 @@ hash = "81d06b76e9cb7cb1e0c8f69724055a24ec75291c67d32a5740bd8bafd6ba7940"
 metafile = true
 
 [[files]]
+file = "mods/oculus.pw.toml"
+hash = "f6883dbacae2ced2bd6218b2ab1d7a438edbfe772cab9396c7fe2fecc43234d2"
+metafile = true
+
+[[files]]
 file = "mods/open-parties-and-claims.pw.toml"
 hash = "3b1748a6e0d022cd763bebe8601fbb9148e6535c8f8c171b38013d9a8035a311"
 metafile = true
@@ -489,6 +509,11 @@ hash = "6069264d5bd6f36ac4818f64b19b0734dc36f31b694f09d13368c437529dcf2d"
 metafile = true
 
 [[files]]
+file = "mods/reskin.pw.toml"
+hash = "a0e8d851e045d16c8e3911fd7013be66397f60877921352c20eb3b10ec98d4e2"
+metafile = true
+
+[[files]]
 file = "mods/rubidium-extra.pw.toml"
 hash = "f28e1481c14143758e65c2ae472f644793228ef91f5fbc041909b4c25c3525c0"
 metafile = true
@@ -496,6 +521,11 @@ metafile = true
 [[files]]
 file = "mods/searchables.pw.toml"
 hash = "35905f57cdb21a2aaa26345f2fabe3137ee2db6ee3bb2149cea206611b11ef69"
+metafile = true
+
+[[files]]
+file = "mods/sekclib.pw.toml"
+hash = "2781e35de4c1cc8534d542b6d2060b14b6ab2e0ed2fe6a5586590a430d8afc1a"
 metafile = true
 
 [[files]]
@@ -511,6 +541,11 @@ metafile = true
 [[files]]
 file = "mods/small-ships.pw.toml"
 hash = "bf4028cc11d1b8710a922f42233ad37fae16a39ad2c0df4753c0f06416238d83"
+metafile = true
+
+[[files]]
+file = "mods/smooth-boot-reloaded.pw.toml"
+hash = "e9bf45458454e7ceaa9fc33b271b9f408f27b69d5660652a5f7464fad94bb733"
 metafile = true
 
 [[files]]
@@ -621,4 +656,19 @@ metafile = true
 [[files]]
 file = "mods/yungs-menu-tweaks.pw.toml"
 hash = "5b5fdfaf8e757e4f54e621aca1c52f5d8c90c7be3bc78c2978173326f5c02bf5"
+metafile = true
+
+[[files]]
+file = "resourcepacks/links-3d-rails.pw.toml"
+hash = "4a3533b5be1b95cc3938e58db7db1c40ca9ee18b43f076d8aa0eb65cc3271795"
+metafile = true
+
+[[files]]
+file = "resourcepacks/rays-3d-ladders.pw.toml"
+hash = "34d49574677643839c4b2167f63c6aecfc7938283561fac40fbac4574b6feed2"
+metafile = true
+
+[[files]]
+file = "shaderpacks/makeup-ultra-fast-shaders.pw.toml"
+hash = "23c2b350490edfc465d231395bbf0e1951d0f80f7fa1a9af14e5223d50b7963e"
 metafile = true
