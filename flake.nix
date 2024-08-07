@@ -16,15 +16,6 @@
     systems = import systems;
 
     perSystem = { system, pkgs, config, lib, ... }: {
-      _module.args = {
-        pkgs = import inputs.nixpkgs {
-          inherit system;
-          overlays = [
-            (import ./nix/overlay.nix)
-          ];
-        };
-      };
-
       packages =
         let
           packwiz2nixLib = inputs.packwiz2nix.lib.${system};
