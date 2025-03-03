@@ -18,6 +18,22 @@
         "type": "github"
       }
     },
+    "modpack": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1740698718,
+        "narHash": "sha256-YyY5fFlGuVxEh68mwV1DJ7y6Z8BL9cBCWols8eqLIvE=",
+        "owner": "pablo_peraza",
+        "repo": "modpack-londoism",
+        "rev": "71c0aebeb3b2651830c12e0ba56e6abe82dfec52",
+        "type": "gitlab"
+      },
+      "original": {
+        "owner": "pablo_peraza",
+        "repo": "modpack-londoism",
+        "type": "gitlab"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1740695751,
@@ -69,6 +85,7 @@
     "root": {
       "inputs": {
         "flake-parts": "flake-parts",
+        "modpack": "modpack",
         "nixpkgs": "nixpkgs",
         "packwiz2nix": "packwiz2nix",
         "systems": "systems"
