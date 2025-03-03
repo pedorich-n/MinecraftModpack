@@ -6,8 +6,8 @@ build-packwiz-server *args:
 # build-packwiz-client:
 #     nix build .#packwiz-client
 
-build-mrpack *args:
-    nix build .#modrinth-pack --print-out-paths {{args}}
+# build-mrpack *args:
+#     nix build .#modrinth-pack --print-out-paths {{args}}
 
 generate-readme:
     nix run ./dev#generate-readme -- --manifest pack.toml --output README.md ${CF_API_KEY:+--cf-key "$CF_API_KEY"}
