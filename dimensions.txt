@@ -1,7 +1,0 @@
-minecraft:overworld
-minecraft:the_nether
-minecraft:the_end
-aether:the_aether
-distant_worlds:garhenna
-flying_stuff:under_ground
-atlantis:atlantis
