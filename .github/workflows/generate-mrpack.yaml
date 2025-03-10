@@ -13,7 +13,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: Install Nix
-        uses: cachix/install-nix-action@v30
+        uses: cachix/install-nix-action@v31
       - name: Create mrpack
         run: |
           OUTPUT_PATH=$(nix build .#modrinth-pack --print-out-paths)
